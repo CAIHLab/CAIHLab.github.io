@@ -11,7 +11,7 @@ locale                   : "en-GB"
 site_theme               : "default"
 title                    : "Causal AI and Healthcare Lab"
 title_separator          : "-"
-name                     : &name "CHAI Lab"
+name                     : &name "CAIH Lab"
 description              : &description "On mission to make personalised treatments a reality"
 url                      : https://CAIHLab.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -39,7 +39,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-8195-548X"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : "https://www.researchgate.net/lab/Causality-Healthcare-and-AI-CHAI-Lab-Vinod-Kumar-Chauhan"
+  researchgate     : "https://www.researchgate.net/lab/Causal-AI-and-Healthcare-Lab-Vinod-Kumar-Chauhan"
   # scopus           : "https://www.scopus.com/authid/detail.uri?"
 
   # Repositories and software development
