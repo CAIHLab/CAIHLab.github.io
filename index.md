@@ -48,6 +48,8 @@ hero: true
     <details class="research-scope">
       <summary>View our wider research scope</summary>
       <ul>
+        <li>Personalised treatments and individualised treatment effect estimation</li>
+        <li>Causal inference and discovery from observational data at scale</li>
         <li>Counterfactual reasoning for fairness, explainability and clinical decision support</li>
         <li>Causal foundation models and causal digital twins</li>
         <li>Uncertainty quantification and conformal prediction</li>

@@ -12,7 +12,12 @@
       {% if include.member.email %}<li><a href="mailto:{{ include.member.email }}">Email</a></li>{% endif %}
       {% if include.member.institutional_profile %}<li><a href="{{ include.member.institutional_profile }}">University profile</a></li>{% endif %}
       {% if include.member.scholar %}<li><a href="{{ include.member.scholar }}">Google Scholar</a></li>{% endif %}
+      {% if include.member.orcid %}<li><a href="{{ include.member.orcid }}">ORCID</a></li>{% endif %}
+      {% if include.member.researchgate %}<li><a href="{{ include.member.researchgate }}">ResearchGate</a></li>{% endif %}
       {% if include.member.github %}<li><a href="{{ include.member.github }}">GitHub</a></li>{% endif %}
+      {% if include.member.bluesky %}<li><a href="{{ include.member.bluesky }}">Bluesky</a></li>{% endif %}
+      {% if include.member.instagram %}<li><a href="{{ include.member.instagram }}">Instagram</a></li>{% endif %}
+      {% if include.member.twitter %}<li><a href="{{ include.member.twitter }}">X / Twitter</a></li>{% endif %}
       {% if include.member.website %}<li><a href="{{ include.member.website }}">Previous web page</a></li>{% endif %}
     </ul>
   </div>

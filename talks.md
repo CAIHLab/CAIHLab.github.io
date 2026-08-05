@@ -27,5 +27,3 @@ permalink: /talks/
   <li><article><p class="eyebrow">Oral presentation · 2016</p><h2>LMTR Algorithm for Classification</h2><p>10th Chandigarh Science Congress (CHASCON-2016), Panjab University Chandigarh, February 29–March 2, 2016.</p></article></li>
   <li><article><p class="eyebrow">Oral presentation · 2016</p><h2>Online Support Vector Machine Based on Minimum Euclidean Distance</h2><p>International Conference on Computer Vision and Image Processing (CVIP-2016), Indian Institute of Technology Roorkee, India, February 26–28, 2016.</p></article></li>
 </ol>
-
-<p class="data-note">The previous site noted that this list was translated into HTML using LLMs from an <a href="https://sites.google.com/site/jmdvinodjmd/research">earlier research page</a>; details should therefore be checked against primary records before citation.</p>
