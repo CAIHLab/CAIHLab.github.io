@@ -1,0 +1,19 @@
+<article class="member-card">
+  <div class="member-photo">
+    <img src="{{ include.member.photo | relative_url }}" alt="{{ include.member.photo_alt | escape }}" width="3071" height="4606">
+  </div>
+  <div>
+    <p class="eyebrow">{{ include.member.category }}</p>
+    <h2>{{ include.member.name }}</h2>
+    <p class="member-role">{{ include.member.role }}</p>
+    <p>{{ include.member.biography }}</p>
+    {% for paragraph in include.member.biography_additional %}<p>{{ paragraph }}</p>{% endfor %}
+    <ul class="profile-links" aria-label="Profiles and contact">
+      {% if include.member.email %}<li><a href="mailto:{{ include.member.email }}">Email</a></li>{% endif %}
+      {% if include.member.institutional_profile %}<li><a href="{{ include.member.institutional_profile }}">University profile</a></li>{% endif %}
+      {% if include.member.scholar %}<li><a href="{{ include.member.scholar }}">Google Scholar</a></li>{% endif %}
+      {% if include.member.github %}<li><a href="{{ include.member.github }}">GitHub</a></li>{% endif %}
+      {% if include.member.website %}<li><a href="{{ include.member.website }}">Previous web page</a></li>{% endif %}
+    </ul>
+  </div>
+</article>

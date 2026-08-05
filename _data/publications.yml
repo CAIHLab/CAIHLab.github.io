@@ -1,0 +1,393 @@
+# Canonical publication data. See README.md for the schema and editing guidance.
+- id: position-causal-ai-personalised-treatments-2026
+  title: "Position: Causal AI for Personalised Treatments Needs Holistic Approach"
+  authors: ["V. K. Chauhan", "K. Banfill", "S. Feuerriegel"]
+  year: 2026
+  venue: "ICML Position Track (rejected)"
+  publication_type: "Position paper"
+  themes: ["Causal AI", "Personalised treatments"]
+  featured: true
+  links:
+    paper: "https://openreview.net/forum?id=hKsLbc53T4"
+
+- id: beyond-correlations-2025
+  title: "Beyond Correlations: The Necessity and the Challenges of Causal AI"
+  authors: ["V. K. Chauhan", "D. S. Dhami", "B. Gao", "X. Wang", "L. Clifton", "D. A. Clifton"]
+  year: 2025
+  venue: "TechRxiv"
+  publication_type: "Preprint"
+  themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
+  featured: true
+  doi: "10.36227/techrxiv.175554759.96327720"
+  links:
+    preprint: "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175554759.96327720"
+
+- id: composite-treatments-outcomes-2025
+  title: "Individualised Treatment Effects Estimation with Composite Treatments and Composite Outcomes"
+  authors: ["V. K. Chauhan", "L. Clifton", "G. Nigam", "D. A. Clifton"]
+  year: 2025
+  venue: "The 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Bella Center, Copenhagen, Denmark, July 14–17, 2025"
+  publication_type: "Conference paper"
+  themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
+  featured: true
+  links:
+    preprint: "https://arxiv.org/abs/2502.08282"
+    poster: "https://drive.google.com/file/d/15yw5dzpiSknjpkrds6YN6l-v7TBrfBEC/view?usp=sharing"
+
+- id: sample-selection-bias-healthcare-2025
+  title: "Sample Selection Bias in Machine Learning for Healthcare"
+  authors: ["V. K. Chauhan", "L. Clifton", "A. Salaun", "Y. Lu", "K. Branson", "P. Schwab", "G. Nigam", "D. A. Clifton"]
+  year: 2025
+  venue: "ACM Transactions on Computing for Healthcare"
+  publication_type: "Journal article"
+  themes: ["AI in healthcare"]
+  featured: true
+  doi: "10.1145/3761822"
+  links:
+    paper: "https://dl.acm.org/doi/10.1145/3761822"
+    code: "https://github.com/jmdvinodjmd/SSB_MLHC"
+
+- id: fault-detection-variable-conditions-2025
+  title: "A context-aware methodology for fault detection and severity classification under variable operating conditions"
+  authors: ["F. De Fabritiis", "V. K. Chauhan", "D. A. Clifton", "K. Gryllias"]
+  year: 2025
+  venue: "The 31st International Congress on Sound and Vibration (ICSV31), Incheon, 6–11 July 2025"
+  publication_type: "Conference paper"
+  themes: ["AI in healthcare"]
+  featured: false
+
+- id: afacs-risk-scores-2025
+  title: "Clinical prediction of Atrial Fibrillation after Cardiac Surgery: the AFACS risk scores"
+  authors: ["Benjamin O´Brien", "Oliver Redfern", "Jonathan Bedford", "Stephen Gerry", "V. K. Chauhan", "Rachel Henning", "Rui Providência", "…", "Peter Watkinson"]
+  year: 2025
+  venue: "Under review"
+  publication_type: "Manuscript"
+  themes: ["AI in healthcare"]
+  featured: false
+
+- id: dynamic-inter-treatment-sharing-2024
+  title: "Dynamic Inter-treatment Information Sharing for Individualized Treatment Effects Estimation"
+  authors: ["V. K. Chauhan", "J. Zhou", "G. Ghosheh", "S. Molaei", "D. A. Clifton"]
+  year: 2024
+  venue: "The 27th International Conference on Artificial Intelligence and Statistics (AISTATS), Valencia, Spain, May 2–4, 2024"
+  publication_type: "Conference paper"
+  themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
+  featured: false
+  links:
+    paper: "https://proceedings.mlr.press/v238/chauhan24a.html"
+    poster: "https://drive.google.com/file/d/1mzkUcGDJZ-BDzCtLsTI9YEcwhVW4g5up/view?usp=sharing"
+    code: "https://github.com/jmdvinodjmd/HyperITE"
+
+- id: hypernetworks-review-2024
+  title: "A Brief Review of Hypernetworks in Deep Learning"
+  authors: ["V. K. Chauhan", "J. Zhou", "P. Lu", "S. Molaei", "D. A. Clifton"]
+  year: 2024
+  venue: "Artificial Intelligence Review"
+  publication_type: "Journal article"
+  themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
+  featured: false
+  links:
+    paper: "https://link.springer.com/article/10.1007/s10462-024-10862-8"
+    preprint: "https://arxiv.org/abs/2306.06955"
+
+- id: gastric-cancer-diabetes-2024
+  title: "Comparing the risks of new-onset gastric cancer or gastric diseases in type 2 diabetes mellitus patients exposed to SGLT2I, DPP4I or GLP1A: a population-based cohort study"
+  authors: ["O. H. I. Chou*", "V. K. Chauhan*", "C. T. Chung", "L. Lu", "T. T. L. Lee", "Z. M. W. Ng", "K. K. Wang", "S. Lee", "H. Liu", "W. T. Wong", "R. T. K. Pang", "A. K.", "B. M.Y. Cheung", "G. Tse", "J. Zhou"]
+  year: 2024
+  venue: "Gastric Cancer"
+  publication_type: "Journal article"
+  themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
+  featured: false
+  links:
+    paper: "https://link.springer.com/article/10.1007/s10120-024-01512-7"
+    preprint: "https://www.medrxiv.org/content/10.1101/2023.07.02.23292063v1"
+
+- id: continuous-patient-state-attention-2024
+  title: "Continuous Patient State Attention Model for Addressing Irregularity in Electronic Health Records"
+  authors: ["V. K. Chauhan", "A. Thakur", "O. O'Donoghue", "O. Rohanian", "S. Molaei", "D. A. Clifton"]
+  year: 2024
+  venue: "BMC Medical Informatics and Decision Making"
+  publication_type: "Journal article"
+  themes: ["AI in healthcare"]
+  featured: false
+
+- id: cliquefluxnet-2024
+  title: "CliqueFluxNet: Unveiling EHR Insights with Stochastic Edge Fluxing and Maximal Clique Utilisation using Graph Neural Networks"
+  authors: ["S. Molaei", "N. G. Bousejin", "G. Ghosheh", "A. Thakur", "V. K. Chauhan", "T. Zhu", "D. Clifton"]
+  year: 2024
+  venue: "Journal of Healthcare Informatics Research"
+  publication_type: "Journal article"
+  themes: ["AI in healthcare"]
+  featured: false
+
+- id: temporal-dynamics-variational-graph-attention-2024
+  title: "Temporal Dynamics Unleashed: Elevating Variational Graph Attention"
+  authors: ["S. Molaei", "G. Niknam", "G. Ghosheh", "V. K. Chauhan", "H. Zare", "T. Zhu", "S. Pan", "D. Clifton"]
+  year: 2024
+  venue: "Knowledge-Based Systems"
+  publication_type: "Journal article"
+  themes: ["AI in healthcare"]
+  featured: false
+
+- id: trolley-optimisation-2024
+  title: "Trolley Optimisation for Loading Printed Circuit Board Components"
+  authors: ["V. K. Chauhan", "M. Bass", "A. K. Parlikad", "A. Brintrup"]
+  year: 2024
+  venue: "Operation Research Forum"
+  publication_type: "Journal article"
+  themes: ["Aviation, manufacturing and supply chains"]
+  featured: false
+
+- id: hcr-net-2024
+  title: "HCR-Net: A transfer learning based script independent handwriting character recognition network"
+  authors: ["V. K. Chauhan", "S. Singh", "A. Sharma"]
+  year: 2024
+  venue: "Multimedia Tools and Applications"
+  publication_type: "Journal article"
+  themes: ["Handwriting recognition"]
+  featured: false
+
+- id: gtagcn-2024
+  title: "GTAGCN: Generalized Topology Adaptive Graph Convolutional Networks"
+  authors: ["S. Singh", "A. Sharma", "V. K. Chauhan"]
+  year: 2024
+  venue: "arXiv:2403.15077"
+  publication_type: "Preprint"
+  themes: ["Handwriting recognition"]
+  featured: false
+  links:
+    preprint: "https://arxiv.org/abs/2403.15077"
+
+- id: gastric-cancer-abstract-2023
+  title: "1567P The effect of SGLT2i and DPP4i on new-onset gastric cancer and gastric diseases in type 2 diabetes mellitus: A population-based cohort study"
+  authors: ["O. H. I. Chou", "V. K. Chauhan", "C. T. Chung", "L. Lu", "T. T. L. Lee", "Z. M. W. Ng", "K. K. Wang", "S. Lee", "H. Liu", "W. T. Wong", "R. T. K. Pang", "A. K.", "B. M.Y. Cheung", "G. Tse", "J. Zhou"]
+  year: 2023
+  venue: "Annals of Oncology, 34, S876"
+  publication_type: "Conference abstract"
+  themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
+  featured: false
+  links:
+    paper: "https://www.annalsofoncology.org/article/S0923-7534%2823%2902316-5/fulltext"
+
+- id: adversarial-deconfounding-2023
+  title: "Adversarial De-confounding in Individualised Treatment Effects Estimation"
+  authors: ["V. K. Chauhan", "S. Molaei", "MH. Tania", "A. Thakur", "T. Zhu", "D. A. Clifton"]
+  year: 2023
+  venue: "The 26th International Conference on Artificial Intelligence and Statistics (AISTATS)"
+  publication_type: "Conference paper"
+  themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
+  featured: false
+  links:
+    paper: "https://proceedings.mlr.press/v206/chauhan23a.html"
+    poster: "https://drive.google.com/file/d/1ps5MMU-EssVNdUw0t4nJOeGjrQ9JXTVK/view?usp=sharing"
+    preprint: "https://arxiv.org/abs/2210.10530"
+    code: "https://codeocean.com/capsule/1529546"
+    video: "https://www.youtube.com/watch?v=aUWy2rQnEaM"
+
+- id: bottleneck-adapters-cancer-2023
+  title: "Using Bottleneck Adapters to Identify Cancer in Clinical Notes under Low-Resource Constraints"
+  authors: ["O. Rohanian", "H. Jauncey", "M. Nouriborji", "V. K. Chauhan", "B. P. Gonçalves", "C. Kartsonaki", "ISARIC Clinical Characterisation Group", "L. Merson", "D. A. Clifton"]
+  year: 2023
+  venue: "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks"
+  publication_type: "Conference paper"
+  themes: ["AI in healthcare"]
+  featured: false
+
+- id: deep-forest-ehr-2023
+  title: "Improving Diagnostics with Deep Forest Applied to Electronic Health Records"
+  authors: ["A. Khodadadi", "N. G. Bousejin", "S. Molaei*", "V. K. Chauhan", "T. Zhu", "D. A. Clifton"]
+  year: 2023
+  venue: "Sensors"
+  publication_type: "Journal article"
+  themes: ["AI in healthcare"]
+  featured: false
+
+- id: diffusion-mixed-ehr-2023
+  title: "Synthesizing Mixed-type Electronic Health Records using Diffusion Models"
+  authors: ["T. Ceritli", "G. O. Ghosheh", "V. K. Chauhan", "T. Zhu", "A. P. Creagh", "D. A. Clifton"]
+  year: 2023
+  venue: "arXiv (not published)"
+  publication_type: "Preprint"
+  themes: ["AI in healthcare"]
+  featured: false
+
+- id: supplier-order-assignments-2023
+  title: "Real-time large-scale supplier order assignments across two-tiers of a supply chain with penalty and dual-sourcing"
+  authors: ["V. K. Chauhan", "Stephen Mak", "A. K. Parlikad", "Muhannad Alomari", "Linus Casassa", "A. Brintrup"]
+  year: 2023
+  venue: "Computers & Industrial Engineering"
+  publication_type: "Journal article"
+  themes: ["Aviation, manufacturing and supply chains"]
+  featured: false
+
+- id: multi-tier-material-consolidation-2023
+  title: "Multi-tier material consolidation in complex supply chains"
+  authors: ["V. K. Chauhan", "Muhannad Alomari", "James Arney", "A. K. Parlikad", "A. Brintrup"]
+  year: 2023
+  venue: "Supply Chain Analytics"
+  publication_type: "Journal article"
+  themes: ["Aviation, manufacturing and supply chains"]
+  featured: false
+
+- id: airline-disruptive-elements-2023
+  title: "A network science approach to identify disruptive elements of an airline"
+  authors: ["V. K. Chauhan", "Anna Ledwoch", "A. Brintrup", "Manuel Herrera", "Vaggelis Giannikas", "Goran Stojkovic", "D. Mcfarlane"]
+  year: 2023
+  venue: "Data Science and Management"
+  publication_type: "Journal article"
+  themes: ["Aviation, manufacturing and supply chains"]
+  featured: false
+
+- id: procurement-bid-prices-2023
+  title: "Predicting supply chain procurement bid prices with uncertainty quantification and machine learning: a case study in aerospace manufacturing"
+  authors: ["B. Lee", "M. Alomari", "V. K. Chauhan", "M. Farsi", "A. Brintrup"]
+  year: 2023
+  venue: "Under review"
+  publication_type: "Manuscript"
+  themes: ["Aviation, manufacturing and supply chains"]
+  featured: false
+
+- id: indic-script-survey-2023
+  title: "Indic Script Family and Its Offline Handwriting Recognition for Characters/ Digits and Words: A Comprehensive Survey"
+  authors: ["S. Singh", "A. Sharma", "V. K. Chauhan"]
+  year: 2023
+  venue: "Artificial Intelligence Review"
+  publication_type: "Journal article"
+  themes: ["Handwriting recognition"]
+  featured: false
+
+- id: delay-propagation-air-transport-2022
+  title: "A data-driven method to assess the causes and impact of delay propagation in air transportation systems"
+  authors: ["V. Giannikasa", "A. Ledwoch", "G. Stojkovic", "P. Costas", "A. Brintrup", "A. A. S. Al-Ali", "V. K. Chauhan", "D. McFarlane"]
+  year: 2022
+  venue: "Transportation Research Part C: Emerging Technologies"
+  publication_type: "Journal article"
+  themes: ["Aviation, manufacturing and supply chains"]
+  featured: false
+
+- id: coper-2022
+  title: "COPER: Continuous Patient State Perceiver"
+  authors: ["V. K. Chauhan", "A. Thakur", "O. O'Donoghue", "D. A. Clifton"]
+  year: 2022
+  venue: "IEEE International Conference on Biomedical and Health Informatics"
+  publication_type: "Conference paper"
+  themes: ["AI in healthcare"]
+  featured: false
+
+- id: libs2ml-2021
+  title: "LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms"
+  authors: ["V. K. Chauhan", "A. Sharma", "K. Dahiya"]
+  year: 2021
+  venue: "Software Impacts, Elsevier"
+  publication_type: "Journal article"
+  themes: ["Optimisation for machine learning"]
+  featured: false
+
+- id: gurmukhi-word-recognition-2021
+  title: "Online handwritten Gurmukhi word recognition using fine-tuned Deep Convolutional Neural Network on offline features"
+  authors: ["S. Singh", "A. Sharma", "V. K. Chauhan"]
+  year: 2021
+  venue: "Machine Learning with Applications"
+  publication_type: "Journal article"
+  themes: ["Handwriting recognition"]
+  featured: false
+
+- id: stochastic-optimization-book-2021
+  title: "Stochastic Optimization for Large-scale Machine Learning"
+  authors: ["V. K. Chauhan"]
+  year: 2021
+  venue: "CRC Press (Taylor & Francis)"
+  publication_type: "Book"
+  themes: ["Optimisation for machine learning"]
+  featured: false
+  isbn: "9781032131757"
+
+- id: stochastic-trust-region-newton-2020
+  title: "Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning"
+  authors: ["V. K. Chauhan", "A. Sharma", "K. Dahiya"]
+  year: 2020
+  venue: "Journal of Machine Learning and Cybernetics"
+  publication_type: "Journal article"
+  themes: ["Optimisation for machine learning"]
+  featured: false
+
+- id: supply-networks-ripple-effect-2020
+  title: "The relationship between nested patterns and the ripple effect in complex supply networks"
+  authors: ["V. K. Chauhan", "Supun Perera", "A. Brintrup"]
+  year: 2020
+  venue: "International Journal of Production Research"
+  publication_type: "Journal article"
+  themes: ["Aviation, manufacturing and supply chains"]
+  featured: false
+
+- id: online-handwriting-rdp-2020
+  title: "A Self Controlled RDP Approach for Feature Extraction in Online Handwriting Recognition using Deep Learning"
+  authors: ["S. Singh", "V. K. Chauhan", "Elisa H. Barney Smith"]
+  year: 2020
+  venue: "Applied Intelligence"
+  publication_type: "Journal article"
+  themes: ["Handwriting recognition"]
+  featured: false
+
+- id: saags-2019
+  title: "SAAGs: Biased Stochastic Variance Reduction Methods for Large-scale Learning"
+  authors: ["V. K. Chauhan", "A. Sharma", "K. Dahiya"]
+  year: 2019
+  venue: "Applied Intelligence, Springer, Vol. 49, Issue 9, pp 3331–3361"
+  publication_type: "Journal article"
+  themes: ["Optimisation for machine learning"]
+  featured: false
+
+- id: linear-svm-review-2019
+  title: "Problem Formulations and Solvers in Linear SVM: a Review"
+  authors: ["V. K. Chauhan", "K. Dahiya", "A. Sharma"]
+  year: 2019
+  venue: "Artificial Intelligence Review, Springer, Vol. 52, Issue 2, pp 803–855"
+  publication_type: "Journal article"
+  themes: ["Optimisation for machine learning"]
+  featured: false
+
+- id: svm-optimization-thesis-2019
+  title: "Solving large scale linear support vector classification using an optimization framework based on stochastic approximation and coordinate descent approaches"
+  authors: ["V. K. Chauhan"]
+  year: 2019
+  venue: "Panjab University Chandigarh"
+  publication_type: "PhD thesis"
+  themes: ["Optimisation for machine learning"]
+  featured: false
+
+- id: faster-learning-data-access-2018
+  title: "Faster Learning by Reduction of Data Access Time"
+  authors: ["V. K. Chauhan", "A. Sharma", "K. Dahiya"]
+  year: 2018
+  venue: "Applied Intelligence, Springer 48(12):4715–4729"
+  publication_type: "Journal article"
+  themes: ["Optimisation for machine learning"]
+  featured: false
+
+- id: mini-batch-block-coordinate-2017
+  title: "Mini-batch Block-coordinate based Stochastic Average Adjusted Gradient Methods to Solve Big Data Problems"
+  authors: ["V. K. Chauhan", "K. Dahiya", "A. Sharma"]
+  year: 2017
+  venue: "The Ninth Asian Conference on Machine Learning (ACML 2017), Proceedings of Machine Learning Research 77:49–64"
+  publication_type: "Conference paper"
+  themes: ["Optimisation for machine learning"]
+  featured: false
+
+- id: trust-region-lm-svm-2017
+  title: "Trust Region Levenberg-Marquardt Method for Linear SVM"
+  authors: ["V. K. Chauhan", "K. Dahiya", "A. Sharma"]
+  year: 2017
+  venue: "IEEE Proceedings of the 9th International Conference on Advances in Pattern Recognition (ICAPR-2017), Indian Statistical Institute, Bangalore, India"
+  publication_type: "Conference paper"
+  themes: ["Optimisation for machine learning"]
+  featured: false
+
+- id: online-svm-minimum-distance-2016
+  title: "Online Support Vector Machine Based on Minimum Euclidean Distance"
+  authors: ["K. Dahiya", "V. K. Chauhan", "A. Sharma"]
+  year: 2016
+  venue: "Proceedings of International Conference on Computer Vision and Image Processing (CVIP-2016), Advances in Intelligent Systems and Computing, vol. 459, pp. 89–99, Springer, Singapore"
+  publication_type: "Conference paper"
+  themes: ["Optimisation for machine learning"]
+  featured: false

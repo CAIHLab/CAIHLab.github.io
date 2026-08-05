@@ -1,13 +1,9 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-group :jekyll_plugins do
-  gem 'jekyll'
-  gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-redirect-from'
-  gem 'jemoji'
-  gem 'webrick', '~> 1.8'
-end
+# Match the versions and supported plugins used by native GitHub Pages.
+gem "github-pages", group: :jekyll_plugins
+gem "webrick", "~> 1.8"
 
-gem 'github-pages'
-gem 'connection_pool', '2.5.0'
+# macOS still ships Ruby 2.6; this keeps local preview usable there. GitHub
+# Pages also accepts this Nokogiri range.
+gem "nokogiri", "< 1.16"

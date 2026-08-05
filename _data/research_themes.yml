@@ -1,0 +1,8 @@
+- name: "Personalised treatments"
+  description: "Individualised treatment-effect estimation and decision support for patient-specific care."
+- name: "Causal inference and discovery"
+  description: "Learning and reasoning about causal relationships from observational data at scale."
+- name: "Trustworthy clinical AI"
+  description: "Counterfactual fairness, explainability, uncertainty quantification and robust clinical models."
+- name: "Causal AI systems"
+  description: "Causal foundation models, digital twins, multimodal learning and rigorous evaluation."

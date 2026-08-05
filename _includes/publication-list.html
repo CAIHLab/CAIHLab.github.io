@@ -1,0 +1,28 @@
+{% assign publications = site.data.publications | sort: 'year' | reverse %}
+<div class="publication-list" data-publication-list>
+  {% assign current_year = nil %}
+  {% for publication in publications %}
+    {% if include.featured_only and publication.featured != true %}{% continue %}{% endif %}
+    {% unless include.featured_only %}
+      {% if publication.year != current_year %}
+        {% assign current_year = publication.year %}
+        <h2 class="publication-year" data-year-heading="{{ publication.year }}">{{ publication.year }}</h2>
+      {% endif %}
+    {% endunless %}
+    {% capture theme_values %}{% for theme in publication.themes %}{{ theme | slugify }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}
+    <article class="publication" data-publication data-year="{{ publication.year }}" data-type="{{ publication.publication_type | slugify }}" data-themes="{{ theme_values }}">
+      <h3>{% if publication.page_url %}<a href="{{ publication.page_url | relative_url }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+      <p class="publication-authors">{{ publication.authors | join: ', ' }}</p>
+      <p class="publication-meta"><span>{{ publication.year }}</span> · <span>{{ publication.venue }}</span> · <span>{{ publication.publication_type }}</span></p>
+      {% if publication.themes %}<ul class="tag-list" aria-label="Research themes">{% for theme in publication.themes %}<li>{{ theme }}</li>{% endfor %}</ul>{% endif %}
+      {% if publication.doi or publication.isbn or publication.links %}
+        <ul class="publication-links" aria-label="Publication links">
+          {% if publication.doi %}<li><a href="https://doi.org/{{ publication.doi }}">DOI</a></li>{% endif %}
+          {% if publication.isbn %}<li><span>ISBN {{ publication.isbn }}</span></li>{% endif %}
+          {% for link in publication.links %}{% if link[1] and link[1] != '' %}<li><a href="{{ link[1] }}">{{ link[0] | capitalize }}</a></li>{% endif %}{% endfor %}
+        </ul>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
+<p class="no-results" data-no-results hidden>No publications match the selected filters.</p>

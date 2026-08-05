@@ -1,5 +1,10 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Causal AI and Healthcare Lab",
+	"short_name": "CAIH Lab",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#fffdf8",
+	"theme_color": "#075f4b",
 	"icons": [
 		{
 			"src": "/images/favicon-192x192.png",

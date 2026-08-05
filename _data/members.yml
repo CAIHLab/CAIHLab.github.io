@@ -1,0 +1,27 @@
+- name: "Dr Vinod Kumar Chauhan"
+  role: "Lecturer in Causal AI"
+  category: "Principal Investigator"
+  photo: "/images/211.jpg"
+  photo_alt: "Dr Vinod Kumar Chauhan"
+  biography: >-
+    I am a Strathclyde Chancellor's Fellow in AI (Lecturer/Assistant Professor) in the Department of Computer and Information Sciences at the University of Strathclyde. I also hold a Visiting Scholar position and the MPLS Enterprise and Innovation Fellowship (2025–26) at the University of Oxford, UK. My primary research interests are in Causality, Healthcare, and Artificial Intelligence, with a long-term vision of realising personalised treatments through data-driven Causal AI.
+  biography_additional:
+    - >-
+      Before joining Strathclyde, I was a Postdoctoral Researcher at the Department of Engineering Science, University of Oxford, and the Department of Engineering, University of Cambridge, where I worked for over six years. During this time, I had the opportunity to collaborate with world-renowned clinicians and industry leaders, including Boeing and Rolls-Royce. At Cambridge, I was honoured to receive the Institute for Manufacturing Postdoctoral Award for Research Excellence in recognition of the practical impact of my work. I completed my PhD in optimisation for large-scale machine learning at Panjab University, Chandigarh, supported by the University Grants Commission’s JRF and SRF fellowships. I was born and brought up in a small village in Hamirpur, Himachal Pradesh, India.
+    - >-
+      I actively contribute to the research community, having reviewed over 200 articles for more than 50 international conferences and journals. I currently serve as an Associate Editor for PLOS Digital Health and as an Editorial Board Member for the International Journal of Artificial Intelligence in Healthcare.
+    - >-
+      I welcome enquiries from motivated MSc (Research) and PhD students interested in causal AI, machine learning, and healthcare applications. I am also open to collaborations with academic, clinical, and industry partners who are committed to developing impactful solutions for real-world healthcare challenges.
+    - >-
+      I am a professional member of the ACM and IEEE, and hold lifetime memberships with the Computer Society of India and the Indian Society for Technical Education.
+  research_interests:
+    - "Causality"
+    - "Healthcare"
+    - "Artificial intelligence"
+    - "Personalised treatments"
+  email: "vinod.kumar@strath.ac.uk"
+  website: "https://sites.google.com/site/jmdvinodjmd/"
+  scholar: "https://scholar.google.com/citations?user=YqlZaKcAAAAJ"
+  institutional_profile: "https://pureportal.strath.ac.uk/en/persons/vinod-kumar"
+  github: "https://github.com/jmdvinodjmd"
+  order: 1
