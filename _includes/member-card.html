@@ -1,13 +1,18 @@
-<article class="member-card">
+<article class="member-card{% unless include.member.photo %} member-card--no-photo{% endunless %}">
+  {% if include.member.photo %}
   <div class="member-photo">
     <img src="{{ include.member.photo | relative_url }}" alt="{{ include.member.photo_alt | escape }}" width="3071" height="4606">
   </div>
+  {% endif %}
   <div>
-    <p class="eyebrow">{{ include.member.category }}</p>
-    <h2>{{ include.member.name }}</h2>
+    <h3>{{ include.member.name }}</h3>
     <p class="member-role">{{ include.member.role }}</p>
-    <p>{{ include.member.biography }}</p>
+    {% if include.member.biography %}<p>{{ include.member.biography }}</p>{% endif %}
     {% for paragraph in include.member.biography_additional %}<p>{{ paragraph }}</p>{% endfor %}
+    {% if include.member.research_interests and include.member.research_interests != empty %}
+      <ul class="tag-list" aria-label="Research interests">{% for interest in include.member.research_interests %}<li>{{ interest }}</li>{% endfor %}</ul>
+    {% endif %}
+    {% if include.member.email or include.member.institutional_profile or include.member.scholar or include.member.orcid or include.member.researchgate or include.member.github or include.member.bluesky or include.member.instagram or include.member.twitter or include.member.website %}
     <ul class="profile-links" aria-label="Profiles and contact">
       {% if include.member.email %}<li><a href="mailto:{{ include.member.email }}">Email</a></li>{% endif %}
       {% if include.member.institutional_profile %}<li><a href="{{ include.member.institutional_profile }}">University profile</a></li>{% endif %}
@@ -20,5 +25,6 @@
       {% if include.member.twitter %}<li><a href="{{ include.member.twitter }}">X / Twitter</a></li>{% endif %}
       {% if include.member.website %}<li><a href="{{ include.member.website }}">Previous web page</a></li>{% endif %}
     </ul>
+    {% endif %}
   </div>
 </article>

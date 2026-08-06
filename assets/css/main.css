@@ -98,6 +98,11 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .teaching-stats dt { color: var(--muted); font-size: 0.8rem; }
 .teaching-stats dd { margin: 0; font-size: 1.35rem; font-weight: 800; }
 .member-card { display: grid; grid-template-columns: minmax(14rem, 0.7fr) minmax(0, 2fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; }
+.member-group + .member-group { margin-top: 4rem; }
+.member-group > h2 { padding-bottom: 0.65rem; border-bottom: 3px solid var(--accent); }
+.member-grid { display: grid; gap: 1.5rem; }
+.member-card--no-photo { display: block; padding: 1.5rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.member-card--no-photo h3 { margin-top: 0; }
 .member-photo img { aspect-ratio: 2 / 3; border-radius: var(--radius); object-fit: cover; box-shadow: var(--shadow); }
 .member-role { color: var(--accent); font-weight: 750; }
 .profile-links { margin-top: 1.5rem; font-weight: 750; }

@@ -1,3 +1,28 @@
+# Member categories and recommended order ranges:
+#   Principal Investigator: 1–9
+#   Postdoctoral Researchers: 20–29
+#   PGR / PhD Researchers: 30–39
+#   MSc Project Students: 40–49
+#   Interns: 50–59
+#
+# Copy this template for a new member. Only name, role, category and order are
+# required; leave optional fields blank or remove them.
+#
+# - name: "Full name"
+#   role: "Postdoctoral Researcher"
+#   category: "Postdoctoral Researchers"
+#   photo: "/images/full-name.jpg"
+#   photo_alt: "Full name"
+#   biography: "Short biography."
+#   research_interests: ["Interest one", "Interest two"]
+#   email: ""
+#   website: ""
+#   scholar: ""
+#   institutional_profile: ""
+#   orcid: ""
+#   github: ""
+#   order: 20
+
 - name: "Dr Vinod Kumar Chauhan"
   role: "Lecturer in Causal AI"
   category: "Principal Investigator"
@@ -19,7 +44,7 @@
     - "Healthcare"
     - "Artificial intelligence"
     - "Personalised treatments"
-  email: "vinod.chauhan@strath.ac.uk"
+  email: "vinod.kumar@strath.ac.uk"
   website: "https://sites.google.com/site/jmdvinodjmd/"
   scholar: "https://scholar.google.com/citations?user=YqlZaKcAAAAJ"
   institutional_profile: "https://pureportal.strath.ac.uk/en/persons/vinod-kumar"
@@ -30,3 +55,13 @@
   instagram: "https://www.instagram.com/caihlabofficial/"
   twitter: "https://x.com/CAIHLab"
   order: 1
+
+- name: "Hansikka Sivaraj"
+  role: "MSc Student"
+  category: "MSc Project Students"
+  order: 40
+
+- name: "Joe Lee"
+  role: "MSc Student"
+  category: "MSc Project Students"
+  order: 41

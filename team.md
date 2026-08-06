@@ -4,7 +4,15 @@ intro: "Meet the people behind the Causal AI and Healthcare Lab."
 permalink: /team/
 ---
 {% assign members = site.data.members | sort: 'order' %}
-{% for member in members %}{% include member-card.html member=member %}{% endfor %}
+{% assign member_groups = members | group_by: 'category' %}
+{% for group in member_groups %}
+<section class="member-group" aria-labelledby="{{ group.name | slugify }}-heading">
+  <h2 id="{{ group.name | slugify }}-heading">{{ group.name }}</h2>
+  <div class="member-grid">
+    {% for member in group.items %}{% include member-card.html member=member %}{% endfor %}
+  </div>
+</section>
+{% endfor %}
 
 <section class="video-section" aria-labelledby="fellowship-video">
   <h2 id="fellowship-video">A glimpse into the journey</h2>
