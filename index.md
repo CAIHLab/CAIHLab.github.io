@@ -85,5 +85,5 @@ hero: true
 
 <section class="section page-shell opportunity" aria-labelledby="join-heading">
   <div><p class="eyebrow">Opportunities</p><h2 id="join-heading">Join us</h2></div>
-  <div><p>We are looking for curious, motivated researchers and students to join us in shaping the future of causal AI for healthcare.</p><h3>PhD studentship opportunity</h3><p>Dr Vinod Kumar Chauhan is recruiting a PhD student in <strong>Causal AI for personalised healthcare</strong>. If you are interested, please get in touch at your earliest convenience to arrange a discussion.</p><a class="button" href="mailto:vinod.kumar@strath.ac.uk">Contact the lab</a></div>
+  <div><p>We are looking for curious, motivated researchers and students to join us in shaping the future of causal AI for healthcare.</p><h3>PhD studentship opportunity</h3><p>Dr Vinod Kumar Chauhan is recruiting a PhD student in <strong>Causal AI for personalised healthcare</strong>. If you are interested, please get in touch at your earliest convenience to arrange a discussion.</p><a class="button" href="mailto:vinod.chauhan@strath.ac.uk">Contact the lab</a></div>
 </section>

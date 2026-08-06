@@ -4,7 +4,7 @@ intro: "One canonical list of the lab’s publications, grouped by year and avai
 permalink: /publications/
 publication_filters: true
 ---
-<p>A more up-to-date list may be available on <a href="https://scholar.google.com/citations?user=YqlZaKcAAAAJ">Google Scholar</a>. The records below preserve the metadata and links from the previous lab website.</p>
+<p>A more up-to-date list may be available on <a href="https://scholar.google.com/citations?user=YqlZaKcAAAAJ">Google Scholar</a>.</p>
 
 <form class="publication-filters" data-publication-filters aria-label="Filter publications">
   <div><label for="theme-filter">Theme</label><select id="theme-filter" data-filter="themes"><option value="">All themes</option><option value="causal-ai">Causal AI</option><option value="personalised-treatments">Personalised treatments</option><option value="ai-in-healthcare">AI in healthcare</option><option value="aviation-manufacturing-and-supply-chains">Aviation, manufacturing and supply chains</option><option value="optimisation-for-machine-learning">Optimisation for machine learning</option><option value="handwriting-recognition">Handwriting recognition</option></select></div>
@@ -15,5 +15,3 @@ publication_filters: true
 
 <p class="filter-status" data-filter-status aria-live="polite"></p>
 {% include publication-list.html %}
-
-<p class="data-note">Earlier records were translated from an original list using LLMs and may contain errors or missing links. The <a href="https://sites.google.com/site/jmdvinodjmd/research">previous research page</a> remains a useful reference for manual checking.</p>

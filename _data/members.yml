@@ -44,7 +44,7 @@
     - "Healthcare"
     - "Artificial intelligence"
     - "Personalised treatments"
-  email: "vinod.kumar@strath.ac.uk"
+  email: "vinod.chauhan@strath.ac.uk"
   website: "https://sites.google.com/site/jmdvinodjmd/"
   scholar: "https://scholar.google.com/citations?user=YqlZaKcAAAAJ"
   institutional_profile: "https://pureportal.strath.ac.uk/en/persons/vinod-kumar"
@@ -57,16 +57,13 @@
   order: 1
 
 - name: "Hansikka Sivaraj"
-  role: "MSc Student"
   category: "MSc Students"
   order: 40
 
 - name: "Joe Lee"
-  role: "MSc Student"
   category: "MSc Students"
   order: 41
 
 - name: "Pichawee Arreerob"
-  role: "MSc Student"
   category: "MSc Students"
   order: 42
