@@ -70,7 +70,7 @@ nav a[aria-current="page"] { color: var(--brand); text-decoration: underline; te
 .page-heading h1 { font-size: clamp(2.7rem, 7vw, 5rem); }
 .prose { padding-block: 3rem 6rem; }
 .prose > * { max-width: 52rem; }
-.prose > .publication-filters, .prose > .publication-list, .prose > .timeline, .prose > .member-card, .prose > .video-section { max-width: none; }
+.prose > .publication-filters, .prose > .publication-list, .prose > .timeline, .prose > .member-card, .prose > .member-group, .prose > .video-section { max-width: none; }
 .publication-filters { display: grid; grid-template-columns: repeat(3, 1fr) auto; align-items: end; gap: 1rem; margin: 2.5rem 0 1rem; padding: 1.25rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .publication-filters div { display: grid; gap: 0.3rem; }
 .publication-filters label { font-size: 0.82rem; font-weight: 800; }
@@ -103,6 +103,15 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .member-grid { display: grid; gap: 1.5rem; }
 .member-card--no-photo { display: block; padding: 1.5rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .member-card--no-photo h3 { margin-top: 0; }
+.member-grid--compact { gap: 0; padding: 0.5rem 1.25rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.member-card--compact { grid-template-columns: 5rem minmax(0, 1fr); gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.member-card--compact:last-child { border-bottom: 0; }
+.member-card--compact.member-card--no-photo { padding: 1rem 0; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; }
+.member-card--compact.member-card--no-photo:last-child { border-bottom: 0; }
+.member-card--compact h3 { margin: 0; font-size: 1.15rem; }
+.member-card--compact .member-role { margin: 0.15rem 0 0; }
+.member-card--compact .member-photo img { aspect-ratio: 1; box-shadow: none; }
+.member-card--compact .profile-links { margin-top: 0.6rem; }
 .member-photo img { aspect-ratio: 2 / 3; border-radius: var(--radius); object-fit: cover; box-shadow: var(--shadow); }
 .member-role { color: var(--accent); font-weight: 750; }
 .profile-links { margin-top: 1.5rem; font-weight: 750; }
@@ -125,6 +134,8 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
   .publication-filters { grid-template-columns: 1fr 1fr; }
   .member-card { grid-template-columns: 1fr; }
   .member-photo { max-width: 22rem; }
+  .member-card--compact { grid-template-columns: 4rem minmax(0, 1fr); }
+  .member-card--compact .member-photo { max-width: 4rem; }
 }
 
 @media (max-width: 38rem) {

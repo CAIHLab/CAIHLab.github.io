@@ -8,8 +8,14 @@ permalink: /team/
 {% for group in member_groups %}
 <section class="member-group" aria-labelledby="{{ group.name | slugify }}-heading">
   <h2 id="{{ group.name | slugify }}-heading">{{ group.name }}</h2>
-  <div class="member-grid">
-    {% for member in group.items %}{% include member-card.html member=member %}{% endfor %}
+  <div class="member-grid{% unless group.name == 'Principal Investigator' %} member-grid--compact{% endunless %}">
+    {% for member in group.items %}
+      {% if group.name == 'Principal Investigator' %}
+        {% include member-card.html member=member %}
+      {% else %}
+        {% include member-card.html member=member compact=true %}
+      {% endif %}
+    {% endfor %}
   </div>
 </section>
 {% endfor %}

@@ -2,11 +2,11 @@
 #   Principal Investigator: 1–9
 #   Postdoctoral Researchers: 20–29
 #   PGR / PhD Researchers: 30–39
-#   MSc Project Students: 40–49
+#   MSc Students: 40–49
 #   Interns: 50–59
 #
-# Copy this template for a new member. Only name, role, category and order are
-# required; leave optional fields blank or remove them.
+# Copy this template for a new member. Only name, category and order are
+# required; role, photo, biography and profile links are optional.
 #
 # - name: "Full name"
 #   role: "Postdoctoral Researcher"
@@ -58,10 +58,15 @@
 
 - name: "Hansikka Sivaraj"
   role: "MSc Student"
-  category: "MSc Project Students"
+  category: "MSc Students"
   order: 40
 
 - name: "Joe Lee"
   role: "MSc Student"
-  category: "MSc Project Students"
+  category: "MSc Students"
   order: 41
+
+- name: "Pichawee Arreerob"
+  role: "MSc Student"
+  category: "MSc Students"
+  order: 42

@@ -1,4 +1,4 @@
-<article class="member-card{% unless include.member.photo %} member-card--no-photo{% endunless %}">
+<article class="member-card{% if include.compact %} member-card--compact{% endif %}{% unless include.member.photo %} member-card--no-photo{% endunless %}">
   {% if include.member.photo %}
   <div class="member-photo">
     <img src="{{ include.member.photo | relative_url }}" alt="{{ include.member.photo_alt | escape }}" width="3071" height="4606">
@@ -6,7 +6,7 @@
   {% endif %}
   <div>
     <h3>{{ include.member.name }}</h3>
-    <p class="member-role">{{ include.member.role }}</p>
+    {% if include.member.role %}<p class="member-role">{{ include.member.role }}</p>{% endif %}
     {% if include.member.biography %}<p>{{ include.member.biography }}</p>{% endif %}
     {% for paragraph in include.member.biography_additional %}<p>{{ paragraph }}</p>{% endfor %}
     {% if include.member.research_interests and include.member.research_interests != empty %}
