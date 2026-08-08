@@ -28,6 +28,8 @@
   category: "Principal Investigator"
   photo: "/images/211.jpg"
   photo_alt: "Dr Vinod Kumar Chauhan"
+  video: "https://www.youtube-nocookie.com/embed/fclyyIpTwOU?si=Gb6UstDpZTRQIzZ8"
+  video_title: "Dr Vinod Kumar Chauhan discusses his journey as an MPLS Enterprise and Innovation Fellow"
   biography: >-
     I am a Strathclyde Chancellor's Fellow in AI (Lecturer/Assistant Professor) in the Department of Computer and Information Sciences at the University of Strathclyde. I also hold a Visiting Scholar position and the MPLS Enterprise and Innovation Fellowship (2025–26) at the University of Oxford, UK. My primary research interests are in Causality, Healthcare, and Artificial Intelligence, with a long-term vision of realising personalised treatments through data-driven Causal AI.
   biography_additional:
@@ -67,3 +69,7 @@
 - name: "Pichawee Arreerob"
   category: "MSc Students"
   order: 42
+
+- name: "Shariq"
+  category: "MSc Students"
+  order: 43

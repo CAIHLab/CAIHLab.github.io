@@ -1,6 +1,5 @@
 ---
 title: "Teaching"
-intro: "Teaching in deep learning and its foundations at the University of Strathclyde."
 permalink: /teaching/
 ---
 <article class="teaching-card">

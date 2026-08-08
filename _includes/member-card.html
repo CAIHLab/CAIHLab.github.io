@@ -2,6 +2,11 @@
   {% if include.member.photo %}
   <div class="member-photo">
     <img src="{{ include.member.photo | relative_url }}" alt="{{ include.member.photo_alt | escape }}" width="3071" height="4606">
+    {% if include.member.video %}
+    <div class="member-video">
+      <iframe src="{{ include.member.video }}" title="{{ include.member.video_title | escape }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+    </div>
+    {% endif %}
   </div>
   {% endif %}
   <div>

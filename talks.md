@@ -4,6 +4,7 @@ intro: "Invited talks, keynotes, seminars and conference presentations."
 permalink: /talks/
 ---
 <ol class="timeline" reversed>
+  <li><article><p class="eyebrow">Departmental talk · 2026</p><h2>Causal AI for Personalised Treatments</h2><p>Department of Computer and Information Sciences, University of Strathclyde, March 2026.</p></article></li>
   <li><article><p class="eyebrow">Oral presentation · 2025</p><h2>Individualised Treatment Effects Estimation with Composite Treatments and Composite Outcomes</h2><p>47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Bella Center, Copenhagen, Denmark, July 14–17, 2025.</p></article></li>
   <li><article><p class="eyebrow">Seminar talk · 2024</p><h2>Causal AI for Personalised Treatments</h2><p>IIT Palakkad, India, December 28, 2024.</p></article></li>
   <li><article><p class="eyebrow">Invited talk · 2024</p><h2>Sample Selection Bias in Machine Learning for Healthcare</h2><p>International Conference on Innovative Trends in Statistics, Optimization, and Data Science (IC-ITSODS-2024), Kurukshetra University, India, December 20–23, 2024. <a href="https://www.tribuneindia.com/news/haryana/intl-conference-a-platform-to-discuss-latest-advances-in-statistics">News coverage</a>.</p></article></li>

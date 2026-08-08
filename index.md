@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Causal AI and Healthcare Lab"
-description: "The Causal AI and Healthcare Lab develops causal AI methods for personalised healthcare and real-world impact."
+description: "The Causal AI and Healthcare Lab develops causal and reliable AI methods for personalised decision-making, with healthcare as a central application."
 permalink: /
 redirect_from:
   - /about/
@@ -11,9 +11,9 @@ hero: true
 <section class="hero">
   <div class="hero-inner">
     <div>
-      <p class="eyebrow">Causal AI · Healthcare · Personalisation</p>
-      <h1>Turning causal insight into better, personalised care.</h1>
-      <p class="hero-copy">Our mission is to make data-driven personalised healthcare a reality by uniting clinicians, industry partners and health providers.</p>
+      <p class="eyebrow">Causal AI · Personalised Decisions · Healthcare</p>
+      <h1>From causal insight to personalised decisions.</h1>
+      <p class="hero-copy">We develop causal and reliable AI methods for personalised decision-making, with healthcare as a central application.</p>
       <div class="button-row">
         <a class="button" href="{{ '/publications/' | relative_url }}">Explore our research</a>
         <a class="button button-secondary" href="{{ '/team/' | relative_url }}">Meet the lab</a>
@@ -26,11 +26,11 @@ hero: true
 <section class="section page-shell" aria-labelledby="mission-heading">
   <div class="section-heading">
     <p class="eyebrow">Our mission</p>
-    <h2 id="mission-heading">Causal methods for real health challenges</h2>
+    <h2 id="mission-heading">Causal AI for better personalised decisions</h2>
   </div>
   <div class="two-column-copy">
-    <p>Through collaboration with clinicians, industry partners and health providers, we develop and apply pioneering causal AI methods to solve real-world health challenges and translate research into direct social impact.</p>
-    <p>We work at the intersection of causality, healthcare and AI, blending theory and practice with the long-term aim of making personalised healthcare a reality.</p>
+    <p>We develop and apply causal AI methods to understand how interventions affect individuals, compare possible actions and support decisions under uncertainty.</p>
+    <p>Our work combines methodological research with real-world applications, particularly in healthcare, where reliable personalised decisions can improve treatment selection and clinical decision support.</p>
   </div>
 </section>
 
@@ -48,15 +48,16 @@ hero: true
     <details class="research-scope">
       <summary>View our wider research scope</summary>
       <ul>
-        <li>Personalised treatments and individualised treatment effect estimation</li>
-        <li>Causal inference and discovery from observational data at scale</li>
-        <li>Counterfactual reasoning for fairness, explainability and clinical decision support</li>
-        <li>Causal foundation models and causal digital twins</li>
-        <li>Uncertainty quantification and conformal prediction</li>
+        <li>Personalised decision-making and individualised treatment-effect estimation</li>
+        <li>Causal inference and discovery from large-scale observational data</li>
+        <li>Counterfactual reasoning for fairness, explainability and decision support</li>
+        <li>Causal foundation models and digital twins</li>
+        <li>Decision-making under uncertainty and conformal prediction</li>
+        <li>Agentic and collaborative AI systems</li>
         <li>Multimodal, federated and continual learning</li>
-        <li>Synthetic data generation, causal benchmarking and evaluation</li>
-        <li>Optimisation methods for causal and AI models</li>
-        <li>Domain adaptation and out-of-distribution detection</li>
+        <li>Synthetic data, causal benchmarking and evaluation</li>
+        <li>Robustness, domain adaptation and out-of-distribution detection</li>
+        <li>Applications in personalised healthcare and clinical decision support</li>
       </ul>
     </details>
   </div>
@@ -85,5 +86,5 @@ hero: true
 
 <section class="section page-shell opportunity" aria-labelledby="join-heading">
   <div><p class="eyebrow">Opportunities</p><h2 id="join-heading">Join us</h2></div>
-  <div><p>We are looking for curious, motivated researchers and students to join us in shaping the future of causal AI for healthcare.</p><h3>PhD studentship opportunity</h3><p>Dr Vinod Kumar Chauhan is recruiting a PhD student in <strong>Causal AI for personalised healthcare</strong>. If you are interested, please get in touch at your earliest convenience to arrange a discussion.</p><a class="button" href="mailto:vinod.chauhan@strath.ac.uk">Contact the lab</a></div>
+  <div><p>We welcome researchers and students interested in advancing causal AI for personalised decision-making, including its application to healthcare.</p><h3>PhD studentship opportunity</h3><p>Dr Vinod Kumar Chauhan is recruiting a PhD student in <strong>Causal AI for personalised healthcare</strong>. If you are interested, please get in touch at your earliest convenience to arrange a discussion.</p><a class="button" href="mailto:vinod.chauhan@strath.ac.uk">Contact the lab</a></div>
 </section>

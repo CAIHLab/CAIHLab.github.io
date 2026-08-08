@@ -1,6 +1,5 @@
 ---
 title: "Publications"
-intro: "One canonical list of the lab’s publications, grouped by year and available in full without JavaScript."
 permalink: /publications/
 publication_filters: true
 ---
