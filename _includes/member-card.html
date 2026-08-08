@@ -21,7 +21,7 @@
     {% if include.member.research_interests and include.member.research_interests != empty %}
       <ul class="tag-list" aria-label="Research interests">{% for interest in include.member.research_interests %}<li>{{ interest }}</li>{% endfor %}</ul>
     {% endif %}
-    {% if include.member.email or include.member.institutional_profile or include.member.scholar or include.member.orcid or include.member.researchgate or include.member.github or include.member.bluesky or include.member.instagram or include.member.twitter or include.member.website %}
+    {% if include.member.email or include.member.institutional_profile or include.member.scholar or include.member.orcid or include.member.researchgate or include.member.github or include.member.bluesky or include.member.instagram or include.member.twitter or include.member.linkedin or include.member.website %}
     <ul class="profile-links" aria-label="Profiles and contact">
       {% if include.member.email %}<li><a href="mailto:{{ include.member.email }}">Email</a></li>{% endif %}
       {% if include.member.institutional_profile %}<li><a href="{{ include.member.institutional_profile }}">University profile</a></li>{% endif %}
@@ -32,6 +32,7 @@
       {% if include.member.bluesky %}<li><a href="{{ include.member.bluesky }}">Bluesky</a></li>{% endif %}
       {% if include.member.instagram %}<li><a href="{{ include.member.instagram }}">Instagram</a></li>{% endif %}
       {% if include.member.twitter %}<li><a href="{{ include.member.twitter }}">X / Twitter</a></li>{% endif %}
+      {% if include.member.linkedin %}<li><a href="{{ include.member.linkedin }}">LinkedIn</a></li>{% endif %}
       {% if include.member.website %}<li><a href="{{ include.member.website }}">Previous web page</a></li>{% endif %}
     </ul>
     {% endif %}
