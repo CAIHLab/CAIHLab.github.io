@@ -8,13 +8,13 @@
   url: "https://biodatamining.biomedcentral.com/"
   link_label: "Visit BioData Mining"
 
-- title: "Convener for a PhD viva examination"
-  text: "Dr Vinod Kumar Chauhan acted as a convener for a PhD viva examination in the department in June 2026."
-
 - title: "Area Chair at the ICML 2026 AI4Science Workshop"
   text: "Dr Vinod Kumar Chauhan served as an Area Chair for the AI4Science Workshop at ICML 2026."
   url: "https://ai4sciencecommunity.github.io/icml26"
   link_label: "Visit the ICML 2026 workshop"
+
+- title: "Convener for a PhD viva examination"
+  text: "Dr Vinod Kumar Chauhan acted as a convener for a PhD viva examination in the department in June 2026."
 
 - title: "Position paper on causal AI for personalised treatments"
   text: "Our position paper, “Position: Causal AI for Personalised Treatments Needs Holistic Approach”, argues for a holistic approach to developing causal AI for patient-specific care."

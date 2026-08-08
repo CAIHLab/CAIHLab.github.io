@@ -3,8 +3,12 @@
   <div class="member-photo">
     <img src="{{ include.member.photo | relative_url }}" alt="{{ include.member.photo_alt | escape }}" width="3071" height="4606">
     {% if include.member.video %}
-    <div class="member-video">
-      <iframe src="{{ include.member.video }}" title="{{ include.member.video_title | escape }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+    <div class="member-video-card">
+      <h4>A glimpse into the journey</h4>
+      <p>Recorded as part of the MPLS Enterprise and Innovation Fellowship at the University of Oxford.</p>
+      <div class="member-video">
+        <iframe src="{{ include.member.video }}" title="{{ include.member.video_title | escape }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+      </div>
     </div>
     {% endif %}
   </div>

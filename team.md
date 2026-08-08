@@ -1,6 +1,5 @@
 ---
 title: "Team"
-intro: "Our team includes researchers and students working across causal AI, personalised decision-making and healthcare."
 permalink: /team/
 ---
 {% assign members = site.data.members | sort: 'order' %}

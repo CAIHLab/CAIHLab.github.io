@@ -68,13 +68,14 @@ hero: true
     <div><p class="eyebrow">Latest</p><h2 id="highlights-heading">Recent highlights</h2></div>
   </div>
   <div class="highlight-list">
-    {% for item in site.data.highlights %}
+    {% for item in site.data.highlights limit: 5 %}
     <article>
       <p class="highlight-index">{{ forloop.index | prepend: '0' }}</p>
       <div><h3>{{ item.title }}</h3><p>{{ item.text }}</p>{% if item.detail %}<p class="small-text">{{ item.detail }}</p>{% endif %}{% if item.url %}<a class="text-link" href="{{ item.url }}">{{ item.link_label }} <span aria-hidden="true">→</span></a>{% endif %}</div>
     </article>
     {% endfor %}
   </div>
+  <p><a class="text-link" href="{{ '/news/' | relative_url }}">View all news and highlights <span aria-hidden="true">→</span></a></p>
 </section>
 
 <section class="section section-dark" aria-labelledby="featured-heading">
@@ -86,5 +87,5 @@ hero: true
 
 <section class="section page-shell opportunity" aria-labelledby="join-heading">
   <div><p class="eyebrow">Opportunities</p><h2 id="join-heading">Join us</h2></div>
-  <div><p>We welcome researchers and students interested in advancing causal AI for personalised decision-making, including its application to healthcare.</p><h3>PhD studentship opportunity</h3><p>Dr Vinod Kumar Chauhan is recruiting a PhD student in <strong>Causal AI for personalised healthcare</strong>. If you are interested, please get in touch at your earliest convenience to arrange a discussion.</p><a class="button" href="mailto:vinod.chauhan@strath.ac.uk">Contact the lab</a></div>
+  <div><p>We welcome researchers and students interested in advancing causal AI for personalised decision-making, including its application to healthcare.</p><h3>PhD studentship opportunity</h3><p>CAIH Lab is recruiting a PhD student in <strong>Causal AI for personalised healthcare</strong>. If you are interested, please get in touch at your earliest convenience to arrange a discussion.</p><a class="button" href="mailto:vinod.chauhan@strath.ac.uk">Contact the lab</a></div>
 </section>
