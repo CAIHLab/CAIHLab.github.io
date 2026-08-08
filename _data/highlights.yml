@@ -1,36 +1,52 @@
 - title: "Area Chair at the NeurIPS 2026 AI4Science Workshop"
+  category: "Academic service"
+  year: 2026
   text: "Dr Vinod Kumar Chauhan will serve as an Area Chair for the AI4Science Workshop at NeurIPS 2026."
   url: "https://neurips.cc/Conferences/2026"
   link_label: "Visit NeurIPS 2026"
 
 - title: "Associate Editor, BioData Mining"
+  category: "Editorial roles"
+  year: 2026
   text: "Dr Vinod Kumar Chauhan is joining BioData Mining as an Associate Editor."
   url: "https://biodatamining.biomedcentral.com/"
   link_label: "Visit BioData Mining"
 
 - title: "Area Chair at the ICML 2026 AI4Science Workshop"
+  category: "Academic service"
+  year: 2026
   text: "Dr Vinod Kumar Chauhan served as an Area Chair for the AI4Science Workshop at ICML 2026."
   url: "https://ai4sciencecommunity.github.io/icml26"
   link_label: "Visit the ICML 2026 workshop"
 
 - title: "Convener for a PhD viva examination"
+  category: "Academic service"
+  year: 2026
   text: "Dr Vinod Kumar Chauhan acted as a convener for a PhD viva examination in the department in June 2026."
 
 - title: "Position paper on causal AI for personalised treatments"
+  category: "Publications"
+  year: 2026
   text: "Our position paper, “Position: Causal AI for Personalised Treatments Needs Holistic Approach”, argues for a holistic approach to developing causal AI for patient-specific care."
   url: "https://openreview.net/forum?id=hKsLbc53T4"
   link_label: "Read the position paper"
 
 - title: "Causal AI special issue"
+  category: "Editorial roles"
+  year: 2025
   text: "We are co-editing a research topic on Causal AI for Frontiers in AI and Frontiers in Big Data."
   detail: "Manuscript summary submission deadline: 15 November 2025. Manuscript submission deadline: 27 February 2026."
   url: "https://www.frontiersin.org/research-topics/73155/causal-ai-integrating-causality-and-machine-learning-for-robust-intelligent-systems"
   link_label: "View the research topic"
 
 - title: "Beyond Correlations preprint"
+  category: "Publications"
+  year: 2025
   text: "Our preprint is an accessible entry point to causality, explaining what causal AI is, why it matters, its key challenges and promising research directions."
   url: "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175554759.96327720/v2"
   link_label: "Read the preprint"
 
 - title: "IEEE EMBC 2025"
+  category: "Talks and events"
+  year: 2025
   text: "Dr Vinod Kumar Chauhan chaired the session “Tuning for patient-specific care” and presented “Individualised Treatment Effects Estimation with Composite Treatments and Composite Outcomes” at the 47th IEEE EMBC."
