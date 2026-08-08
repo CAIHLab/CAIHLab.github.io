@@ -1,4 +1,483 @@
 {
-  "refreshed_at": null,
-  "publications": {}
+  "refreshed_at": "2026-08-08",
+  "publications": {
+    "beyond-correlations-2025": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4416186950",
+        "count": 1,
+        "url": "https://openalex.org/W4416186950",
+        "fetched_at": "2026-08-08T21:01:16Z",
+        "status": "ok"
+      }
+    },
+    "composite-treatments-outcomes-2025": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4416961961",
+        "count": 1,
+        "url": "https://openalex.org/W4416961961",
+        "fetched_at": "2026-08-08T21:01:19Z",
+        "status": "ok"
+      }
+    },
+    "sample-selection-bias-healthcare-2025": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4413279439",
+        "count": 7,
+        "url": "https://openalex.org/W4413279439",
+        "fetched_at": "2026-08-08T21:01:23Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "c8fe426497ba8c78d549cacc8d65f142f2501b61",
+        "count": 7,
+        "url": "https://www.semanticscholar.org/paper/c8fe426497ba8c78d549cacc8d65f142f2501b61",
+        "fetched_at": "2026-08-08T21:01:23Z",
+        "status": "ok"
+      }
+    },
+    "dynamic-inter-treatment-sharing-2024": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4378501301",
+        "count": 2,
+        "url": "https://openalex.org/W4378501301",
+        "fetched_at": "2026-08-08T21:01:24Z",
+        "status": "ok"
+      }
+    },
+    "hypernetworks-review-2024": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4401548252",
+        "count": 106,
+        "url": "https://openalex.org/W4401548252",
+        "fetched_at": "2026-08-08T21:01:28Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "01400b34d1ff8c176d46c139118a91760e96b889",
+        "count": 200,
+        "url": "https://www.semanticscholar.org/paper/01400b34d1ff8c176d46c139118a91760e96b889",
+        "fetched_at": "2026-08-08T21:01:29Z",
+        "status": "ok"
+      }
+    },
+    "gastric-cancer-diabetes-2024": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4399506671",
+        "count": 11,
+        "url": "https://openalex.org/W4399506671",
+        "fetched_at": "2026-08-08T21:01:29Z",
+        "status": "ok"
+      }
+    },
+    "continuous-patient-state-attention-2024": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4396624917",
+        "count": 12,
+        "url": "https://openalex.org/W4396624917",
+        "fetched_at": "2026-08-08T21:01:33Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "063409611ca46044b0a8966e71b7cc4dadab5c8a",
+        "count": 10,
+        "url": "https://www.semanticscholar.org/paper/063409611ca46044b0a8966e71b7cc4dadab5c8a",
+        "fetched_at": "2026-08-08T21:01:37Z",
+        "status": "ok"
+      }
+    },
+    "cliquefluxnet-2024": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4401209868",
+        "count": 3,
+        "url": "https://openalex.org/W4401209868",
+        "fetched_at": "2026-08-08T21:01:37Z",
+        "status": "ok"
+      }
+    },
+    "temporal-dynamics-variational-graph-attention-2024": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4399731484",
+        "count": 3,
+        "url": "https://openalex.org/W4399731484",
+        "fetched_at": "2026-08-08T21:01:41Z",
+        "status": "ok"
+      }
+    },
+    "trolley-optimisation-2024": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4401483640",
+        "count": 0,
+        "url": "https://openalex.org/W4401483640",
+        "fetched_at": "2026-08-08T21:01:44Z",
+        "status": "ok"
+      }
+    },
+    "hcr-net-2024": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W3194013835",
+        "count": 41,
+        "url": "https://openalex.org/W3194013835",
+        "fetched_at": "2026-08-08T21:01:48Z",
+        "status": "ok"
+      }
+    },
+    "gtagcn-2024": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4393178149",
+        "count": 2,
+        "url": "https://openalex.org/W4393178149",
+        "fetched_at": "2026-08-08T21:01:52Z",
+        "status": "ok"
+      }
+    },
+    "gastric-cancer-abstract-2023": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4387825044",
+        "count": 1,
+        "url": "https://openalex.org/W4387825044",
+        "fetched_at": "2026-08-08T21:01:55Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "e7352c4b0102e22fa024db285e06ef33650d9f44",
+        "count": 1,
+        "url": "https://www.semanticscholar.org/paper/e7352c4b0102e22fa024db285e06ef33650d9f44",
+        "fetched_at": "2026-08-08T21:01:55Z",
+        "status": "ok"
+      }
+    },
+    "adversarial-deconfounding-2023": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4307010770",
+        "count": 6,
+        "url": "https://openalex.org/W4307010770",
+        "fetched_at": "2026-08-08T21:01:56Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "4636b77bb74e02363d12278fbebe03fa669fb8a2",
+        "count": 17,
+        "url": "https://www.semanticscholar.org/paper/4636b77bb74e02363d12278fbebe03fa669fb8a2",
+        "fetched_at": "2026-08-08T21:01:57Z",
+        "status": "ok"
+      }
+    },
+    "bottleneck-adapters-cancer-2023": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4306886671",
+        "count": 1,
+        "url": "https://openalex.org/W4306886671",
+        "fetched_at": "2026-08-08T21:01:57Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "8db309acf6ca324bccae136c9a2d31fb5609578c",
+        "count": 11,
+        "url": "https://www.semanticscholar.org/paper/8db309acf6ca324bccae136c9a2d31fb5609578c",
+        "fetched_at": "2026-08-08T21:01:57Z",
+        "status": "ok"
+      }
+    },
+    "deep-forest-ehr-2023": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4385218727",
+        "count": 9,
+        "url": "https://openalex.org/W4385218727",
+        "fetched_at": "2026-08-08T21:01:58Z",
+        "status": "ok"
+      }
+    },
+    "diffusion-mixed-ehr-2023": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4322760336",
+        "count": 5,
+        "url": "https://openalex.org/W4322760336",
+        "fetched_at": "2026-08-08T21:02:01Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "a0c2c9f8ae3501ead56896a6688b9e3014ec1744",
+        "count": 23,
+        "url": "https://www.semanticscholar.org/paper/a0c2c9f8ae3501ead56896a6688b9e3014ec1744",
+        "fetched_at": "2026-08-08T21:02:02Z",
+        "status": "ok"
+      }
+    },
+    "supplier-order-assignments-2023": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4313305217",
+        "count": 15,
+        "url": "https://openalex.org/W4313305217",
+        "fetched_at": "2026-08-08T21:02:02Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "08573289c1b1eeab0efc301efacec8030ead90f2",
+        "count": 13,
+        "url": "https://www.semanticscholar.org/paper/08573289c1b1eeab0efc301efacec8030ead90f2",
+        "fetched_at": "2026-08-08T21:02:03Z",
+        "status": "ok"
+      }
+    },
+    "multi-tier-material-consolidation-2023": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4388804951",
+        "count": 5,
+        "url": "https://openalex.org/W4388804951",
+        "fetched_at": "2026-08-08T21:02:03Z",
+        "status": "ok"
+      }
+    },
+    "airline-disruptive-elements-2023": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4365517819",
+        "count": 1,
+        "url": "https://openalex.org/W4365517819",
+        "fetched_at": "2026-08-08T21:02:07Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "f2a8ad9a20dc258bb3ae2c0828e8fd2b68d14cb8",
+        "count": 2,
+        "url": "https://www.semanticscholar.org/paper/f2a8ad9a20dc258bb3ae2c0828e8fd2b68d14cb8",
+        "fetched_at": "2026-08-08T21:02:08Z",
+        "status": "ok"
+      }
+    },
+    "indic-script-survey-2023": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4386847093",
+        "count": 12,
+        "url": "https://openalex.org/W4386847093",
+        "fetched_at": "2026-08-08T21:02:09Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "f1150ff801c7d968d0cfeb61d779f21b56c7971e",
+        "count": 13,
+        "url": "https://www.semanticscholar.org/paper/f1150ff801c7d968d0cfeb61d779f21b56c7971e",
+        "fetched_at": "2026-08-08T21:02:09Z",
+        "status": "ok"
+      }
+    },
+    "delay-propagation-air-transport-2022": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4296181734",
+        "count": 22,
+        "url": "https://openalex.org/W4296181734",
+        "fetched_at": "2026-08-08T21:02:09Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "bf5a0df71f47ed662dc1c0344899354622df4b6f",
+        "count": 20,
+        "url": "https://www.semanticscholar.org/paper/bf5a0df71f47ed662dc1c0344899354622df4b6f",
+        "fetched_at": "2026-08-08T21:02:09Z",
+        "status": "ok"
+      }
+    },
+    "coper-2022": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W4308216329",
+        "count": 8,
+        "url": "https://openalex.org/W4308216329",
+        "fetched_at": "2026-08-08T21:02:10Z",
+        "status": "ok"
+      }
+    },
+    "libs2ml-2021": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W2939162259",
+        "count": 1,
+        "url": "https://openalex.org/W2939162259",
+        "fetched_at": "2026-08-08T21:02:13Z",
+        "status": "ok"
+      }
+    },
+    "gurmukhi-word-recognition-2021": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W3157854712",
+        "count": 31,
+        "url": "https://openalex.org/W3157854712",
+        "fetched_at": "2026-08-08T21:02:17Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "d35be805cc2021d559dd6c4996f06fb6f9f0af56",
+        "count": 27,
+        "url": "https://www.semanticscholar.org/paper/d35be805cc2021d559dd6c4996f06fb6f9f0af56",
+        "fetched_at": "2026-08-08T21:02:18Z",
+        "status": "ok"
+      }
+    },
+    "stochastic-optimization-book-2021": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W3206920865",
+        "count": 4,
+        "url": "https://openalex.org/W3206920865",
+        "fetched_at": "2026-08-08T21:02:19Z",
+        "status": "ok"
+      }
+    },
+    "stochastic-trust-region-newton-2020": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W2906291139",
+        "count": 5,
+        "url": "https://openalex.org/W2906291139",
+        "fetched_at": "2026-08-08T21:02:22Z",
+        "status": "ok"
+      }
+    },
+    "supply-networks-ripple-effect-2020": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W3093043495",
+        "count": 49,
+        "url": "https://openalex.org/W3093043495",
+        "fetched_at": "2026-08-08T21:02:26Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "9176ced0fd230575eb4736a3d3987c37b61f1d0b",
+        "count": 44,
+        "url": "https://www.semanticscholar.org/paper/9176ced0fd230575eb4736a3d3987c37b61f1d0b",
+        "fetched_at": "2026-08-08T21:02:26Z",
+        "status": "ok"
+      }
+    },
+    "online-handwriting-rdp-2020": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W3007150257",
+        "count": 14,
+        "url": "https://openalex.org/W3007150257",
+        "fetched_at": "2026-08-08T21:02:26Z",
+        "status": "ok"
+      }
+    },
+    "saags-2019": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W2905849412",
+        "count": 3,
+        "url": "https://openalex.org/W2905849412",
+        "fetched_at": "2026-08-08T21:02:30Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "3c4d7ed606ad65dfa6849c0ddc19d4ebc01bb1fa",
+        "count": 6,
+        "url": "https://www.semanticscholar.org/paper/3c4d7ed606ad65dfa6849c0ddc19d4ebc01bb1fa",
+        "fetched_at": "2026-08-08T21:02:33Z",
+        "status": "ok"
+      }
+    },
+    "linear-svm-review-2019": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W2783380896",
+        "count": 660,
+        "url": "https://openalex.org/W2783380896",
+        "fetched_at": "2026-08-08T21:02:34Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "a2701f1f18771d6ed0fbe6c28c261a7ac748563f",
+        "count": 0,
+        "url": "https://www.semanticscholar.org/paper/a2701f1f18771d6ed0fbe6c28c261a7ac748563f",
+        "fetched_at": "2026-08-08T21:02:34Z",
+        "status": "ok"
+      }
+    },
+    "faster-learning-data-access-2018": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W2883621020",
+        "count": 8,
+        "url": "https://openalex.org/W2883621020",
+        "fetched_at": "2026-08-08T21:02:34Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "58c125f04df538fa7c8d4fd36a75770f733a24d6",
+        "count": 5,
+        "url": "https://www.semanticscholar.org/paper/58c125f04df538fa7c8d4fd36a75770f733a24d6",
+        "fetched_at": "2026-08-08T21:02:34Z",
+        "status": "ok"
+      }
+    },
+    "mini-batch-block-coordinate-2017": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W2786499590",
+        "count": 8,
+        "url": "https://openalex.org/W2786499590",
+        "fetched_at": "2026-08-08T21:02:35Z",
+        "status": "ok"
+      }
+    },
+    "trust-region-lm-svm-2017": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W2908508472",
+        "count": 4,
+        "url": "https://openalex.org/W2908508472",
+        "fetched_at": "2026-08-08T21:02:38Z",
+        "status": "ok"
+      }
+    },
+    "online-svm-minimum-distance-2016": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W2562132583",
+        "count": 1,
+        "url": "https://openalex.org/W2562132583",
+        "fetched_at": "2026-08-08T21:02:42Z",
+        "status": "ok"
+      }
+    }
+  }
 }
