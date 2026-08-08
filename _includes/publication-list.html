@@ -14,22 +14,26 @@
       <h3>{% if publication.page_url %}<a href="{{ publication.page_url | relative_url }}">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
       <p class="publication-authors">{{ publication.authors | join: ', ' }}</p>
       <p class="publication-meta"><span>{{ publication.year }}</span> · <span>{{ publication.venue }}</span> · <span>{{ publication.publication_type }}</span></p>
-      {% if publication.themes %}<ul class="tag-list" aria-label="Research themes">{% for theme in publication.themes %}<li>{{ theme }}</li>{% endfor %}</ul>{% endif %}
-      {% if publication.doi or publication.isbn or publication.links %}
-        <ul class="publication-links" aria-label="Publication links">
-          {% if publication.doi %}<li><a href="https://doi.org/{{ publication.doi }}">DOI</a></li>{% endif %}
-          {% if publication.isbn %}<li><span>ISBN {{ publication.isbn }}</span></li>{% endif %}
-          {% for link in publication.links %}{% if link[1] and link[1] != '' %}<li><a href="{{ link[1] }}">{{ link[0] | capitalize }}</a></li>{% endif %}{% endfor %}
-        </ul>
-      {% endif %}
       {% assign metrics = site.data.publication_metrics.publications[publication.id] %}
-      {% if metrics.openalex or metrics.semantic_scholar or publication.doi %}
-        <div class="publication-metrics" aria-label="Citation metrics">
-          {% if metrics.openalex %}<a class="metric-tile metric-tile--openalex" href="{{ metrics.openalex.url }}" aria-label="{{ metrics.openalex.count }} citations in OpenAlex; view this publication in OpenAlex"><strong>{{ metrics.openalex.count }}</strong><span>Citations</span><small>OpenAlex</small><i aria-hidden="true">OA</i></a>{% endif %}
-          {% if metrics.semantic_scholar %}<a class="metric-tile metric-tile--semantic" href="{{ metrics.semantic_scholar.url }}" aria-label="{{ metrics.semantic_scholar.count }} citations in Semantic Scholar; view this publication in Semantic Scholar"><strong>{{ metrics.semantic_scholar.count }}</strong><span>Citations</span><small>Semantic Scholar</small><i aria-hidden="true">S2</i></a>{% endif %}
-          {% if publication.doi %}<div class="altmetric-metric" aria-label="Altmetric attention"><span>Attention</span><small>Altmetric</small><div class="altmetric-embed" data-badge-type="donut" data-hide-no-mentions="true" data-doi="{{ publication.doi }}"></div></div>{% endif %}
+      <div class="publication-footer">
+        <div class="publication-resources">
+          {% if publication.themes %}<ul class="tag-list" aria-label="Research themes">{% for theme in publication.themes %}<li>{{ theme }}</li>{% endfor %}</ul>{% endif %}
+          {% if publication.doi or publication.isbn or publication.links %}
+            <ul class="publication-links" aria-label="Publication links">
+              {% if publication.doi %}<li><a href="https://doi.org/{{ publication.doi }}">DOI</a></li>{% endif %}
+              {% if publication.isbn %}<li><span>ISBN {{ publication.isbn }}</span></li>{% endif %}
+              {% for link in publication.links %}{% if link[1] and link[1] != '' %}<li><a href="{{ link[1] }}">{{ link[0] | capitalize }}</a></li>{% endif %}{% endfor %}
+            </ul>
+          {% endif %}
         </div>
-      {% endif %}
+        {% if metrics.openalex or metrics.semantic_scholar or publication.doi %}
+          <div class="publication-metrics" aria-label="Publication metrics">
+            {% if metrics.openalex %}<a class="metric-circle metric-circle--openalex" href="{{ metrics.openalex.url }}" aria-label="{{ metrics.openalex.count }} citations in OpenAlex; view this publication in OpenAlex"><strong>{{ metrics.openalex.count }}</strong></a>{% endif %}
+            {% if metrics.semantic_scholar %}<a class="metric-circle metric-circle--semantic" href="{{ metrics.semantic_scholar.url }}" aria-label="{{ metrics.semantic_scholar.count }} citations in Semantic Scholar; view this publication in Semantic Scholar"><strong>{{ metrics.semantic_scholar.count }}</strong></a>{% endif %}
+            {% if publication.doi %}<div class="altmetric-metric" aria-label="Altmetric attention"><div class="altmetric-embed" data-badge-type="donut" data-hide-no-mentions="true" data-doi="{{ publication.doi }}"></div></div>{% endif %}
+          </div>
+        {% endif %}
+      </div>
     </article>
   {% endfor %}
 </div>

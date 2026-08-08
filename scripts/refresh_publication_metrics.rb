@@ -60,8 +60,6 @@ polite_email = ENV.fetch("OPENALEX_MAILTO", "vinod.chauhan@strath.ac.uk")
 s2_key = ENV["SEMANTIC_SCHOLAR_API_KEY"]
 
 publications.each do |publication|
-  next unless %w[verified fallback partial].include?(publication["identifier_status"])
-
   id = publication.fetch("id")
   old_record = previous.fetch("publications", {}).fetch(id, {})
   record = Marshal.load(Marshal.dump(old_record))

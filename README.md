@@ -71,7 +71,7 @@ The workflow `.github/workflows/refresh-publication-metrics.yml` refreshes the c
 ruby scripts/refresh_publication_metrics.rb --dry-run
 ```
 
-Maintain DOI values without the `https://doi.org/` prefix. Prefer the publisher DOI; use an arXiv DOI only when no publisher DOI exists. DOI-less records may use `openalex_id` and `semantic_scholar_paper_id`. Records marked `unresolved` or `none` do not receive metrics. Failed requests and title mismatches retain the last successful cached values and print warnings.
+Maintain DOI values without the `https://doi.org/` prefix. Prefer the publisher DOI; use an arXiv DOI only when no publisher DOI exists. DOI-less records may use `openalex_id` and `semantic_scholar_paper_id`. Metrics are fetched whenever a usable identifier is available, regardless of publication status. Failed requests and title mismatches retain the last successful cached values and print warnings.
 
 Set the optional repository secret `SEMANTIC_SCHOLAR_API_KEY` if higher Semantic Scholar rate limits are needed. Free Altmetric attention badges are rendered directly from publication DOIs and hidden when Altmetric has no mentions. PlumX remains disabled pending approval.
 
