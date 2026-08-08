@@ -2,8 +2,10 @@
 title: "Publications"
 permalink: /publications/
 publication_filters: true
+altmetric_badges: true
 ---
 <p>A more up-to-date list may be available on <a href="https://scholar.google.com/citations?user=YqlZaKcAAAAJ">Google Scholar</a>.</p>
+{% if site.data.publication_metrics.refreshed_at %}<p class="data-note">Citation counts are provided by OpenAlex and Semantic Scholar and may differ between services. Last refreshed: {{ site.data.publication_metrics.refreshed_at | date: "%e %B %Y" | strip }}.</p>{% endif %}
 
 <form class="publication-filters" data-publication-filters aria-label="Filter publications">
   <div><label for="theme-filter">Theme</label><select id="theme-filter" data-filter="themes"><option value="">All themes</option><option value="causal-ai">Causal AI</option><option value="personalised-treatments">Personalised treatments</option><option value="ai-in-healthcare">AI in healthcare</option><option value="aviation-manufacturing-and-supply-chains">Aviation, manufacturing and supply chains</option><option value="optimisation-for-machine-learning">Optimisation for machine learning</option><option value="handwriting-recognition">Handwriting recognition</option></select></div>

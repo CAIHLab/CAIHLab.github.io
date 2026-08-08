@@ -1,5 +1,6 @@
 # Canonical publication data. See README.md for the schema and editing guidance.
 - id: position-causal-ai-personalised-treatments-2026
+  identifier_status: "none"
   title: "Position: Causal AI for Personalised Treatments Needs Holistic Approach"
   authors: ["V. K. Chauhan", "K. Banfill", "S. Feuerriegel"]
   year: 2026
@@ -11,6 +12,8 @@
     paper: "https://openreview.net/forum?id=hKsLbc53T4"
 
 - id: beyond-correlations-2025
+  identifier_status: "verified"
+  openalex_id: "W4416186950"
   title: "Beyond Correlations: The Necessity and the Challenges of Causal AI"
   authors: ["V. K. Chauhan", "D. S. Dhami", "B. Gao", "X. Wang", "L. Clifton", "D. A. Clifton"]
   year: 2025
@@ -18,11 +21,16 @@
   publication_type: "Preprint"
   themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
   featured: true
-  doi: "10.36227/techrxiv.175554759.96327720"
+  doi: "10.36227/techrxiv.175554759.96327720/v2"
   links:
     preprint: "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175554759.96327720"
 
 - id: composite-treatments-outcomes-2025
+  identifier_status: "verified"
+  doi: "10.1109/EMBC58623.2025.11252651"
+  arxiv_id: "2502.08282"
+  openalex_id: "W4416961961"
+  semantic_scholar_paper_id: "5f1b9bd3b0f59c84ddc8497d2c3786278cb51a00"
   title: "Individualised Treatment Effects Estimation with Composite Treatments and Composite Outcomes"
   authors: ["V. K. Chauhan", "L. Clifton", "G. Nigam", "D. A. Clifton"]
   year: 2025
@@ -35,6 +43,10 @@
     poster: "https://drive.google.com/file/d/15yw5dzpiSknjpkrds6YN6l-v7TBrfBEC/view?usp=sharing"
 
 - id: sample-selection-bias-healthcare-2025
+  identifier_status: "verified"
+  arxiv_id: "2405.07841"
+  openalex_id: "W4413279439"
+  semantic_scholar_paper_id: "c8fe426497ba8c78d549cacc8d65f142f2501b61"
   title: "Sample Selection Bias in Machine Learning for Healthcare"
   authors: ["V. K. Chauhan", "L. Clifton", "A. Salaun", "Y. Lu", "K. Branson", "P. Schwab", "G. Nigam", "D. A. Clifton"]
   year: 2025
@@ -48,6 +60,7 @@
     code: "https://github.com/jmdvinodjmd/SSB_MLHC"
 
 - id: fault-detection-variable-conditions-2025
+  identifier_status: "unresolved"
   title: "A context-aware methodology for fault detection and severity classification under variable operating conditions"
   authors: ["F. De Fabritiis", "V. K. Chauhan", "D. A. Clifton", "K. Gryllias"]
   year: 2025
@@ -57,6 +70,7 @@
   featured: false
 
 - id: afacs-risk-scores-2025
+  identifier_status: "unresolved"
   title: "Clinical prediction of Atrial Fibrillation after Cardiac Surgery: the AFACS risk scores"
   authors: ["Benjamin O´Brien", "Oliver Redfern", "Jonathan Bedford", "Stephen Gerry", "V. K. Chauhan", "Rachel Henning", "Rui Providência", "…", "Peter Watkinson"]
   year: 2025
@@ -66,6 +80,11 @@
   featured: false
 
 - id: dynamic-inter-treatment-sharing-2024
+  identifier_status: "fallback"
+  doi: "10.48550/arXiv.2305.15984"
+  arxiv_id: "2305.15984"
+  openalex_id: "W4378501301"
+  semantic_scholar_paper_id: "d63a7047b3fc7525543d5b89c541c6a4bf8e7b9f"
   title: "Dynamic Inter-treatment Information Sharing for Individualized Treatment Effects Estimation"
   authors: ["V. K. Chauhan", "J. Zhou", "G. Ghosheh", "S. Molaei", "D. A. Clifton"]
   year: 2024
@@ -79,6 +98,11 @@
     code: "https://github.com/jmdvinodjmd/HyperITE"
 
 - id: hypernetworks-review-2024
+  identifier_status: "verified"
+  doi: "10.1007/s10462-024-10862-8"
+  arxiv_id: "2306.06955"
+  openalex_id: "W4401548252"
+  semantic_scholar_paper_id: "01400b34d1ff8c176d46c139118a91760e96b889"
   title: "A Brief Review of Hypernetworks in Deep Learning"
   authors: ["V. K. Chauhan", "J. Zhou", "P. Lu", "S. Molaei", "D. A. Clifton"]
   year: 2024
@@ -91,6 +115,11 @@
     preprint: "https://arxiv.org/abs/2306.06955"
 
 - id: gastric-cancer-diabetes-2024
+  identifier_status: "verified"
+  metrics_title: "Comparative effectiveness of sodium-glucose cotransporter-2 inhibitors for new-onset gastric cancer and gastric diseases in patients with type 2 diabetes mellitus: a population-based cohort study"
+  doi: "10.1007/s10120-024-01512-7"
+  openalex_id: "W4399506671"
+  semantic_scholar_paper_id: "50c5a2aa2de3f31c730710d772c6b95904b69218"
   title: "Comparing the risks of new-onset gastric cancer or gastric diseases in type 2 diabetes mellitus patients exposed to SGLT2I, DPP4I or GLP1A: a population-based cohort study"
   authors: ["O. H. I. Chou*", "V. K. Chauhan*", "C. T. Chung", "L. Lu", "T. T. L. Lee", "Z. M. W. Ng", "K. K. Wang", "S. Lee", "H. Liu", "W. T. Wong", "R. T. K. Pang", "A. K.", "B. M.Y. Cheung", "G. Tse", "J. Zhou"]
   year: 2024
@@ -103,6 +132,9 @@
     preprint: "https://www.medrxiv.org/content/10.1101/2023.07.02.23292063v1"
 
 - id: continuous-patient-state-attention-2024
+  identifier_status: "verified"
+  doi: "10.1186/s12911-024-02514-2"
+  openalex_id: "W4396624917"
   title: "Continuous Patient State Attention Model for Addressing Irregularity in Electronic Health Records"
   authors: ["V. K. Chauhan", "A. Thakur", "O. O'Donoghue", "O. Rohanian", "S. Molaei", "D. A. Clifton"]
   year: 2024
@@ -112,6 +144,10 @@
   featured: false
 
 - id: cliquefluxnet-2024
+  identifier_status: "verified"
+  doi: "10.1007/s41666-024-00169-2"
+  openalex_id: "W4401209868"
+  semantic_scholar_paper_id: "c6b30fb9799602bf4dfd68fdcf16333cb2b7ff18"
   title: "CliqueFluxNet: Unveiling EHR Insights with Stochastic Edge Fluxing and Maximal Clique Utilisation using Graph Neural Networks"
   authors: ["S. Molaei", "N. G. Bousejin", "G. Ghosheh", "A. Thakur", "V. K. Chauhan", "T. Zhu", "D. Clifton"]
   year: 2024
@@ -121,6 +157,9 @@
   featured: false
 
 - id: temporal-dynamics-variational-graph-attention-2024
+  identifier_status: "verified"
+  doi: "10.1016/j.knosys.2024.112110"
+  openalex_id: "W4399731484"
   title: "Temporal Dynamics Unleashed: Elevating Variational Graph Attention"
   authors: ["S. Molaei", "G. Niknam", "G. Ghosheh", "V. K. Chauhan", "H. Zare", "T. Zhu", "S. Pan", "D. Clifton"]
   year: 2024
@@ -130,6 +169,11 @@
   featured: false
 
 - id: trolley-optimisation-2024
+  identifier_status: "verified"
+  doi: "10.1007/s43069-024-00354-4"
+  arxiv_id: "2209.09116"
+  openalex_id: "W4401483640"
+  semantic_scholar_paper_id: "a31d58478db34e7ff532177663c29e0e36f81f04"
   title: "Trolley Optimisation for Loading Printed Circuit Board Components"
   authors: ["V. K. Chauhan", "M. Bass", "A. K. Parlikad", "A. Brintrup"]
   year: 2024
@@ -139,6 +183,12 @@
   featured: false
 
 - id: hcr-net-2024
+  identifier_status: "verified"
+  metrics_title: "HCR-Net: a deep learning based script independent handwritten character recognition network"
+  doi: "10.1007/s11042-024-18655-5"
+  arxiv_id: "2108.06663"
+  openalex_id: "W3194013835"
+  semantic_scholar_paper_id: "d37ae168d0b5a8fdc57bdde0f35e9cf60406ad61"
   title: "HCR-Net: A transfer learning based script independent handwriting character recognition network"
   authors: ["V. K. Chauhan", "S. Singh", "A. Sharma"]
   year: 2024
@@ -148,6 +198,11 @@
   featured: false
 
 - id: gtagcn-2024
+  identifier_status: "fallback"
+  doi: "10.48550/arXiv.2403.15077"
+  arxiv_id: "2403.15077"
+  openalex_id: "W4393178149"
+  semantic_scholar_paper_id: "54da3d37470f99066eccb6766a7e1acf5fcf296d"
   title: "GTAGCN: Generalized Topology Adaptive Graph Convolutional Networks"
   authors: ["S. Singh", "A. Sharma", "V. K. Chauhan"]
   year: 2024
@@ -159,6 +214,9 @@
     preprint: "https://arxiv.org/abs/2403.15077"
 
 - id: gastric-cancer-abstract-2023
+  identifier_status: "verified"
+  doi: "10.1016/j.annonc.2023.09.1479"
+  openalex_id: "W4387825044"
   title: "1567P The effect of SGLT2i and DPP4i on new-onset gastric cancer and gastric diseases in type 2 diabetes mellitus: A population-based cohort study"
   authors: ["O. H. I. Chou", "V. K. Chauhan", "C. T. Chung", "L. Lu", "T. T. L. Lee", "Z. M. W. Ng", "K. K. Wang", "S. Lee", "H. Liu", "W. T. Wong", "R. T. K. Pang", "A. K.", "B. M.Y. Cheung", "G. Tse", "J. Zhou"]
   year: 2023
@@ -170,6 +228,11 @@
     paper: "https://www.annalsofoncology.org/article/S0923-7534%2823%2902316-5/fulltext"
 
 - id: adversarial-deconfounding-2023
+  identifier_status: "fallback"
+  doi: "10.48550/arXiv.2210.10530"
+  arxiv_id: "2210.10530"
+  openalex_id: "W4307010770"
+  semantic_scholar_paper_id: "4636b77bb74e02363d12278fbebe03fa669fb8a2"
   title: "Adversarial De-confounding in Individualised Treatment Effects Estimation"
   authors: ["V. K. Chauhan", "S. Molaei", "MH. Tania", "A. Thakur", "T. Zhu", "D. A. Clifton"]
   year: 2023
@@ -185,6 +248,10 @@
     video: "https://www.youtube.com/watch?v=aUWy2rQnEaM"
 
 - id: bottleneck-adapters-cancer-2023
+  identifier_status: "fallback"
+  doi: "10.48550/arXiv.2210.09440"
+  arxiv_id: "2210.09440"
+  openalex_id: "W4306886671"
   title: "Using Bottleneck Adapters to Identify Cancer in Clinical Notes under Low-Resource Constraints"
   authors: ["O. Rohanian", "H. Jauncey", "M. Nouriborji", "V. K. Chauhan", "B. P. Gonçalves", "C. Kartsonaki", "ISARIC Clinical Characterisation Group", "L. Merson", "D. A. Clifton"]
   year: 2023
@@ -194,6 +261,9 @@
   featured: false
 
 - id: deep-forest-ehr-2023
+  identifier_status: "verified"
+  doi: "10.3390/s23146571"
+  openalex_id: "W4385218727"
   title: "Improving Diagnostics with Deep Forest Applied to Electronic Health Records"
   authors: ["A. Khodadadi", "N. G. Bousejin", "S. Molaei*", "V. K. Chauhan", "T. Zhu", "D. A. Clifton"]
   year: 2023
@@ -203,6 +273,10 @@
   featured: false
 
 - id: diffusion-mixed-ehr-2023
+  identifier_status: "fallback"
+  doi: "10.48550/arXiv.2302.14679"
+  arxiv_id: "2302.14679"
+  openalex_id: "W4322760336"
   title: "Synthesizing Mixed-type Electronic Health Records using Diffusion Models"
   authors: ["T. Ceritli", "G. O. Ghosheh", "V. K. Chauhan", "T. Zhu", "A. P. Creagh", "D. A. Clifton"]
   year: 2023
@@ -212,6 +286,11 @@
   featured: false
 
 - id: supplier-order-assignments-2023
+  identifier_status: "verified"
+  doi: "10.1016/j.cie.2022.108928"
+  arxiv_id: "2210.11953"
+  openalex_id: "W4313305217"
+  semantic_scholar_paper_id: "08573289c1b1eeab0efc301efacec8030ead90f2"
   title: "Real-time large-scale supplier order assignments across two-tiers of a supply chain with penalty and dual-sourcing"
   authors: ["V. K. Chauhan", "Stephen Mak", "A. K. Parlikad", "Muhannad Alomari", "Linus Casassa", "A. Brintrup"]
   year: 2023
@@ -221,6 +300,12 @@
   featured: false
 
 - id: multi-tier-material-consolidation-2023
+  identifier_status: "verified"
+  metrics_title: "Exploitation of material consolidation trade-offs in multi-tier complex supply networks"
+  doi: "10.1016/j.sca.2023.100050"
+  arxiv_id: "2210.11479"
+  openalex_id: "W4388804951"
+  semantic_scholar_paper_id: "113267c49fa196590806c7b498bd637ed2501568"
   title: "Multi-tier material consolidation in complex supply chains"
   authors: ["V. K. Chauhan", "Muhannad Alomari", "James Arney", "A. K. Parlikad", "A. Brintrup"]
   year: 2023
@@ -230,6 +315,12 @@
   featured: false
 
 - id: airline-disruptive-elements-2023
+  identifier_status: "verified"
+  metrics_title: "Network science approach for identifying disruptive elements of an airline"
+  doi: "10.1016/j.dsm.2023.04.001"
+  arxiv_id: "2211.08140"
+  openalex_id: "W4365517819"
+  semantic_scholar_paper_id: "f2a8ad9a20dc258bb3ae2c0828e8fd2b68d14cb8"
   title: "A network science approach to identify disruptive elements of an airline"
   authors: ["V. K. Chauhan", "Anna Ledwoch", "A. Brintrup", "Manuel Herrera", "Vaggelis Giannikas", "Goran Stojkovic", "D. Mcfarlane"]
   year: 2023
@@ -239,6 +330,7 @@
   featured: false
 
 - id: procurement-bid-prices-2023
+  identifier_status: "unresolved"
   title: "Predicting supply chain procurement bid prices with uncertainty quantification and machine learning: a case study in aerospace manufacturing"
   authors: ["B. Lee", "M. Alomari", "V. K. Chauhan", "M. Farsi", "A. Brintrup"]
   year: 2023
@@ -248,6 +340,10 @@
   featured: false
 
 - id: indic-script-survey-2023
+  identifier_status: "verified"
+  doi: "10.1007/s10462-023-10597-y"
+  openalex_id: "W4386847093"
+  semantic_scholar_paper_id: "f1150ff801c7d968d0cfeb61d779f21b56c7971e"
   title: "Indic Script Family and Its Offline Handwriting Recognition for Characters/ Digits and Words: A Comprehensive Survey"
   authors: ["S. Singh", "A. Sharma", "V. K. Chauhan"]
   year: 2023
@@ -257,6 +353,10 @@
   featured: false
 
 - id: delay-propagation-air-transport-2022
+  identifier_status: "verified"
+  doi: "10.1016/j.trc.2022.103862"
+  openalex_id: "W4296181734"
+  semantic_scholar_paper_id: "bf5a0df71f47ed662dc1c0344899354622df4b6f"
   title: "A data-driven method to assess the causes and impact of delay propagation in air transportation systems"
   authors: ["V. Giannikasa", "A. Ledwoch", "G. Stojkovic", "P. Costas", "A. Brintrup", "A. A. S. Al-Ali", "V. K. Chauhan", "D. McFarlane"]
   year: 2022
@@ -266,6 +366,10 @@
   featured: false
 
 - id: coper-2022
+  identifier_status: "verified"
+  doi: "10.1109/BHI56158.2022.9926807"
+  arxiv_id: "2208.03196"
+  openalex_id: "W4308216329"
   title: "COPER: Continuous Patient State Perceiver"
   authors: ["V. K. Chauhan", "A. Thakur", "O. O'Donoghue", "D. A. Clifton"]
   year: 2022
@@ -275,6 +379,11 @@
   featured: false
 
 - id: libs2ml-2021
+  identifier_status: "verified"
+  doi: "10.1016/j.simpa.2021.100123"
+  arxiv_id: "1904.09448"
+  openalex_id: "W2939162259"
+  semantic_scholar_paper_id: "903e7010a4defd32f68114a49007149870d99616"
   title: "LIBS2ML: A Library for Scalable Second Order Machine Learning Algorithms"
   authors: ["V. K. Chauhan", "A. Sharma", "K. Dahiya"]
   year: 2021
@@ -284,6 +393,10 @@
   featured: false
 
 - id: gurmukhi-word-recognition-2021
+  identifier_status: "verified"
+  doi: "10.1016/j.mlwa.2021.100037"
+  openalex_id: "W3157854712"
+  semantic_scholar_paper_id: "d35be805cc2021d559dd6c4996f06fb6f9f0af56"
   title: "Online handwritten Gurmukhi word recognition using fine-tuned Deep Convolutional Neural Network on offline features"
   authors: ["S. Singh", "A. Sharma", "V. K. Chauhan"]
   year: 2021
@@ -293,6 +406,10 @@
   featured: false
 
 - id: stochastic-optimization-book-2021
+  identifier_status: "verified"
+  doi: "10.1201/9781003240167"
+  openalex_id: "W3206920865"
+  semantic_scholar_paper_id: "d32784951f867e3513a6afe8c868d901fe950e59"
   title: "Stochastic Optimization for Large-scale Machine Learning"
   authors: ["V. K. Chauhan"]
   year: 2021
@@ -303,6 +420,10 @@
   isbn: "9781032131757"
 
 - id: stochastic-trust-region-newton-2020
+  identifier_status: "verified"
+  doi: "10.1007/s13042-019-01055-9"
+  arxiv_id: "1812.10426"
+  semantic_scholar_paper_id: "2febc4b7ad382b07b1c0ea2657f0dce5e3417d0c"
   title: "Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning"
   authors: ["V. K. Chauhan", "A. Sharma", "K. Dahiya"]
   year: 2020
@@ -312,6 +433,10 @@
   featured: false
 
 - id: supply-networks-ripple-effect-2020
+  identifier_status: "verified"
+  doi: "10.1080/00207543.2020.1831096"
+  openalex_id: "W3093043495"
+  semantic_scholar_paper_id: "9176ced0fd230575eb4736a3d3987c37b61f1d0b"
   title: "The relationship between nested patterns and the ripple effect in complex supply networks"
   authors: ["V. K. Chauhan", "Supun Perera", "A. Brintrup"]
   year: 2020
@@ -321,6 +446,10 @@
   featured: false
 
 - id: online-handwriting-rdp-2020
+  identifier_status: "verified"
+  doi: "10.1007/s10489-020-01632-4"
+  openalex_id: "W3007150257"
+  semantic_scholar_paper_id: "6d215fa6265cd08d7b11f0f2af23e4f4e63c720d"
   title: "A Self Controlled RDP Approach for Feature Extraction in Online Handwriting Recognition using Deep Learning"
   authors: ["S. Singh", "V. K. Chauhan", "Elisa H. Barney Smith"]
   year: 2020
@@ -330,6 +459,10 @@
   featured: false
 
 - id: saags-2019
+  identifier_status: "verified"
+  doi: "10.1007/s10489-019-01450-3"
+  arxiv_id: "1807.08934"
+  semantic_scholar_paper_id: "3c4d7ed606ad65dfa6849c0ddc19d4ebc01bb1fa"
   title: "SAAGs: Biased Stochastic Variance Reduction Methods for Large-scale Learning"
   authors: ["V. K. Chauhan", "A. Sharma", "K. Dahiya"]
   year: 2019
@@ -339,6 +472,10 @@
   featured: false
 
 - id: linear-svm-review-2019
+  identifier_status: "verified"
+  doi: "10.1007/s10462-018-9614-6"
+  openalex_id: "W2783380896"
+  semantic_scholar_paper_id: "1bade7cf5534cbb31dc550922e9d01d2ee0b25fd"
   title: "Problem Formulations and Solvers in Linear SVM: a Review"
   authors: ["V. K. Chauhan", "K. Dahiya", "A. Sharma"]
   year: 2019
@@ -348,6 +485,7 @@
   featured: false
 
 - id: svm-optimization-thesis-2019
+  identifier_status: "unresolved"
   title: "Solving large scale linear support vector classification using an optimization framework based on stochastic approximation and coordinate descent approaches"
   authors: ["V. K. Chauhan"]
   year: 2019
@@ -357,6 +495,11 @@
   featured: false
 
 - id: faster-learning-data-access-2018
+  identifier_status: "verified"
+  doi: "10.1007/s10489-018-1235-x"
+  arxiv_id: "1801.05931"
+  openalex_id: "W2883621020"
+  semantic_scholar_paper_id: "58c125f04df538fa7c8d4fd36a75770f733a24d6"
   title: "Faster Learning by Reduction of Data Access Time"
   authors: ["V. K. Chauhan", "A. Sharma", "K. Dahiya"]
   year: 2018
@@ -366,6 +509,9 @@
   featured: false
 
 - id: mini-batch-block-coordinate-2017
+  identifier_status: "partial"
+  openalex_id: "W2786499590"
+  semantic_scholar_paper_id: "0db1f5ac946b74c21b0a47cad78632005bfbb275"
   title: "Mini-batch Block-coordinate based Stochastic Average Adjusted Gradient Methods to Solve Big Data Problems"
   authors: ["V. K. Chauhan", "K. Dahiya", "A. Sharma"]
   year: 2017
@@ -375,6 +521,10 @@
   featured: false
 
 - id: trust-region-lm-svm-2017
+  identifier_status: "verified"
+  doi: "10.1109/ICAPR.2017.8593090"
+  openalex_id: "W2908508472"
+  semantic_scholar_paper_id: "b98ef29284f1d26ba69c3ce7be61bbeaa36cdb8a"
   title: "Trust Region Levenberg-Marquardt Method for Linear SVM"
   authors: ["V. K. Chauhan", "K. Dahiya", "A. Sharma"]
   year: 2017
@@ -384,6 +534,10 @@
   featured: false
 
 - id: online-svm-minimum-distance-2016
+  identifier_status: "verified"
+  doi: "10.1007/978-981-10-2104-6_9"
+  openalex_id: "W2562132583"
+  semantic_scholar_paper_id: "cd47a03de15f1a443f5c68eaf8a516742edf1189"
   title: "Online Support Vector Machine Based on Minimum Euclidean Distance"
   authors: ["K. Dahiya", "V. K. Chauhan", "A. Sharma"]
   year: 2016

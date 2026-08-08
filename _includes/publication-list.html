@@ -22,6 +22,14 @@
           {% for link in publication.links %}{% if link[1] and link[1] != '' %}<li><a href="{{ link[1] }}">{{ link[0] | capitalize }}</a></li>{% endif %}{% endfor %}
         </ul>
       {% endif %}
+      {% assign metrics = site.data.publication_metrics.publications[publication.id] %}
+      {% if metrics.openalex or metrics.semantic_scholar or publication.doi %}
+        <div class="publication-metrics" aria-label="Citation metrics">
+          {% if metrics.openalex %}<a class="metric-tile metric-tile--openalex" href="{{ metrics.openalex.url }}" aria-label="{{ metrics.openalex.count }} citations in OpenAlex; view this publication in OpenAlex"><strong>{{ metrics.openalex.count }}</strong><span>Citations</span><small>OpenAlex</small><i aria-hidden="true">OA</i></a>{% endif %}
+          {% if metrics.semantic_scholar %}<a class="metric-tile metric-tile--semantic" href="{{ metrics.semantic_scholar.url }}" aria-label="{{ metrics.semantic_scholar.count }} citations in Semantic Scholar; view this publication in Semantic Scholar"><strong>{{ metrics.semantic_scholar.count }}</strong><span>Citations</span><small>Semantic Scholar</small><i aria-hidden="true">S2</i></a>{% endif %}
+          {% if publication.doi %}<div class="altmetric-metric" aria-label="Altmetric attention"><span>Attention</span><small>Altmetric</small><div class="altmetric-embed" data-badge-type="donut" data-hide-no-mentions="true" data-doi="{{ publication.doi }}"></div></div>{% endif %}
+        </div>
+      {% endif %}
     </article>
   {% endfor %}
 </div>

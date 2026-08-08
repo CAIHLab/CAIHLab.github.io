@@ -42,6 +42,11 @@ Edit `_data/publications.yml` and add one record. Publications are sorted newest
     - "AI in healthcare"
   featured: false
   doi: "10.xxxx/example"       # optional
+  arxiv_id: "2601.12345"       # optional
+  openalex_id: "W1234567890"   # optional DOI-less fallback
+  semantic_scholar_paper_id: "paper-id" # optional DOI-less fallback
+  identifier_status: "verified" # verified, fallback, partial, unresolved or none
+  metrics_title: "Provider title" # optional validation title when visible text awaits review
   isbn: "9780000000000"       # optional
   page_url: "/publications/id/" # optional future detail page
   links:                        # every link is optional
@@ -55,6 +60,20 @@ Edit `_data/publications.yml` and add one record. Publications are sorted newest
 ```
 
 Use an ID that will not change. Preserve bibliographic spelling and punctuation from a reliable source. Empty link values are not rendered. If a future record has a dedicated page, set `page_url`; the list component already supports linking its title.
+
+## Publication metrics
+
+Citation counts are rendered from the committed `_data/publication_metrics.json` cache, so publication content remains complete without JavaScript or live API calls. OpenAlex is the primary count and Semantic Scholar is shown as a labelled comparison when available. Provider totals can legitimately differ.
+
+The workflow `.github/workflows/refresh-publication-metrics.yml` refreshes the cache each Monday and commits only when cached values change. It can also be started manually from **Actions → Refresh publication metrics → Run workflow**. For a local preview without writing the cache, run:
+
+```bash
+ruby scripts/refresh_publication_metrics.rb --dry-run
+```
+
+Maintain DOI values without the `https://doi.org/` prefix. Prefer the publisher DOI; use an arXiv DOI only when no publisher DOI exists. DOI-less records may use `openalex_id` and `semantic_scholar_paper_id`. Records marked `unresolved` or `none` do not receive metrics. Failed requests and title mismatches retain the last successful cached values and print warnings.
+
+Set the optional repository secret `SEMANTIC_SCHOLAR_API_KEY` if higher Semantic Scholar rate limits are needed. Free Altmetric attention badges are rendered directly from publication DOIs and hidden when Altmetric has no mentions. PlumX remains disabled pending approval.
 
 ## Add or edit a team member
 
