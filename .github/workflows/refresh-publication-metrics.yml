@@ -2,7 +2,7 @@ name: Refresh publication metrics
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - "_data/publications.yml"
       - "scripts/refresh_publication_metrics.rb"
