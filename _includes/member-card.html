@@ -24,15 +24,15 @@
     {% if include.member.email or include.member.institutional_profile or include.member.scholar or include.member.orcid or include.member.researchgate or include.member.github or include.member.bluesky or include.member.instagram or include.member.twitter or include.member.linkedin or include.member.website %}
     <ul class="profile-links" aria-label="Profiles and contact">
       {% if include.member.email %}<li><a class="profile-icon-link" href="mailto:{{ include.member.email }}" aria-label="Email {{ include.member.name }}"><img src="{{ '/images/social-icons-transparent-svg/email.svg' | relative_url }}" alt=""></a></li>{% endif %}
-      {% if include.member.institutional_profile %}<li><a href="{{ include.member.institutional_profile }}">University profile</a></li>{% endif %}
       {% if include.member.scholar %}<li><a class="profile-icon-link" href="{{ include.member.scholar }}" aria-label="{{ include.member.name }} on Google Scholar"><img src="{{ '/images/social-icons-transparent-svg/google-scholar.svg' | relative_url }}" alt=""></a></li>{% endif %}
       {% if include.member.orcid %}<li><a class="profile-icon-link" href="{{ include.member.orcid }}" aria-label="{{ include.member.name }} on ORCID"><img src="{{ '/images/social-icons-transparent-svg/orcid.svg' | relative_url }}" alt=""></a></li>{% endif %}
       {% if include.member.researchgate %}<li><a href="{{ include.member.researchgate }}">ResearchGate</a></li>{% endif %}
       {% if include.member.github %}<li><a class="profile-icon-link" href="{{ include.member.github }}" aria-label="{{ include.member.name }} on GitHub"><img src="{{ '/images/social-icons-transparent-svg/github.svg' | relative_url }}" alt=""></a></li>{% endif %}
-      {% if include.member.bluesky %}<li><a href="{{ include.member.bluesky }}">Bluesky</a></li>{% endif %}
+      {% if include.member.bluesky %}<li><a class="profile-icon-link" href="{{ include.member.bluesky }}" aria-label="{{ include.member.name }} on Bluesky"><img src="{{ '/images/social-icons-transparent-svg/bluesky.svg' | relative_url }}" alt=""></a></li>{% endif %}
       {% if include.member.instagram %}<li><a href="{{ include.member.instagram }}">Instagram</a></li>{% endif %}
-      {% if include.member.twitter %}<li><a href="{{ include.member.twitter }}">X / Twitter</a></li>{% endif %}
-      {% if include.member.linkedin %}<li><a href="{{ include.member.linkedin }}">LinkedIn</a></li>{% endif %}
+      {% if include.member.twitter %}<li><a class="profile-icon-link" href="{{ include.member.twitter }}" aria-label="{{ include.member.name }} on X"><img src="{{ '/images/social-icons-transparent-svg/x-twitter.svg' | relative_url }}" alt=""></a></li>{% endif %}
+      {% if include.member.linkedin %}<li><a class="profile-icon-link" href="{{ include.member.linkedin }}" aria-label="{{ include.member.name }} on LinkedIn"><img src="{{ '/images/social-icons-transparent-svg/linkedin.svg' | relative_url }}" alt=""></a></li>{% endif %}
+      {% if include.member.institutional_profile %}<li class="profile-text-link"><a href="{{ include.member.institutional_profile }}">University profile</a></li>{% endif %}
       {% if include.member.website %}<li><a href="{{ include.member.website }}">Previous web page</a></li>{% endif %}
     </ul>
     {% endif %}
