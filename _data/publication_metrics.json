@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-08-08",
+  "refreshed_at": "2026-08-10",
   "publications": {
     "beyond-correlations-2025": {
       "openalex": {
@@ -113,6 +113,14 @@
         "url": "https://openalex.org/W4399731484",
         "fetched_at": "2026-08-08T21:01:41Z",
         "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "dd6540a8c8f31cd814ed6eff99a7340e6920ef01",
+        "count": 4,
+        "url": "https://www.semanticscholar.org/paper/dd6540a8c8f31cd814ed6eff99a7340e6920ef01",
+        "fetched_at": "2026-08-10T08:03:10Z",
+        "status": "ok"
       }
     },
     "trolley-optimisation-2024": {
@@ -132,6 +140,14 @@
         "count": 41,
         "url": "https://openalex.org/W3194013835",
         "fetched_at": "2026-08-08T21:01:48Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "d37ae168d0b5a8fdc57bdde0f35e9cf60406ad61",
+        "count": 47,
+        "url": "https://www.semanticscholar.org/paper/d37ae168d0b5a8fdc57bdde0f35e9cf60406ad61",
+        "fetched_at": "2026-08-10T08:03:16Z",
         "status": "ok"
       }
     },
@@ -203,9 +219,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4385218727",
-        "count": 9,
+        "count": 10,
         "url": "https://openalex.org/W4385218727",
-        "fetched_at": "2026-08-08T21:01:58Z",
+        "fetched_at": "2026-08-10T08:03:28Z",
         "status": "ok"
       }
     },
@@ -326,6 +342,14 @@
         "count": 1,
         "url": "https://openalex.org/W2939162259",
         "fetched_at": "2026-08-08T21:02:13Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "903e7010a4defd32f68114a49007149870d99616",
+        "count": 1,
+        "url": "https://www.semanticscholar.org/paper/903e7010a4defd32f68114a49007149870d99616",
+        "fetched_at": "2026-08-10T08:04:01Z",
         "status": "ok"
       }
     },
@@ -456,6 +480,14 @@
         "count": 8,
         "url": "https://openalex.org/W2786499590",
         "fetched_at": "2026-08-08T21:02:35Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "0db1f5ac946b74c21b0a47cad78632005bfbb275",
+        "count": 14,
+        "url": "https://www.semanticscholar.org/paper/0db1f5ac946b74c21b0a47cad78632005bfbb275",
+        "fetched_at": "2026-08-10T08:04:31Z",
         "status": "ok"
       }
     },
