@@ -5,6 +5,12 @@
   url: "https://neurips.cc/Conferences/2026"
   link_label: "Visit NeurIPS 2026"
 
+- title: "Funded PhD studentship in Agentic AI for Dementia Care (Home students only)"
+  category: "Opportunities"
+  year: 2026
+  date_label: "August 2026"
+  text: "CAIH Lab is recruiting a Home student for a funded PhD studentship in Agentic AI for Dementia Care."
+
 - title: "Associate Editor, BioData Mining"
   category: "Editorial roles"
   year: 2026
@@ -30,6 +36,12 @@
   text: "Our position paper, “Position: Causal AI for Personalised Treatments Needs Holistic Approach”, argues for a holistic approach to developing causal AI for patient-specific care."
   url: "https://openreview.net/forum?id=hKsLbc53T4"
   link_label: "Read the position paper"
+
+- title: "Funded PhD studentship in Causal AI for personalised healthcare (Home students only)"
+  category: "Opportunities"
+  year: 2026
+  date_label: "January 2026"
+  text: "CAIH Lab advertised a funded PhD studentship for a Home student in Causal AI for personalised healthcare."
 
 - title: "Causal AI special issue"
   category: "Editorial roles"
