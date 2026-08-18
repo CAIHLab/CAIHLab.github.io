@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-08-08",
+  "refreshed_at": "2026-08-17",
   "publications": {
     "beyond-correlations-2025": {
       "openalex": {
@@ -47,15 +47,23 @@
         "url": "https://openalex.org/W4378501301",
         "fetched_at": "2026-08-08T21:01:24Z",
         "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "2869a1136502a131eaafe2b9c297b72313d845c3",
+        "count": 7,
+        "url": "https://www.semanticscholar.org/paper/2869a1136502a131eaafe2b9c297b72313d845c3",
+        "fetched_at": "2026-08-17T07:14:27Z",
+        "status": "ok"
       }
     },
     "hypernetworks-review-2024": {
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4401548252",
-        "count": 106,
+        "count": 108,
         "url": "https://openalex.org/W4401548252",
-        "fetched_at": "2026-08-08T21:01:28Z",
+        "fetched_at": "2026-08-17T07:14:27Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -103,6 +111,14 @@
         "url": "https://openalex.org/W4401209868",
         "fetched_at": "2026-08-08T21:01:37Z",
         "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "c6b30fb9799602bf4dfd68fdcf16333cb2b7ff18",
+        "count": 3,
+        "url": "https://www.semanticscholar.org/paper/c6b30fb9799602bf4dfd68fdcf16333cb2b7ff18",
+        "fetched_at": "2026-08-17T07:14:40Z",
+        "status": "ok"
       }
     },
     "temporal-dynamics-variational-graph-attention-2024": {
@@ -112,6 +128,14 @@
         "count": 3,
         "url": "https://openalex.org/W4399731484",
         "fetched_at": "2026-08-08T21:01:41Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "dd6540a8c8f31cd814ed6eff99a7340e6920ef01",
+        "count": 4,
+        "url": "https://www.semanticscholar.org/paper/dd6540a8c8f31cd814ed6eff99a7340e6920ef01",
+        "fetched_at": "2026-08-10T08:03:10Z",
         "status": "ok"
       }
     },
@@ -129,9 +153,17 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W3194013835",
-        "count": 41,
+        "count": 42,
         "url": "https://openalex.org/W3194013835",
-        "fetched_at": "2026-08-08T21:01:48Z",
+        "fetched_at": "2026-08-17T07:14:47Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "d37ae168d0b5a8fdc57bdde0f35e9cf60406ad61",
+        "count": 47,
+        "url": "https://www.semanticscholar.org/paper/d37ae168d0b5a8fdc57bdde0f35e9cf60406ad61",
+        "fetched_at": "2026-08-10T08:03:16Z",
         "status": "ok"
       }
     },
@@ -142,6 +174,14 @@
         "count": 2,
         "url": "https://openalex.org/W4393178149",
         "fetched_at": "2026-08-08T21:01:52Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "54da3d37470f99066eccb6766a7e1acf5fcf296d",
+        "count": 1,
+        "url": "https://www.semanticscholar.org/paper/54da3d37470f99066eccb6766a7e1acf5fcf296d",
+        "fetched_at": "2026-08-17T07:14:51Z",
         "status": "ok"
       }
     },
@@ -203,9 +243,17 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4385218727",
-        "count": 9,
+        "count": 10,
         "url": "https://openalex.org/W4385218727",
-        "fetched_at": "2026-08-08T21:01:58Z",
+        "fetched_at": "2026-08-10T08:03:28Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "3d6931490ba52e724feec0be7fd7ff4fdd9a6d38",
+        "count": 9,
+        "url": "https://www.semanticscholar.org/paper/3d6931490ba52e724feec0be7fd7ff4fdd9a6d38",
+        "fetched_at": "2026-08-17T07:15:01Z",
         "status": "ok"
       }
     },
@@ -249,9 +297,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4388804951",
-        "count": 5,
+        "count": 6,
         "url": "https://openalex.org/W4388804951",
-        "fetched_at": "2026-08-08T21:02:03Z",
+        "fetched_at": "2026-08-17T07:15:09Z",
         "status": "ok"
       }
     },
@@ -277,9 +325,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4386847093",
-        "count": 12,
+        "count": 13,
         "url": "https://openalex.org/W4386847093",
-        "fetched_at": "2026-08-08T21:02:09Z",
+        "fetched_at": "2026-08-17T07:15:16Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -326,6 +374,14 @@
         "count": 1,
         "url": "https://openalex.org/W2939162259",
         "fetched_at": "2026-08-08T21:02:13Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "903e7010a4defd32f68114a49007149870d99616",
+        "count": 1,
+        "url": "https://www.semanticscholar.org/paper/903e7010a4defd32f68114a49007149870d99616",
+        "fetched_at": "2026-08-10T08:04:01Z",
         "status": "ok"
       }
     },
@@ -417,9 +473,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W2783380896",
-        "count": 660,
+        "count": 662,
         "url": "https://openalex.org/W2783380896",
-        "fetched_at": "2026-08-08T21:02:34Z",
+        "fetched_at": "2026-08-17T07:15:59Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -457,6 +513,14 @@
         "url": "https://openalex.org/W2786499590",
         "fetched_at": "2026-08-08T21:02:35Z",
         "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "0db1f5ac946b74c21b0a47cad78632005bfbb275",
+        "count": 14,
+        "url": "https://www.semanticscholar.org/paper/0db1f5ac946b74c21b0a47cad78632005bfbb275",
+        "fetched_at": "2026-08-10T08:04:31Z",
+        "status": "ok"
       }
     },
     "trust-region-lm-svm-2017": {
@@ -476,6 +540,14 @@
         "count": 1,
         "url": "https://openalex.org/W2562132583",
         "fetched_at": "2026-08-08T21:02:42Z",
+        "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "cd47a03de15f1a443f5c68eaf8a516742edf1189",
+        "count": 2,
+        "url": "https://www.semanticscholar.org/paper/cd47a03de15f1a443f5c68eaf8a516742edf1189",
+        "fetched_at": "2026-08-17T07:16:12Z",
         "status": "ok"
       }
     }
