@@ -36,13 +36,14 @@ permalink: /join/
     <div>
       <p>We welcome strong candidates who already have funding, intend to apply for an external scholarship or fellowship, or wish to pursue a self-funded research opportunity. This may include PhD study, research internships, visiting placements and externally funded postdoctoral fellowships.</p>
       <p>Where there is a strong research fit, we may support suitable candidates in developing the research proposal and host arrangements required for an external funding application.</p>
+      <h3>Selected external funding opportunities</h3>
+      <p>The schemes below are selected examples. For a broader country-wise list, see the <a href="https://www.strath.ac.uk/studywithus/postgraduateresearch/fundingyourpostgraduateresearch/">University of Strathclyde external postgraduate research funding directory</a>.</p>
       <div class="funding-grid">
         <article><h3>Commonwealth Scholarships and Fellowships</h3><p>PhD and research or fellowship opportunities for eligible Commonwealth countries.</p><a href="https://cscuk.fcdo.gov.uk/about-us/scholarships/">Explore scheme</a></article>
         <article><h3>China Scholarship Council</h3><p>PhD, joint PhD and research visits for applicants from China.</p><a href="https://origin-www.csc.edu.cn/chuguo/s/4032">Explore scheme</a></article>
         <article><h3>National Overseas Scholarship</h3><p>Master's and PhD study abroad for eligible applicants from India.</p><a href="https://www.nosmsje.gov.in/">Explore scheme</a></article>
         <article><h3>Newton International Fellowship</h3><p>Two-year UK postdoctoral fellowships for early-career researchers based outside the UK.</p><a href="https://www.royalsociety.org/grants/newton-international/">Explore scheme</a></article>
       </div>
-      <p><a class="text-link" href="https://www.strath.ac.uk/studywithus/postgraduateresearch/fundingyourpostgraduateresearch/">University of Strathclyde external postgraduate research funding directory <span aria-hidden="true">→</span></a></p>
     </div>
   </details>
 

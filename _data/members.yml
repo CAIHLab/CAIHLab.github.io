@@ -55,6 +55,7 @@
       outlets: "Frontiers in AI"
   awards:
     - text: "MPLS Enterprise & Innovation Fellowship (£1,000), University of Oxford, 2025–26."
+      url: "https://www.mpls.ox.ac.uk/training/enterprise/enterprise-and-innovation-fellowships/meet-the-mpls-enterprise-and-innovation-fellows/mpls-enterprise-and-innovation-fellows-2025-26"
     - text: "Institute for Manufacturing Postdoctoral Award for Research Excellence (£250), University of Cambridge, 2021."
       url: "https://www.ifm.eng.cam.ac.uk/news/ifm-postdoctoral-awards-2021/"
     - text: "Student Travel Grant Award ($300), Asian Conference on Machine Learning (ACML), South Korea, 2017."
