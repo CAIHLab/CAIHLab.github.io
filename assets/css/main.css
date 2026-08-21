@@ -136,6 +136,31 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .profile-icon-link { width: 2.35rem; height: 2.35rem; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; background: white; transition: transform 150ms ease, box-shadow 150ms ease; }
 .profile-icon-link:hover { transform: translateY(-2px); box-shadow: 0 0.35rem 0.8rem rgba(13,46,37,0.16); }
 .profile-icon-link img { width: 1.25rem; height: 1.25rem; object-fit: contain; }
+.profile-section { margin-top: 2rem; padding-top: 1.4rem; border-top: 1px solid var(--line); }
+.profile-section h4 { margin: 0 0 1rem; font-size: 1.2rem; }
+.profile-role-list { margin: 0; }
+.profile-role-list div { display: grid; grid-template-columns: minmax(9rem, 0.45fr) 1fr; gap: 0.5rem 1.25rem; padding: 0.7rem 0; border-top: 1px solid var(--line); }
+.profile-role-list dt { font-weight: 800; }
+.profile-role-list dd { margin: 0; }
+.profile-achievements { display: grid; gap: 0.65rem; margin: 0; padding-left: 1.25rem; }
+.join-cards { max-width: none !important; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; margin-top: 2.5rem; }
+.join-cards article { padding: 1.2rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.join-cards h2 { margin: 0.8rem 0 0.5rem; font-size: 1.25rem; }
+.join-cards p:last-child { margin: 0; font-size: 0.92rem; }
+.join-actions { max-width: none !important; margin-bottom: 2.5rem; }
+.join-accordions { max-width: none !important; display: grid; gap: 0.9rem; }
+.join-accordions details { border: 1px solid var(--line); border-radius: var(--radius); background: white; overflow: hidden; }
+.join-accordions summary { padding: 1rem 1.25rem; color: var(--brand-dark); font-size: 1.08rem; font-weight: 800; cursor: pointer; background: var(--surface); }
+.join-accordions details > div { padding: 1.25rem; }
+.opportunity-list { padding: 0; list-style: none; }
+.opportunity-list li { display: flex; justify-content: space-between; gap: 1rem; padding: 0.8rem 0; border-top: 1px solid var(--line); }
+.opportunity-list span { color: var(--accent); font-size: 0.85rem; font-weight: 800; white-space: nowrap; }
+.opportunity-filled { color: var(--muted); }
+.funding-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.8rem; margin: 1.5rem 0; }
+.funding-grid article { padding: 1rem; border: 1px solid var(--line); border-radius: var(--radius); }
+.funding-grid h3 { margin-top: 0; font-size: 1.05rem; }
+.join-visible-section { max-width: none !important; margin-top: 3.5rem; padding-top: 2.5rem; border-top: 3px solid var(--accent); }
+.join-contact { max-width: none !important; display: grid; grid-template-columns: 0.75fr 1.25fr; gap: 2rem 4rem; margin-top: 3.5rem; padding: 2rem; border-radius: var(--radius); background: var(--surface); }
 .video-section { margin-top: 5rem; padding-top: 3rem; border-top: 1px solid var(--line); }
 .video-wrapper { position: relative; max-width: 48rem; aspect-ratio: 16 / 9; overflow: hidden; border-radius: var(--radius); background: #111; }
 .video-wrapper iframe { width: 100%; height: 100%; border: 0; }
@@ -159,6 +184,7 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
   .hero-inner { min-height: auto; grid-template-columns: 1fr; }
   .hero-logo { width: 15rem; grid-row: 1; }
   .card-grid { grid-template-columns: repeat(2, 1fr); }
+  .join-cards { grid-template-columns: repeat(2, 1fr); }
   .publication-filters { grid-template-columns: 1fr 1fr; }
   .member-card { grid-template-columns: 1fr; }
   .member-photo { max-width: 22rem; }
@@ -171,6 +197,7 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
   .page-shell, .header-inner, .footer-inner, .copyright, .hero-inner { width: min(calc(100% - 1.5rem), var(--max-width)); }
   .brand small { display: none; }
   .two-column-copy, .card-grid, .opportunity, .publication-filters { grid-template-columns: 1fr; }
+  .join-cards, .funding-grid, .join-contact, .profile-role-list div { grid-template-columns: 1fr; }
   .publication-footer { grid-template-columns: 1fr; }
   .publication-metrics { justify-content: flex-start; }
   .theme-card { min-height: auto; }

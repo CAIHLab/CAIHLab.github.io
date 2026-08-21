@@ -87,5 +87,5 @@ hero: true
 
 <section class="section page-shell opportunity" aria-labelledby="join-heading">
   <div><p class="eyebrow">Opportunities</p><h2 id="join-heading">Join us</h2></div>
-  <div><p>We welcome researchers and students interested in advancing causal AI for personalised decision-making, including its application to healthcare.</p><h3>PhD studentship opportunity</h3><p>CAIH Lab is recruiting a PhD student in <strong>Causal AI for personalised healthcare</strong>. If you are interested, please get in touch at your earliest convenience to arrange a discussion.</p><a class="button" href="mailto:vinod.chauhan@strath.ac.uk">Contact the lab</a></div>
+  <div><p>We welcome motivated students, researchers and collaborators interested in advancing causal AI, agentic AI and personalised decision-making, including their application to healthcare.</p><a class="button" href="{{ '/join/' | relative_url }}">Explore opportunities</a></div>
 </section>

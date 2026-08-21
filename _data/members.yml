@@ -36,7 +36,7 @@
     - >-
       Before joining Strathclyde, I was a Postdoctoral Researcher at the Department of Engineering Science, University of Oxford, and the Department of Engineering, University of Cambridge, where I worked for over six years. During this time, I had the opportunity to collaborate with world-renowned clinicians and industry leaders, including Boeing and Rolls-Royce. At Cambridge, I was honoured to receive the Institute for Manufacturing Postdoctoral Award for Research Excellence in recognition of the practical impact of my work. I completed my PhD in optimisation for large-scale machine learning at Panjab University, Chandigarh, supported by the University Grants Commission’s JRF and SRF fellowships. I was born and brought up in a small village in Hamirpur, Himachal Pradesh, India.
     - >-
-      I actively contribute to the research community, having reviewed over 200 articles for more than 50 international conferences and journals. I currently serve as an Associate Editor for PLOS Digital Health and as an Editorial Board Member for the International Journal of Artificial Intelligence in Healthcare.
+      I actively contribute to the research community, having reviewed over 200 articles for more than 50 international conferences and journals.
     - >-
       I welcome enquiries from motivated MSc (Research) and PhD students interested in causal AI, machine learning, and healthcare applications. I am also open to collaborations with academic, clinical, and industry partners who are committed to developing impactful solutions for real-world healthcare challenges.
     - >-
@@ -46,6 +46,24 @@
     - "Healthcare"
     - "Artificial intelligence"
     - "Personalised treatments"
+  editorial_roles:
+    - role: "Associate Editor"
+      outlets: "PLOS Digital Health · BMC BioData Mining"
+    - role: "Editorial Board Member"
+      outlets: "International Journal of Artificial Intelligence in Healthcare"
+    - role: "Guest Editor"
+      outlets: "Frontiers in AI"
+  awards:
+    - text: "MPLS Enterprise & Innovation Fellowship (£1,000), University of Oxford, 2025–26."
+    - text: "Institute for Manufacturing Postdoctoral Award for Research Excellence (£250), University of Cambridge, 2021."
+      url: "https://www.ifm.eng.cam.ac.uk/news/ifm-postdoctoral-awards-2021/"
+    - text: "Student Travel Grant Award ($300), Asian Conference on Machine Learning (ACML), South Korea, 2017."
+      url: "https://www.acml-conf.org/2017/"
+    - text: "University Grants Commission Junior and Senior Research Fellowships for PhD study, awarded through the highly competitive national UGC-NET examination."
+    - text: "Sixth university rank in BSc studies and a merit fellowship for master's study."
+    - text: "Matric merit fellowship and Sanskrit merit fellowship in eighth standard."
+    - text: "UK Global Talent Visa endorsement through peer review, 2023."
+    - text: "Lucy Cavendish College, University of Cambridge, Junior Research Fellowship, awarded through a postdoctoral competition (non-stipendiary)."
   email: "vinod.chauhan@strath.ac.uk"
   website: "https://sites.google.com/site/jmdvinodjmd/"
   scholar: "https://scholar.google.com/citations?user=YqlZaKcAAAAJ"
