@@ -101,7 +101,7 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .altmetric-metric .altmetric-embed { transform: scale(0.82); }
 .altmetric-metric:has(.altmetric-embed:empty) { display: none; }
 .publication[hidden], .publication-year[hidden] { display: none; }
-.timeline { list-style: none; padding: 0; counter-reset: talks 23; }
+.timeline { list-style: none; padding: 0; counter-reset: talks 24; }
 .timeline > li { position: relative; padding: 0 0 2.5rem 3.8rem; border-left: 1px solid var(--line); counter-increment: talks -1; }
 .timeline > li::before { content: counter(talks); position: absolute; left: -1.35rem; top: 0; width: 2.6rem; height: 2.6rem; display: grid; place-items: center; border-radius: 50%; background: var(--brand); color: white; font-weight: 800; }
 .timeline h2 { font-size: 1.35rem; }

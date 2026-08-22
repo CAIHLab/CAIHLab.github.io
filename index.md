@@ -32,17 +32,7 @@ hero: true
     <p>We develop and apply causal AI methods to understand how interventions affect individuals, compare possible actions and support decisions under uncertainty.</p>
     <p>Our work combines methodological research with real-world applications, particularly in healthcare, where reliable personalised decisions can improve treatment selection and clinical decision support.</p>
   </div>
-</section>
-
-<section class="section section-tint" aria-labelledby="themes-heading">
-  <div class="page-shell">
-    <div class="section-heading">
-      <p class="eyebrow">Research</p>
-      <h2 id="themes-heading">Causal and reliable AI for personalised decisions</h2>
-    </div>
-    <p class="lead">Our research spans causal AI, agentic AI and personalised decision-making, with healthcare as a central application domain.</p>
-    <a class="button" href="{{ '/research/' | relative_url }}">Explore our research</a>
-  </div>
+  <p><a class="text-link" href="{{ '/research/' | relative_url }}">Explore our research themes and wider scope <span aria-hidden="true">→</span></a></p>
 </section>
 
 <section class="section page-shell" aria-labelledby="highlights-heading">
