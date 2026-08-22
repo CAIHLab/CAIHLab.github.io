@@ -30,6 +30,7 @@
   photo_alt: "Dr Vinod Kumar Chauhan"
   video: "https://www.youtube-nocookie.com/embed/fclyyIpTwOU?si=Gb6UstDpZTRQIzZ8"
   video_title: "Dr Vinod Kumar Chauhan discusses his journey as an MPLS Enterprise and Innovation Fellow"
+  show_talks: true
   biography: >-
     I am a Strathclyde Chancellor's Fellow in AI (Lecturer/Assistant Professor) in the Department of Computer and Information Sciences at the University of Strathclyde. My primary research interests are in Causality, Healthcare, and Artificial Intelligence, with a long-term vision of realising personalised treatments through data-driven Causal AI.
   biography_additional:

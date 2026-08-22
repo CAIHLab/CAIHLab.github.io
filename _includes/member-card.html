@@ -22,20 +22,27 @@
       <ul class="tag-list" aria-label="Research interests">{% for interest in include.member.research_interests %}<li>{{ interest }}</li>{% endfor %}</ul>
     {% endif %}
     {% if include.member.editorial_roles and include.member.editorial_roles != empty %}
-    <section class="profile-section" aria-labelledby="editorial-roles-heading">
-      <h4 id="editorial-roles-heading">Editorial roles</h4>
-      <dl class="profile-role-list">
+    <details class="profile-section profile-disclosure">
+      <summary>Editorial roles</summary>
+      <dl class="profile-role-list profile-disclosure-content">
         {% for item in include.member.editorial_roles %}<div><dt>{{ item.role }}</dt><dd>{{ item.outlets }}</dd></div>{% endfor %}
       </dl>
-    </section>
+    </details>
     {% endif %}
     {% if include.member.awards and include.member.awards != empty %}
-    <section class="profile-section" aria-labelledby="awards-achievements-heading">
-      <h4 id="awards-achievements-heading">Awards and achievements</h4>
-      <ul class="profile-achievements">
+    <details class="profile-section profile-disclosure">
+      <summary>Awards and achievements</summary>
+      <ul class="profile-achievements profile-disclosure-content">
         {% for item in include.member.awards %}<li>{% if item.url %}<a href="{{ item.url }}">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}</li>{% endfor %}
       </ul>
-    </section>
+    </details>
+    {% endif %}
+    {% if include.member.show_talks %}
+      {% assign talks_page = site.pages | where: "url", "/talks/" | first %}
+      <details class="profile-section profile-disclosure">
+        <summary>Talks and presentations</summary>
+        <div class="profile-disclosure-content profile-talks">{{ talks_page.content }}</div>
+      </details>
     {% endif %}
     {% if include.member.email or include.member.institutional_profile or include.member.scholar or include.member.orcid or include.member.researchgate or include.member.github or include.member.bluesky or include.member.instagram or include.member.twitter or include.member.linkedin or include.member.website %}
     <ul class="profile-links" aria-label="Profiles and contact">

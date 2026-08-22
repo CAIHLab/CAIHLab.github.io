@@ -38,28 +38,10 @@ hero: true
   <div class="page-shell">
     <div class="section-heading">
       <p class="eyebrow">Research</p>
-      <h2 id="themes-heading">Research themes</h2>
+      <h2 id="themes-heading">Causal and reliable AI for personalised decisions</h2>
     </div>
-    <div class="card-grid">
-      {% for theme in site.data.research_themes %}
-      <article class="theme-card"><span class="card-number">0{{ forloop.index }}</span><h3>{{ theme.name }}</h3><p>{{ theme.description }}</p></article>
-      {% endfor %}
-    </div>
-    <details class="research-scope">
-      <summary>View our wider research scope</summary>
-      <ul>
-        <li>Personalised decision-making and individualised treatment-effect estimation</li>
-        <li>Causal inference and discovery from large-scale observational data</li>
-        <li>Counterfactual reasoning for fairness, explainability and decision support</li>
-        <li>Causal foundation models and digital twins</li>
-        <li>Decision-making under uncertainty and conformal prediction</li>
-        <li>Agentic and collaborative AI systems</li>
-        <li>Multimodal, federated and continual learning</li>
-        <li>Synthetic data, causal benchmarking and evaluation</li>
-        <li>Robustness, domain adaptation and out-of-distribution detection</li>
-        <li>Applications in personalised healthcare and clinical decision support</li>
-      </ul>
-    </details>
+    <p class="lead">Our research spans causal AI, agentic AI and personalised decision-making, with healthcare as a central application domain.</p>
+    <a class="button" href="{{ '/research/' | relative_url }}">Explore our research</a>
   </div>
 </section>
 
