@@ -1,26 +1,38 @@
 <footer class="site-footer">
-  <div class="footer-inner">
-    <div>
+  <div class="footer-main">
+    <div class="footer-identity">
       <strong>{{ site.title }}</strong>
       <p>University of Strathclyde · Glasgow, UK</p>
     </div>
-    <div class="footer-actions">
-      <div class="footer-links" aria-label="Footer links">
+    <div class="footer-columns">
+      <section class="footer-column" aria-labelledby="footer-explore-heading">
+        <h2 id="footer-explore-heading">Explore</h2>
+        <a href="{{ '/news/' | relative_url }}">News and highlights</a>
+        <a href="{{ '/join/' | relative_url }}">Join the Lab</a>
+      </section>
+      <section class="footer-column" aria-labelledby="footer-information-heading">
+        <h2 id="footer-information-heading">Information</h2>
         <a class="footer-contact" href="mailto:vinod.chauhan@strath.ac.uk"><img src="{{ '/images/social-icons-transparent-svg/email.svg' | relative_url }}" alt="">Contact</a>
         <a href="https://pureportal.strath.ac.uk/en/persons/vinod-kumar-chauhan/">Institutional profile</a>
         <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
-      </div>
-      <div class="footer-socials" aria-label="CAIH Lab social media">
+      </section>
+    </div>
+  </div>
+  <div class="footer-connect">
+    <h2>Connect with us</h2>
+    <div class="footer-socials" aria-label="CAIH Lab social media">
+        <a href="https://www.youtube.com/@CAIHLab" aria-label="CAIH Lab on YouTube"><img src="{{ '/images/social-icons-transparent-svg/youtube.svg' | relative_url }}" alt=""></a>
+        <a href="https://x.com/CAIHLab" aria-label="CAIH Lab on X"><img src="{{ '/images/social-icons-transparent-svg/x-twitter.svg' | relative_url }}" alt=""></a>
+        <a href="https://www.facebook.com/profile.php?id=61593258617110" aria-label="CAIH Lab on Facebook"><img src="{{ '/images/social-icons-transparent-svg/facebook.svg' | relative_url }}" alt=""></a>
+        <a href="https://www.tiktok.com/@caihlabofficial" aria-label="CAIH Lab on TikTok"><img src="{{ '/images/social-icons-transparent-svg/tiktok.svg' | relative_url }}" alt=""></a>
+        <a href="https://www.linkedin.com/groups/13355237/" aria-label="CAIH Lab on LinkedIn"><img src="{{ '/images/social-icons-transparent-svg/linkedin.svg' | relative_url }}" alt=""></a>
+        <a href="https://medium.com/@CAIHLab" aria-label="CAIH Lab on Medium"><img src="{{ '/images/social-icons-transparent-svg/medium.svg' | relative_url }}" alt=""></a>
+        <a href="https://www.instagram.com/caihlabofficial/" aria-label="CAIH Lab on Instagram"><img src="{{ '/images/social-icons-transparent-svg/instagram.svg' | relative_url }}" alt=""></a>
+        <a href="https://bsky.app/profile/caihlab.bsky.social" aria-label="CAIH Lab on Bluesky"><img src="{{ '/images/social-icons-transparent-svg/bluesky.svg' | relative_url }}" alt=""></a>
+        <a href="https://www.researchgate.net/lab/Causal-AI-and-Healthcare-Lab-Vinod-Kumar-Chauhan" aria-label="CAIH Lab on ResearchGate"><img src="{{ '/images/social-icons-transparent-svg/researchgate.svg' | relative_url }}" alt=""></a>
+        <a href="https://github.com/CAIHLab" aria-label="CAIH Lab on GitHub"><img src="{{ '/images/social-icons-transparent-svg/github.svg' | relative_url }}" alt=""></a>
         <a href="https://scholar.google.com/citations?user=YqlZaKcAAAAJ" aria-label="Vinod Kumar Chauhan on Google Scholar"><img src="{{ '/images/social-icons-transparent-svg/google-scholar.svg' | relative_url }}" alt=""></a>
         <a href="https://orcid.org/0000-0001-8195-548X" aria-label="Vinod Kumar Chauhan on ORCID"><img src="{{ '/images/social-icons-transparent-svg/orcid.svg' | relative_url }}" alt=""></a>
-        <a href="https://github.com/CAIHLab" aria-label="CAIH Lab on GitHub"><img src="{{ '/images/social-icons-transparent-svg/github.svg' | relative_url }}" alt=""></a>
-        <a href="https://www.researchgate.net/lab/Causal-AI-and-Healthcare-Lab-Vinod-Kumar-Chauhan" aria-label="CAIH Lab on ResearchGate"><img src="{{ '/images/social-icons-transparent-svg/researchgate.svg' | relative_url }}" alt=""></a>
-        <a href="https://bsky.app/profile/caihlab.bsky.social" aria-label="CAIH Lab on Bluesky"><img src="{{ '/images/social-icons-transparent-svg/bluesky.svg' | relative_url }}" alt=""></a>
-        <a href="https://www.instagram.com/caihlabofficial/" aria-label="CAIH Lab on Instagram"><img src="{{ '/images/social-icons-transparent-svg/instagram.svg' | relative_url }}" alt=""></a>
-        <a href="https://x.com/CAIHLab" aria-label="CAIH Lab on X"><img src="{{ '/images/social-icons-transparent-svg/x-twitter.svg' | relative_url }}" alt=""></a>
-        <a href="https://www.linkedin.com/groups/13355237/" aria-label="CAIH Lab on LinkedIn"><img src="{{ '/images/social-icons-transparent-svg/linkedin.svg' | relative_url }}" alt=""></a>
-        <a href="https://www.youtube.com/@CAIHLab" aria-label="CAIH Lab on YouTube"><img src="{{ '/images/social-icons-transparent-svg/youtube.svg' | relative_url }}" alt=""></a>
-      </div>
     </div>
   </div>
   <p class="copyright">© {{ site.time | date: '%Y' }} {{ site.short_title }}. Built with Jekyll and hosted on GitHub Pages.</p>
