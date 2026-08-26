@@ -1,6 +1,6 @@
 ---
 title: "Research"
-intro: "Our methodological research centres on causal and reliable AI for personalised decision-making, with healthcare as a principal application domain."
+intro: "Our methodological research centres on causal and agentic AI for personalised decision-making, with healthcare as a principal application domain."
 permalink: /research/
 publication_filters: true
 altmetric_badges: true

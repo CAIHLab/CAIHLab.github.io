@@ -5,6 +5,14 @@
   url: "https://neurips.cc/Conferences/2026"
   link_label: "Visit NeurIPS 2026"
 
+- title: "A Practical Tutorial on Agentic AI"
+  category: "Publications"
+  year: 2026
+  date_label: "August 2026"
+  text: "Our new preprint, “A Practical Tutorial on Agentic AI”, provides a practical introduction to agentic AI."
+  url: "https://doi.org/10.20944/preprints202608.1756.v1"
+  link_label: "Read the preprint"
+
 - title: "Funded PhD studentship in Agentic AI for Dementia Care (Home students only)"
   category: "Opportunities"
   year: 2026
