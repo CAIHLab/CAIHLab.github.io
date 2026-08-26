@@ -25,10 +25,11 @@
   url: "https://ai4sciencecommunity.github.io/icml26"
   link_label: "Visit the ICML 2026 workshop"
 
-- title: "Convener for a PhD viva examination"
+- title: "Convener for two PhD viva examinations"
   category: "Academic service"
   year: 2026
-  text: "Dr Vinod Kumar Chauhan acted as a convener for a PhD viva examination in the department in June 2026."
+  date_label: "June 2026"
+  text: "Dr Vinod Kumar Chauhan acted as convener for the PhD viva examinations of Buddhi Prabhath Samarathunga Samarathunga Liyanage Don and Udara Thilini Darshika Jayasinghe Mudalige."
 
 - title: "Position paper on causal AI for personalised treatments"
   category: "Publications"

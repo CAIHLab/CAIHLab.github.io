@@ -8,6 +8,7 @@
   publication_type: "Position paper"
   themes: ["Causal AI", "Personalised treatments"]
   featured: true
+  featured_order: 1
   links:
     paper: "https://openreview.net/forum?id=hKsLbc53T4"
 
@@ -21,6 +22,7 @@
   publication_type: "Preprint"
   themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
   featured: true
+  featured_order: 2
   doi: "10.36227/techrxiv.175554759.96327720/v2"
   links:
     preprint: "https://www.techrxiv.org/doi/full/10.36227/techrxiv.175554759.96327720"
@@ -38,6 +40,7 @@
   publication_type: "Conference paper"
   themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
   featured: true
+  featured_order: 3
   links:
     preprint: "https://arxiv.org/abs/2502.08282"
     poster: "https://drive.google.com/file/d/15yw5dzpiSknjpkrds6YN6l-v7TBrfBEC/view?usp=sharing"
@@ -53,11 +56,25 @@
   venue: "ACM Transactions on Computing for Healthcare"
   publication_type: "Journal article"
   themes: ["AI in healthcare"]
-  featured: true
+  featured: false
   doi: "10.1145/3761822"
   links:
     paper: "https://dl.acm.org/doi/10.1145/3761822"
     code: "https://github.com/jmdvinodjmd/SSB_MLHC"
+
+- id: practical-tutorial-agentic-ai-2026
+  identifier_status: "verified"
+  title: "A Practical Tutorial on Agentic AI"
+  authors: ["V. K. Chauhan", "X. Wang", "J. Singh", "Y. Lu", "J. Zhou", "R. Agrawal"]
+  year: 2026
+  venue: "Preprints 2026, 2026081756"
+  publication_type: "Preprint"
+  themes: ["Agentic AI"]
+  featured: true
+  featured_order: 4
+  doi: "10.20944/preprints202608.1756.v1"
+  links:
+    preprint: "https://doi.org/10.20944/preprints202608.1756.v1"
 
 - id: fault-detection-variable-conditions-2025
   identifier_status: "unresolved"

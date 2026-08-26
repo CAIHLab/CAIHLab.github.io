@@ -149,6 +149,9 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .research-status p { margin: 0.25rem 0 0; }
 .research-page-section { max-width: none !important; margin-top: 3.5rem; }
 .research-scope-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem 2rem; padding-left: 1.25rem; }
+.research-publications { max-width: none !important; margin-top: 3.5rem; border-top: 3px solid var(--accent); padding-top: 1rem; }
+.research-publications > summary { width: fit-content; color: var(--brand); font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 800; cursor: pointer; }
+.research-publications-content { margin-top: 1.5rem; }
 .join-cards { max-width: none !important; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; margin-top: 2.5rem; }
 .join-cards article { padding: 1.2rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .join-cards h2 { margin: 0.8rem 0 0.5rem; font-size: 1.25rem; }

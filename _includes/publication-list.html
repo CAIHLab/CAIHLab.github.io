@@ -1,4 +1,8 @@
-{% assign publications = site.data.publications | sort: 'year' | reverse %}
+{% if include.featured_only %}
+  {% assign publications = site.data.publications | where: 'featured', true | sort: 'featured_order' %}
+{% else %}
+  {% assign publications = site.data.publications | sort: 'year' | reverse %}
+{% endif %}
 <div class="publication-list" data-publication-list>
   {% assign current_year = nil %}
   {% for publication in publications %}
