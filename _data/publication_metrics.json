@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-08-26",
+  "refreshed_at": "2026-08-31",
   "publications": {
     "beyond-correlations-2025": {
       "openalex": {
@@ -69,17 +69,17 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4401548252",
-        "count": 108,
+        "count": 109,
         "url": "https://openalex.org/W4401548252",
-        "fetched_at": "2026-08-17T07:14:27Z",
+        "fetched_at": "2026-08-31T13:43:06Z",
         "status": "ok"
       },
       "semantic_scholar": {
         "provider": "Semantic Scholar",
         "id": "01400b34d1ff8c176d46c139118a91760e96b889",
-        "count": 199,
+        "count": 200,
         "url": "https://www.semanticscholar.org/paper/01400b34d1ff8c176d46c139118a91760e96b889",
-        "fetched_at": "2026-08-24T07:18:21Z",
+        "fetched_at": "2026-08-31T13:43:10Z",
         "status": "ok"
       }
     },
@@ -357,9 +357,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4386847093",
-        "count": 13,
+        "count": 14,
         "url": "https://openalex.org/W4386847093",
-        "fetched_at": "2026-08-17T07:15:16Z",
+        "fetched_at": "2026-08-31T13:43:56Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -521,9 +521,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W2783380896",
-        "count": 663,
+        "count": 664,
         "url": "https://openalex.org/W2783380896",
-        "fetched_at": "2026-08-24T07:19:32Z",
+        "fetched_at": "2026-08-31T13:44:29Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -579,6 +579,14 @@
         "url": "https://openalex.org/W2908508472",
         "fetched_at": "2026-08-08T21:02:38Z",
         "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "b98ef29284f1d26ba69c3ce7be61bbeaa36cdb8a",
+        "count": 3,
+        "url": "https://www.semanticscholar.org/paper/b98ef29284f1d26ba69c3ce7be61bbeaa36cdb8a",
+        "fetched_at": "2026-08-31T13:44:44Z",
+        "status": "ok"
       }
     },
     "online-svm-minimum-distance-2016": {
@@ -596,6 +604,16 @@
         "count": 2,
         "url": "https://www.semanticscholar.org/paper/cd47a03de15f1a443f5c68eaf8a516742edf1189",
         "fetched_at": "2026-08-17T07:16:12Z",
+        "status": "ok"
+      }
+    },
+    "practical-tutorial-agentic-ai-2026": {
+      "openalex": {
+        "provider": "OpenAlex",
+        "id": "W7204167173",
+        "count": 0,
+        "url": "https://openalex.org/W7204167173",
+        "fetched_at": "2026-08-31T13:42:55Z",
         "status": "ok"
       }
     }
