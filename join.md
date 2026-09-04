@@ -3,7 +3,7 @@ title: "Join the Lab"
 intro: "Opportunities for motivated students, researchers and collaborators working across causal AI, agentic AI, healthcare and personalised decision-making."
 permalink: /join/
 ---
-<p>Our work is interdisciplinary. We welcome people from Computer Science, AI, Data Science, Mathematics, Statistics, Medicine, Biomedical Sciences, Physics, Chemistry, Engineering and other scientific disciplines where there is a strong research fit.</p>
+<p class="join-intro-callout">Our work is interdisciplinary. We welcome people from Computer Science, AI, Data Science, Mathematics, Statistics, Medicine, Biomedical Sciences, Physics, Chemistry, Engineering and other scientific disciplines where there is a strong research fit.</p>
 
 <div class="join-cards" aria-label="Ways to join the lab">
   <article><p class="card-number">01</p><h2>PhD</h2><p>Funded, externally funded and self-funded doctoral research.</p></article>
@@ -12,10 +12,7 @@ permalink: /join/
   <article><p class="card-number">04</p><h2>Fellowships</h2><p>Support for suitable externally funded postdoctoral applications.</p></article>
 </div>
 
-<div class="button-row join-actions">
-  <a class="button" href="#funded-opportunities">View opportunities</a>
-  <a class="button button-secondary" href="#external-funding">Explore funding</a>
-</div>
+<p class="join-guidance">See below for current funded opportunities, external funding routes, internships and visiting researcher options.</p>
 
 <div class="join-accordions">
   <details id="funded-opportunities" open>

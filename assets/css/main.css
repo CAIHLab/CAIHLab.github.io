@@ -153,10 +153,11 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .research-publications > summary { width: fit-content; color: var(--brand); font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 800; cursor: pointer; }
 .research-publications-content { margin-top: 1.5rem; }
 .join-cards { max-width: none !important; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; margin-top: 2.5rem; }
+.join-intro-callout { max-width: none !important; padding: 1.35rem 1.5rem; border: 1px solid var(--line); border-left: 0.35rem solid var(--brand); border-radius: var(--radius); background: var(--surface); color: var(--brand-dark); font-size: 1.12rem; font-weight: 650; }
 .join-cards article { padding: 1.2rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .join-cards h2 { margin: 0.8rem 0 0.5rem; font-size: 1.25rem; }
 .join-cards p:last-child { margin: 0; font-size: 0.92rem; }
-.join-actions { max-width: none !important; margin-bottom: 2.5rem; }
+.join-guidance { max-width: none !important; margin: 2rem 0 2.5rem; padding: 1rem 1.25rem; border-left: 0.35rem solid var(--accent); background: var(--surface); font-weight: 700; }
 .join-accordions { max-width: none !important; display: grid; gap: 0.9rem; }
 .join-accordions details { border: 1px solid var(--line); border-radius: var(--radius); background: white; overflow: hidden; }
 .join-accordions summary { padding: 1rem 1.25rem; color: var(--brand-dark); font-size: 1.08rem; font-weight: 800; cursor: pointer; background: var(--surface); }

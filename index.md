@@ -52,7 +52,7 @@ hero: true
 
 <section class="section section-dark" aria-labelledby="featured-heading">
   <div class="page-shell">
-    <div class="section-heading heading-row"><div><p class="eyebrow">Selected work</p><h2 id="featured-heading">Featured publications</h2></div><a class="text-link light-link" href="{{ '/research/#publications' | relative_url }}">View all publications <span aria-hidden="true">→</span></a></div>
+    <div class="section-heading heading-row"><div><p class="eyebrow">Selected work</p><h2 id="featured-heading">Featured publications</h2></div><a class="text-link light-link" href="{{ '/publications/' | relative_url }}">View all publications <span aria-hidden="true">→</span></a></div>
     {% include publication-list.html featured_only=true %}
   </div>
 </section>

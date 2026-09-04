@@ -32,8 +32,8 @@
         </div>
         {% if metrics.openalex or metrics.semantic_scholar or publication.doi %}
           <div class="publication-metrics" aria-label="Publication metrics">
-            {% if metrics.openalex %}<a class="metric-circle metric-circle--openalex" href="{{ metrics.openalex.url }}" aria-label="{{ metrics.openalex.count }} citations in OpenAlex; view this publication in OpenAlex"><strong>{{ metrics.openalex.count }}</strong></a>{% endif %}
-            {% if metrics.semantic_scholar %}<a class="metric-circle metric-circle--semantic" href="{{ metrics.semantic_scholar.url }}" aria-label="{{ metrics.semantic_scholar.count }} citations in Semantic Scholar; view this publication in Semantic Scholar"><strong>{{ metrics.semantic_scholar.count }}</strong></a>{% endif %}
+            {% if metrics.openalex and metrics.openalex.count > 0 %}<a class="metric-circle metric-circle--openalex" href="{{ metrics.openalex.url }}" aria-label="{{ metrics.openalex.count }} citations in OpenAlex; view this publication in OpenAlex"><strong>{{ metrics.openalex.count }}</strong></a>{% endif %}
+            {% if metrics.semantic_scholar and metrics.semantic_scholar.count > 0 %}<a class="metric-circle metric-circle--semantic" href="{{ metrics.semantic_scholar.url }}" aria-label="{{ metrics.semantic_scholar.count }} citations in Semantic Scholar; view this publication in Semantic Scholar"><strong>{{ metrics.semantic_scholar.count }}</strong></a>{% endif %}
             {% if publication.doi %}<div class="altmetric-metric" aria-label="Altmetric attention"><div class="altmetric-embed" data-badge-type="donut" data-hide-no-mentions="true" data-doi="{{ publication.doi }}"></div></div>{% endif %}
           </div>
         {% endif %}
