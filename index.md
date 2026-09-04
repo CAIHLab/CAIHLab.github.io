@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 hero: true
+altmetric_badges: true
 ---
 <section class="hero">
   <div class="hero-inner">
