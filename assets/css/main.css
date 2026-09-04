@@ -100,6 +100,11 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .altmetric-metric { width: 4rem; height: 4rem; display: grid; flex: 0 0 auto; place-items: center; overflow: hidden; }
 .altmetric-metric .altmetric-embed { transform: scale(0.82); }
 .altmetric-metric:has(.altmetric-embed:empty) { display: none; }
+.section-dark .metric-circle { background: #fff; color: var(--brand-dark); box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.48), 0 0.2rem 0.7rem rgba(0,0,0,0.2); }
+.section-dark .metric-circle--openalex { border: 0.18rem solid #57a9d7; }
+.section-dark .metric-circle--semantic { border: 0.18rem solid #7d68e8; }
+.section-dark .metric-circle:hover { background: #f4faf8; color: var(--brand-dark); }
+.section-dark .altmetric-metric { border-radius: 50%; background: #fff; box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.48), 0 0.2rem 0.7rem rgba(0,0,0,0.2); }
 .publication[hidden], .publication-year[hidden] { display: none; }
 .timeline { list-style: none; padding: 0; counter-reset: talks 24; }
 .timeline > li { position: relative; padding: 0 0 2.5rem 3.8rem; border-left: 1px solid var(--line); counter-increment: talks -1; }
