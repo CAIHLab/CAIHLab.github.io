@@ -1,4 +1,14 @@
 # Canonical publication data. See README.md for the schema and editing guidance.
+- id: precision-psychiatry-prediction-models-2026
+  identifier_status: "none"
+  title: "Precision psychiatry: thinking beyond simple prediction models, without dismissing them"
+  authors: ["V. K. Chauhan"]
+  year: 2026
+  venue: "The British Journal of Psychiatry (in press)"
+  publication_type: "Commentary"
+  themes: ["Causal AI", "AI in healthcare"]
+  featured: false
+
 - id: position-causal-ai-personalised-treatments-2026
   identifier_status: "none"
   title: "Position: Causal AI for Personalised Treatments Needs Holistic Approach"
