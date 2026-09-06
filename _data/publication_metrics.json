@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-08-31",
+  "refreshed_at": "2026-09-06",
   "publications": {
     "beyond-correlations-2025": {
       "openalex": {
@@ -105,17 +105,17 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4396624917",
-        "count": 12,
+        "count": 13,
         "url": "https://openalex.org/W4396624917",
-        "fetched_at": "2026-08-08T21:01:33Z",
+        "fetched_at": "2026-09-06T09:34:54Z",
         "status": "ok"
       },
       "semantic_scholar": {
         "provider": "Semantic Scholar",
         "id": "063409611ca46044b0a8966e71b7cc4dadab5c8a",
-        "count": 10,
+        "count": 12,
         "url": "https://www.semanticscholar.org/paper/063409611ca46044b0a8966e71b7cc4dadab5c8a",
-        "fetched_at": "2026-08-08T21:01:37Z",
+        "fetched_at": "2026-09-06T09:34:56Z",
         "status": "ok"
       }
     },
@@ -443,6 +443,14 @@
         "url": "https://openalex.org/W3206920865",
         "fetched_at": "2026-08-08T21:02:19Z",
         "status": "ok"
+      },
+      "semantic_scholar": {
+        "provider": "Semantic Scholar",
+        "id": "d32784951f867e3513a6afe8c868d901fe950e59",
+        "count": 5,
+        "url": "https://www.semanticscholar.org/paper/d32784951f867e3513a6afe8c868d901fe950e59",
+        "fetched_at": "2026-09-06T09:35:52Z",
+        "status": "ok"
       }
     },
     "stochastic-trust-region-newton-2020": {
@@ -521,9 +529,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W2783380896",
-        "count": 664,
+        "count": 666,
         "url": "https://openalex.org/W2783380896",
-        "fetched_at": "2026-08-31T13:44:29Z",
+        "fetched_at": "2026-09-06T09:36:04Z",
         "status": "ok"
       },
       "semantic_scholar": {
