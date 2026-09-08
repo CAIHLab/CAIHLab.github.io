@@ -76,7 +76,7 @@
       {% if include.member.twitter %}<li><a class="profile-icon-link" href="{{ include.member.twitter }}" aria-label="{{ include.member.name }} on X"><img src="{{ '/images/social-icons-transparent-svg/x-twitter.svg' | relative_url }}" alt=""></a></li>{% endif %}
       {% if include.member.linkedin %}<li><a class="profile-icon-link" href="{{ include.member.linkedin }}" aria-label="{{ include.member.name }} on LinkedIn"><img src="{{ '/images/social-icons-transparent-svg/linkedin.svg' | relative_url }}" alt=""></a></li>{% endif %}
       {% if include.member.institutional_profile %}<li><a class="profile-icon-link profile-icon-link--wide" href="{{ include.member.institutional_profile }}" aria-label="{{ include.member.name }}'s University of Strathclyde profile"><img src="{{ '/images/social-icons-transparent-svg/strath-logo.png' | relative_url }}" alt=""></a></li>{% endif %}
-      {% if include.member.website %}<li><a class="profile-icon-link" href="{{ include.member.website }}" aria-label="{{ include.member.name }}'s old website"><img src="{{ '/images/social-icons-transparent-svg/old-website.svg' | relative_url }}" alt=""></a></li>{% endif %}
+      {% if include.member.website %}<li><a class="profile-icon-link profile-icon-link--wide" href="{{ include.member.website }}" aria-label="{{ include.member.name }}'s old website"><img src="{{ '/images/social-icons-transparent-svg/old-website.svg' | relative_url }}" alt=""></a></li>{% endif %}
     </ul>
     {% endif %}
   </div>
