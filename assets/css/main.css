@@ -106,8 +106,8 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .section-dark .metric-circle:hover { background: #f4faf8; color: var(--brand-dark); }
 .section-dark .altmetric-metric { border-radius: 50%; background: #fff; box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.48), 0 0.2rem 0.7rem rgba(0,0,0,0.2); }
 .publication[hidden], .publication-year[hidden] { display: none; }
-.timeline { list-style: none; padding: 0; counter-reset: talks 24; }
-.timeline > li { position: relative; padding: 0 0 2.5rem 3.8rem; border-left: 1px solid var(--line); counter-increment: talks -1; }
+.timeline { list-style: none; padding: 0; counter-reset: talks; }
+.timeline > li { position: relative; padding: 0 0 2.5rem 3.8rem; border-left: 1px solid var(--line); counter-increment: talks; }
 .timeline > li::before { content: counter(talks); position: absolute; left: -1.35rem; top: 0; width: 2.6rem; height: 2.6rem; display: grid; place-items: center; border-radius: 50%; background: var(--brand); color: white; font-weight: 800; }
 .timeline h2 { font-size: 1.35rem; }
 .teaching-card { padding: 2rem; border-left: 0.35rem solid var(--accent); background: var(--surface); }
@@ -137,6 +137,13 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .member-video { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: calc(var(--radius) * 0.7); background: #111; }
 .member-video iframe { width: 100%; height: 100%; border: 0; }
 .member-role { color: var(--accent); font-weight: 750; }
+.profile-career { margin: 1.25rem 0 1.75rem; padding: 1.1rem 1.25rem; border-left: 0.3rem solid var(--accent); background: var(--surface); }
+.profile-career h4 { margin: 0 0 0.65rem; font-size: 1rem; }
+.profile-career dl { margin: 0; }
+.profile-career dl div { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 0.5rem 1rem; padding: 0.55rem 0; border-top: 1px solid var(--line); }
+.profile-career dt { color: var(--muted); font-size: 0.85rem; font-weight: 700; }
+.profile-career dd { margin: 0; }
+.profile-career dd span { display: block; color: var(--muted); font-size: 0.9rem; }
 .profile-links { margin-top: 1.5rem; font-weight: 750; }
 .profile-icon-link { width: 2.35rem; height: 2.35rem; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; background: white; transition: transform 150ms ease, box-shadow 150ms ease; }
 .profile-icon-link:hover { transform: translateY(-2px); box-shadow: 0 0.35rem 0.8rem rgba(13,46,37,0.16); }
@@ -157,9 +164,10 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .research-publications { max-width: none !important; margin-top: 3.5rem; border-top: 3px solid var(--accent); padding-top: 1rem; }
 .research-publications > summary { width: fit-content; color: var(--brand); font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 800; cursor: pointer; }
 .research-publications-content { margin-top: 1.5rem; }
-.join-cards { max-width: none !important; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; margin-top: 2.5rem; }
+.join-cards { max-width: none !important; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; margin-top: 2.5rem; counter-reset: join-cards; }
 .join-intro-callout { max-width: none !important; padding: 1.35rem 1.5rem; border: 1px solid var(--line); border-left: 0.35rem solid var(--brand); border-radius: var(--radius); background: var(--surface); color: var(--brand-dark); font-size: 1.12rem; font-weight: 650; }
-.join-cards article { padding: 1.2rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.join-cards article { padding: 1.2rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); counter-increment: join-cards; }
+.join-cards .card-number::before { content: counter(join-cards); }
 .join-cards h2 { margin: 0.8rem 0 0.5rem; font-size: 1.25rem; }
 .join-cards p:last-child { margin: 0; font-size: 0.92rem; }
 .join-guidance { max-width: none !important; margin: 2rem 0 2.5rem; padding: 1rem 1.25rem; border-left: 0.35rem solid var(--accent); background: var(--surface); font-weight: 700; }
@@ -217,7 +225,7 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
   .page-shell, .header-inner, .footer-main, .footer-connect, .copyright, .hero-inner { width: min(calc(100% - 1.5rem), var(--max-width)); }
   .brand small { display: none; }
   .two-column-copy, .card-grid, .opportunity, .publication-filters { grid-template-columns: 1fr; }
-  .join-cards, .funding-grid, .join-contact, .profile-role-list div, .research-scope-list { grid-template-columns: 1fr; }
+  .join-cards, .funding-grid, .join-contact, .profile-role-list div, .profile-career dl div, .research-scope-list { grid-template-columns: 1fr; }
   .publication-footer { grid-template-columns: 1fr; }
   .publication-metrics { justify-content: flex-start; }
   .theme-card { min-height: auto; }

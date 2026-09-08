@@ -6,8 +6,9 @@
   year: 2026
   venue: "The British Journal of Psychiatry (in press)"
   publication_type: "Commentary"
-  themes: ["Causal AI", "AI in healthcare"]
-  featured: false
+  themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
+  featured: true
+  featured_order: 5
 
 - id: position-causal-ai-personalised-treatments-2026
   identifier_status: "none"

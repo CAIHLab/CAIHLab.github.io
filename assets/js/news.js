@@ -17,7 +17,10 @@
       var matches = (!category || item.dataset.category === category) &&
         (!year || item.dataset.year === year);
       item.hidden = !matches;
-      if (matches) visible += 1;
+      if (matches) {
+        visible += 1;
+        item.querySelector("[data-news-index]").textContent = visible;
+      }
     });
 
     status.textContent = visible + (visible === 1 ? " item" : " items") + " shown.";

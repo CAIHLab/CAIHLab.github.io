@@ -6,10 +6,10 @@ permalink: /join/
 <p class="join-intro-callout">Our work is interdisciplinary. We welcome people from Computer Science, AI, Data Science, Mathematics, Statistics, Medicine, Biomedical Sciences, Physics, Chemistry, Engineering and other scientific disciplines where there is a strong research fit.</p>
 
 <div class="join-cards" aria-label="Ways to join the lab">
-  <article><p class="card-number">01</p><h2>PhD</h2><p>Funded, externally funded and self-funded doctoral research.</p></article>
-  <article><p class="card-number">02</p><h2>Internships</h2><p>Focused research experience for undergraduate and Master's students.</p></article>
-  <article><p class="card-number">03</p><h2>Visiting Researchers</h2><p>Research placements and visits for PhD researchers, academics and scholars.</p></article>
-  <article><p class="card-number">04</p><h2>Fellowships</h2><p>Support for suitable externally funded postdoctoral applications.</p></article>
+  <article><p class="card-number" aria-hidden="true"></p><h2>PhD</h2><p>Funded, externally funded and self-funded doctoral research.</p></article>
+  <article><p class="card-number" aria-hidden="true"></p><h2>Internships</h2><p>Focused research experience for undergraduate and Master's students.</p></article>
+  <article><p class="card-number" aria-hidden="true"></p><h2>Visiting Researchers</h2><p>Research placements and visits for PhD researchers, academics and scholars.</p></article>
+  <article><p class="card-number" aria-hidden="true"></p><h2>Fellowships</h2><p>Support for suitable externally funded postdoctoral applications.</p></article>
 </div>
 
 <p class="join-guidance">See below for current funded opportunities, external funding routes, internships and visiting researcher options.</p>

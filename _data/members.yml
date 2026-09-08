@@ -31,22 +31,30 @@
   video: "https://www.youtube-nocookie.com/embed/fclyyIpTwOU?si=Gb6UstDpZTRQIzZ8"
   video_title: "Dr Vinod Kumar Chauhan discusses his journey as an MPLS Enterprise and Innovation Fellow"
   show_talks: true
+  career:
+    - dates: "Aug 2025–present"
+      role: "Chancellor's Fellow in AI (Lecturer/Assistant Professor)"
+      institution: "University of Strathclyde"
+    - dates: "Feb 2022–Jul 2025"
+      role: "Postdoctoral Researcher in AI for Healthcare"
+      institution: "University of Oxford"
+    - dates: "May 2019–Jan 2022"
+      role: "Postdoctoral Researcher in Industrial Machine Learning"
+      institution: "University of Cambridge"
+    - dates: "Sep 2015–Jan 2019"
+      role: "PhD"
+      institution: "Panjab University, Chandigarh, India"
   biography: >-
-    I am a Strathclyde Chancellor's Fellow in AI (Lecturer/Assistant Professor) in the Department of Computer and Information Sciences at the University of Strathclyde. My primary research interests are in Causality, Healthcare, and Artificial Intelligence, with a long-term vision of realising personalised treatments through data-driven Causal AI.
+    I am a Strathclyde Chancellor's Fellow in AI in the Department of Computer and Information Sciences at the University of Strathclyde. My research spans causal and agentic AI, machine learning and personalised decision-making, with healthcare as a principal application domain.
   biography_additional:
     - >-
-      Before joining Strathclyde, I was a Postdoctoral Researcher at the Department of Engineering Science, University of Oxford, and the Department of Engineering, University of Cambridge, where I worked for over six years. During this time, I had the opportunity to collaborate with world-renowned clinicians and industry leaders, including Boeing and Rolls-Royce. At Cambridge, I was honoured to receive the Institute for Manufacturing Postdoctoral Award for Research Excellence in recognition of the practical impact of my work. I completed my PhD in optimisation for large-scale machine learning at Panjab University, Chandigarh, supported by the University Grants Commission’s JRF and SRF fellowships. I was born and brought up in a small village in Hamirpur, Himachal Pradesh, India.
+      During my postdoctoral work, I collaborated with clinicians and industry partners on real-world healthcare and industrial challenges. At Cambridge, this included collaborations with Boeing and Rolls-Royce, and my work received the Institute for Manufacturing Postdoctoral Award for Research Excellence.
     - >-
-      I actively contribute to the research community, having reviewed over 200 articles for more than 50 international conferences and journals.
+      I completed my PhD in optimisation for large-scale machine learning at Panjab University, Chandigarh, supported by the University Grants Commission’s Junior and Senior Research Fellowships. I was born and brought up in a small village in Hamirpur, Himachal Pradesh, India.
     - >-
-      I welcome enquiries from motivated MSc (Research) and PhD students interested in causal AI, machine learning, and healthcare applications. I am also open to collaborations with academic, clinical, and industry partners who are committed to developing impactful solutions for real-world healthcare challenges.
+      I actively contribute to the research community and have reviewed more than 200 articles for over 50 international journals and conferences. I am a Senior Member of IEEE, a professional member of ACM, and a lifetime member of the Computer Society of India and the Indian Society for Technical Education.
     - >-
-      I am a professional member of the ACM and IEEE, and hold lifetime memberships with the Computer Society of India and the Indian Society for Technical Education.
-  research_interests:
-    - "Causality"
-    - "Healthcare"
-    - "Artificial intelligence"
-    - "Personalised treatments"
+      I welcome enquiries from motivated MSc (Research) and PhD students, as well as collaborations with academic, clinical and industry partners.
   editorial_roles:
     - role: "Associate Editor"
       outlets: "PLOS Digital Health · BMC BioData Mining"

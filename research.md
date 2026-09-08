@@ -15,7 +15,7 @@ altmetric_badges: true
   <h2 id="research-themes-heading">Research themes</h2>
   <div class="card-grid">
     {% for theme in site.data.research_themes %}
-    <article class="theme-card"><span class="card-number">0{{ forloop.index }}</span><h3>{{ theme.name }}</h3><p>{{ theme.description }}</p></article>
+    <article class="theme-card"><span class="card-number">{{ forloop.index }}</span><h3>{{ theme.name }}</h3><p>{{ theme.description }}</p></article>
     {% endfor %}
   </div>
 </section>

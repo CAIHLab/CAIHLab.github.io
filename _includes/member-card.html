@@ -16,6 +16,14 @@
   <div>
     <h3>{{ include.member.name }}</h3>
     {% if include.member.role %}<p class="member-role">{{ include.member.role }}</p>{% endif %}
+    {% if include.member.career and include.member.career != empty %}
+    <section class="profile-career" aria-labelledby="{{ include.member.name | slugify }}-career-heading">
+      <h4 id="{{ include.member.name | slugify }}-career-heading">Career and education</h4>
+      <dl>
+        {% for item in include.member.career %}<div><dt>{{ item.dates }}</dt><dd><strong>{{ item.role }}</strong><span>{{ item.institution }}</span></dd></div>{% endfor %}
+      </dl>
+    </section>
+    {% endif %}
     {% if include.member.biography %}<p>{{ include.member.biography }}</p>{% endif %}
     {% for paragraph in include.member.biography_additional %}<p>{{ paragraph }}</p>{% endfor %}
     {% if include.member.research_interests and include.member.research_interests != empty %}
