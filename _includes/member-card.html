@@ -24,8 +24,20 @@
       </dl>
     </section>
     {% endif %}
-    {% if include.member.biography %}<p>{{ include.member.biography }}</p>{% endif %}
-    {% for paragraph in include.member.biography_additional %}<p>{{ paragraph }}</p>{% endfor %}
+    {% if include.member.biography %}
+      {% if include.member.career %}
+      <details class="profile-section profile-disclosure">
+        <summary>Biography</summary>
+        <div class="profile-disclosure-content">
+          <p>{{ include.member.biography }}</p>
+          {% for paragraph in include.member.biography_additional %}<p>{{ paragraph }}</p>{% endfor %}
+        </div>
+      </details>
+      {% else %}
+        <p>{{ include.member.biography }}</p>
+        {% for paragraph in include.member.biography_additional %}<p>{{ paragraph }}</p>{% endfor %}
+      {% endif %}
+    {% endif %}
     {% if include.member.research_interests and include.member.research_interests != empty %}
       <ul class="tag-list" aria-label="Research interests">{% for interest in include.member.research_interests %}<li>{{ interest }}</li>{% endfor %}</ul>
     {% endif %}
@@ -63,8 +75,8 @@
       {% if include.member.instagram %}<li><a href="{{ include.member.instagram }}">Instagram</a></li>{% endif %}
       {% if include.member.twitter %}<li><a class="profile-icon-link" href="{{ include.member.twitter }}" aria-label="{{ include.member.name }} on X"><img src="{{ '/images/social-icons-transparent-svg/x-twitter.svg' | relative_url }}" alt=""></a></li>{% endif %}
       {% if include.member.linkedin %}<li><a class="profile-icon-link" href="{{ include.member.linkedin }}" aria-label="{{ include.member.name }} on LinkedIn"><img src="{{ '/images/social-icons-transparent-svg/linkedin.svg' | relative_url }}" alt=""></a></li>{% endif %}
-      {% if include.member.institutional_profile %}<li class="profile-text-link"><a href="{{ include.member.institutional_profile }}">University profile</a></li>{% endif %}
-      {% if include.member.website %}<li><a href="{{ include.member.website }}">Previous web page</a></li>{% endif %}
+      {% if include.member.institutional_profile %}<li><a class="profile-icon-link profile-icon-link--wide" href="{{ include.member.institutional_profile }}" aria-label="{{ include.member.name }}'s University of Strathclyde profile"><img src="{{ '/images/social-icons-transparent-svg/strath-logo.png' | relative_url }}" alt=""></a></li>{% endif %}
+      {% if include.member.website %}<li><a class="profile-icon-link" href="{{ include.member.website }}" aria-label="{{ include.member.name }}'s old website"><img src="{{ '/images/social-icons-transparent-svg/old-website.svg' | relative_url }}" alt=""></a></li>{% endif %}
     </ul>
     {% endif %}
   </div>

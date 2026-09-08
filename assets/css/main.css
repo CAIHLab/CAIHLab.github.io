@@ -116,6 +116,7 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .teaching-stats dt { color: var(--muted); font-size: 0.8rem; }
 .teaching-stats dd { margin: 0; font-size: 1.35rem; font-weight: 800; }
 .member-card { display: grid; grid-template-columns: minmax(14rem, 0.7fr) minmax(0, 2fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; }
+.prose > .team-join-prompt { max-width: none; }
 .member-group + .member-group { margin-top: 4rem; }
 .member-group > h2 { padding-bottom: 0.65rem; border-bottom: 3px solid var(--accent); }
 .member-grid { display: grid; gap: 1.5rem; }
@@ -148,6 +149,7 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .profile-icon-link { width: 2.35rem; height: 2.35rem; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; background: white; transition: transform 150ms ease, box-shadow 150ms ease; }
 .profile-icon-link:hover { transform: translateY(-2px); box-shadow: 0 0.35rem 0.8rem rgba(13,46,37,0.16); }
 .profile-icon-link img { width: 1.25rem; height: 1.25rem; object-fit: contain; }
+.profile-icon-link--wide img { width: 1.75rem; }
 .profile-section { margin-top: 2rem; padding-top: 1.4rem; border-top: 1px solid var(--line); }
 .profile-disclosure summary { width: fit-content; color: var(--brand); font-size: 1.1rem; font-weight: 800; cursor: pointer; }
 .profile-disclosure-content { margin-top: 1rem; }

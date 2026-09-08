@@ -24,7 +24,6 @@
 #   order: 20
 
 - name: "Dr Vinod Kumar Chauhan"
-  role: "Lecturer in Causal AI"
   category: "Principal Investigator"
   photo: "/images/211.jpg"
   photo_alt: "Dr Vinod Kumar Chauhan"
@@ -37,10 +36,10 @@
       institution: "University of Strathclyde"
     - dates: "Feb 2022–Jul 2025"
       role: "Postdoctoral Researcher in AI for Healthcare"
-      institution: "University of Oxford"
+      institution: "University of Oxford, Oxford, UK"
     - dates: "May 2019–Jan 2022"
       role: "Postdoctoral Researcher in Industrial Machine Learning"
-      institution: "University of Cambridge"
+      institution: "University of Cambridge, Cambridge, UK"
     - dates: "Sep 2015–Jan 2019"
       role: "PhD"
       institution: "Panjab University, Chandigarh, India"
