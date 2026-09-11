@@ -21,7 +21,7 @@ permalink: /join/
       <p>Fully or partially funded positions are advertised here when available, including PhD studentships, research internships and research positions.</p>
       <h3>Current opportunities</h3>
       <ul class="opportunity-list">
-        <li><strong>Funded PhD studentship in Agentic AI for Dementia Care</strong><span>Home students only</span></li>
+        <li class="opportunity-filled"><s>Funded PhD studentship in Agentic AI for Dementia Care</s><span>Filled</span></li>
         <li class="opportunity-filled"><s>Funded PhD studentship in Causal AI for personalised healthcare</s><span>Filled</span></li>
       </ul>
       <p><a class="text-link" href="https://www.strath.ac.uk/studywithus/postgraduateresearchphdopportunities/">University of Strathclyde PhD and postgraduate research opportunities <span aria-hidden="true">→</span></a></p>
