@@ -7,16 +7,27 @@ permalink: /team/
 {% assign members = site.data.members | sort: 'order' %}
 {% assign member_groups = members | group_by: 'category' %}
 {% for group in member_groups %}
+{% if group.name == 'Principal Investigator' %}
 <section class="member-group" aria-labelledby="{{ group.name | slugify }}-heading">
   <h2 id="{{ group.name | slugify }}-heading">{{ group.name }}</h2>
-  <div class="member-grid{% unless group.name == 'Principal Investigator' %} member-grid--compact{% endunless %}">
+  <div class="member-grid">
     {% for member in group.items %}
-      {% if group.name == 'Principal Investigator' %}
-        {% include member-card.html member=member %}
+      {% include member-card.html member=member %}
+    {% endfor %}
+  </div>
+</section>
+{% else %}
+<details class="member-group member-group-disclosure"{% if group.name == 'PhD Students' %} open{% endif %}>
+  <summary><span class="member-group-title" id="{{ group.name | slugify }}-heading">{{ group.name }}</span></summary>
+  <div class="member-grid{% if group.name == 'PhD Students' %} member-grid--phd{% else %} member-grid--compact{% endif %}" aria-labelledby="{{ group.name | slugify }}-heading">
+    {% for member in group.items %}
+      {% if group.name == 'PhD Students' %}
+        {% include member-card.html member=member phd=true %}
       {% else %}
         {% include member-card.html member=member compact=true %}
       {% endif %}
     {% endfor %}
   </div>
-</section>
+</details>
+{% endif %}
 {% endfor %}

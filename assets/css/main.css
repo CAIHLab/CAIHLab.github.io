@@ -119,7 +119,16 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .prose > .team-join-prompt { max-width: none; }
 .member-group + .member-group { margin-top: 4rem; }
 .member-group > h2 { padding-bottom: 0.65rem; border-bottom: 3px solid var(--accent); }
+.member-group-disclosure > summary { padding-bottom: 0.65rem; border-bottom: 3px solid var(--accent); color: var(--brand-dark); cursor: pointer; }
+.member-group-title { margin-left: 0.45rem; font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 800; }
+.member-group-disclosure > .member-grid { margin-top: 1.5rem; }
 .member-grid { display: grid; gap: 1.5rem; }
+.member-grid--phd { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.member-card--phd { grid-template-columns: 7rem minmax(0, 1fr); gap: 1.1rem; padding: 1.25rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.member-card--phd .member-photo img { aspect-ratio: 1; box-shadow: none; }
+.member-card--phd h3 { margin: 0 0 0.35rem; font-size: 1.25rem; }
+.member-research-topic { margin: 0 0 0.65rem; color: var(--brand); font-weight: 750; }
+.member-supervisors { margin: 0; color: var(--muted); font-size: 0.9rem; }
 .member-card--no-photo { display: block; padding: 1.5rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .member-card--no-photo h3 { margin-top: 0; }
 .member-grid--compact { gap: 0; padding: 0.5rem 1.25rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
@@ -218,6 +227,8 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
   .join-cards { grid-template-columns: repeat(2, 1fr); }
   .publication-filters { grid-template-columns: 1fr 1fr; }
   .member-card { grid-template-columns: 1fr; }
+  .member-grid--phd { grid-template-columns: 1fr; }
+  .member-card--phd { grid-template-columns: 7rem minmax(0, 1fr); }
   .member-photo { max-width: 22rem; }
   .member-card--compact { grid-template-columns: 4rem minmax(0, 1fr); }
   .member-card--compact .member-photo { max-width: 4rem; }
@@ -229,6 +240,7 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
   .brand small { display: none; }
   .two-column-copy, .card-grid, .opportunity, .publication-filters { grid-template-columns: 1fr; }
   .join-cards, .funding-grid, .join-contact, .profile-role-list div, .profile-career dl div, .research-scope-list { grid-template-columns: 1fr; }
+  .member-card--phd { grid-template-columns: 5rem minmax(0, 1fr); }
   .publication-footer { grid-template-columns: 1fr; }
   .publication-metrics { justify-content: flex-start; }
   .theme-card { min-height: auto; }

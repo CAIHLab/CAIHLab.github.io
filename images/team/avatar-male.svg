@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title">
+  <title id="title">Illustrated placeholder portrait</title>
+  <rect width="320" height="320" rx="28" fill="#e7f0ec"/>
+  <circle cx="160" cy="126" r="64" fill="#ddb493"/>
+  <path d="M96 119c3-53 29-81 67-81 41 0 66 31 65 80-19-3-35-16-45-34-18 22-47 34-87 35Z" fill="#173f36"/>
+  <circle cx="137" cy="128" r="5" fill="#173f36"/><circle cx="185" cy="128" r="5" fill="#173f36"/>
+  <path d="M143 158c11 8 23 8 34 0" fill="none" stroke="#8b4f42" stroke-width="5" stroke-linecap="round"/>
+  <path d="M55 300c8-67 47-103 105-103s97 36 105 103" fill="#0d5d4b"/>
+  <path d="M126 202l34 35 34-35" fill="#fff" opacity=".9"/>
+</svg>

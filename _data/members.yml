@@ -14,6 +14,8 @@
 #   photo: "/images/full-name.jpg"
 #   photo_alt: "Full name"
 #   biography: "Short biography."
+#   research_topic: "Optional research topic"
+#   supervisors: ["Supervisor one", "Supervisor two"]
 #   research_interests: ["Interest one", "Interest two"]
 #   email: ""
 #   website: ""
@@ -84,6 +86,22 @@
   twitter: "https://x.com/jmdvinodjmd"
   linkedin: "https://www.linkedin.com/in/jmdvinodjmd/"
   order: 1
+
+- name: "Joe Lee"
+  category: "PhD Students"
+  photo: "/images/team/avatar-male.svg"
+  photo_alt: "Illustrated placeholder portrait for Joe Lee"
+  research_topic: "Causal AI for personalised treatments"
+  supervisors: ["Dr Vinod Kumar Chauhan", "Dr William McGeown", "Prof. Amanj Kurdi"]
+  order: 30
+
+- name: "Molly McFadyen"
+  category: "PhD Students"
+  photo: "/images/team/avatar-female.svg"
+  photo_alt: "Illustrated placeholder portrait for Molly McFadyen"
+  research_topic: "Agentic AI for Dementia Care"
+  supervisors: ["Prof. Roma Maguire", "Dr Vinod Kumar Chauhan"]
+  order: 31
 
 - name: "Hansikka Sivaraj"
   category: "MSc Students"

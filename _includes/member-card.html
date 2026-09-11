@@ -1,4 +1,4 @@
-<article class="member-card{% if include.compact %} member-card--compact{% endif %}{% unless include.member.photo %} member-card--no-photo{% endunless %}">
+<article class="member-card{% if include.compact %} member-card--compact{% endif %}{% if include.phd %} member-card--phd{% endif %}{% unless include.member.photo %} member-card--no-photo{% endunless %}">
   {% if include.member.photo %}
   <div class="member-photo">
     <img src="{{ include.member.photo | relative_url }}" alt="{{ include.member.photo_alt | escape }}" width="3071" height="4606">
@@ -16,6 +16,8 @@
   <div>
     <h3>{{ include.member.name }}</h3>
     {% if include.member.role %}<p class="member-role">{{ include.member.role }}</p>{% endif %}
+    {% if include.member.research_topic %}<p class="member-research-topic">{{ include.member.research_topic }}</p>{% endif %}
+    {% if include.member.supervisors and include.member.supervisors != empty %}<p class="member-supervisors"><strong>Supervisors:</strong> {{ include.member.supervisors | join: ', ' }}</p>{% endif %}
     {% if include.member.career and include.member.career != empty %}
     <section class="profile-career" aria-labelledby="{{ include.member.name | slugify }}-career-heading">
       <h4 id="{{ include.member.name | slugify }}-career-heading">Career and education</h4>
