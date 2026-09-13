@@ -9,6 +9,8 @@
   themes: ["Causal AI", "Personalised treatments", "AI in healthcare"]
   featured: true
   featured_order: 5
+  links:
+    paper: "https://www.researchgate.net/publication/414030630_Precision_psychiatry_thinking_beyond_simple_prediction_models_without_dismissing_them"
 
 - id: position-causal-ai-personalised-treatments-2026
   identifier_status: "none"

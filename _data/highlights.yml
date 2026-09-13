@@ -11,6 +11,8 @@
   date_label: "September 2026"
   text: "Precision psychiatry: thinking beyond simple prediction models, without dismissing them"
   detail: "This sole-authored commentary examines the roles of causal and non-causal prediction models in precision psychiatry. It argues that the appropriate modelling approach should be guided by the clinical need, the claims being made and the assumptions that can be justified transparently."
+  url: "https://www.researchgate.net/publication/414030630_Precision_psychiatry_thinking_beyond_simple_prediction_models_without_dismissing_them"
+  link_label: "Read the commentary"
 
 - title: "A Practical Tutorial on Agentic AI"
   category: "Publications"
