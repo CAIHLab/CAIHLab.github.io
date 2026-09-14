@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-09-13",
+  "refreshed_at": "2026-09-14",
   "publications": {
     "beyond-correlations-2025": {
       "openalex": {
@@ -537,9 +537,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W2783380896",
-        "count": 666,
+        "count": 668,
         "url": "https://openalex.org/W2783380896",
-        "fetched_at": "2026-09-06T09:36:04Z",
+        "fetched_at": "2026-09-14T12:41:35Z",
         "status": "ok"
       },
       "semantic_scholar": {
