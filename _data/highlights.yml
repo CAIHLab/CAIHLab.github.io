@@ -1,9 +1,10 @@
 - title: "Area Chair at the NeurIPS 2026 AI4Science Workshop"
   category: "Academic service"
   year: 2026
+  date_label: "September 2026"
   text: "Dr Vinod Kumar Chauhan will serve as an Area Chair for the AI4Science Workshop at NeurIPS 2026."
-  url: "https://neurips.cc/Conferences/2026"
-  link_label: "Visit NeurIPS 2026"
+  url: "https://ai4sciencecommunity.github.io/neurips26.html"
+  link_label: "Visit the NeurIPS 2026 workshop"
 
 - title: "Welcoming Joe Lee and Molly McFadyen to CAIH Lab"
   category: "Lab news"
