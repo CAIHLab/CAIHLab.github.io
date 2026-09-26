@@ -91,7 +91,8 @@
   category: "PhD Students"
   photo: "/images/team/avatar-male.svg"
   photo_alt: "Illustrated placeholder portrait for Joe Lee"
-  research_topic: "Causal AI for personalised treatments"
+  research_topic: "Causal AI for Alzheimer’s disease risk reduction"
+  start_date: "October 2026"
   supervisors: ["Dr Vinod Kumar Chauhan", "Dr William McGeown", "Prof. Amanj Kurdi"]
   order: 30
 
@@ -100,6 +101,7 @@
   photo: "/images/team/avatar-female.svg"
   photo_alt: "Illustrated placeholder portrait for Molly McFadyen"
   research_topic: "Agentic AI for Dementia Care"
+  start_date: "October 2026"
   supervisors: ["Prof. Roma Maguire", "Dr Vinod Kumar Chauhan"]
   order: 31
 

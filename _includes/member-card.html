@@ -17,6 +17,7 @@
     <h3>{{ include.member.name }}</h3>
     {% if include.member.role %}<p class="member-role">{{ include.member.role }}</p>{% endif %}
     {% if include.member.research_topic %}<p class="member-research-topic">{{ include.member.research_topic }}</p>{% endif %}
+    {% if include.member.start_date %}<p class="member-start-date"><strong>Start date:</strong> {{ include.member.start_date }}</p>{% endif %}
     {% if include.member.supervisors and include.member.supervisors != empty %}<p class="member-supervisors"><strong>Supervisors:</strong> {{ include.member.supervisors | join: ', ' }}</p>{% endif %}
     {% if include.member.career and include.member.career != empty %}
     <section class="profile-career" aria-labelledby="{{ include.member.name | slugify }}-career-heading">

@@ -4,6 +4,7 @@ intro: "Invited talks, keynotes, seminars and conference presentations."
 permalink: /talks/
 ---
 <ol class="timeline" reversed>
+  <li><article><p class="eyebrow">Seminar talk · 2026</p><h2>A Brief Intro to Causal AI</h2><p>Signature Understanding, Detection, Handwriting Intelligence &amp; Recognition (SUDHIR), Panjab University, Chandigarh, India, September 26, 2026.</p></article></li>
   <li><article><p class="eyebrow">Departmental talk · 2026</p><h2>Causal AI for Personalised Treatments</h2><p>Department of Computer and Information Sciences, University of Strathclyde, March 2026.</p></article></li>
   <li><article><p class="eyebrow">Oral presentation · 2025</p><h2>Individualised Treatment Effects Estimation with Composite Treatments and Composite Outcomes</h2><p>47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Bella Center, Copenhagen, Denmark, July 14–17, 2025.</p></article></li>
   <li><article><p class="eyebrow">Seminar talk · 2024</p><h2>Causal AI for Personalised Treatments</h2><p>IIT Palakkad, India, December 28, 2024.</p></article></li>
