@@ -1,22 +1,30 @@
-- title: "Area Chair at the NeurIPS 2026 AI4Science Workshop"
-  category: "Academic service"
+- title: "Keynote at BioMRH 2026"
+  category: "Talks"
   year: 2026
-  date_label: "September 2026"
-  text: "Dr Vinod Kumar Chauhan will serve as an Area Chair for the AI4Science Workshop at NeurIPS 2026."
-  url: "https://ai4sciencecommunity.github.io/neurips26.html"
-  link_label: "Visit the NeurIPS 2026 workshop"
+  date_label: "21 October 2026"
+  text: "Dr Vinod Kumar Chauhan will deliver a keynote talk, “Causal AI for Personalised Treatments”, at BioMRH 2026."
+  url: "https://www.biomrh.cc/speaker.html"
+  link_label: "View the BioMRH 2026 speakers"
 
 - title: "Welcoming Joe Lee and Molly McFadyen to CAIH Lab"
   category: "Lab news"
   year: 2026
   date_label: "October 2026"
-  text: "Joe Lee and Molly McFadyen are joining CAIH Lab as PhD students in October 2026. Joe will work on Causal AI for Alzheimer’s disease risk reduction, while Molly will work on Agentic AI for Dementia Care."
+  text: "Joe Lee and Molly McFadyen are joining CAIH Lab as PhD students in October 2026. Joe will work on Causal AI for Alzheimer’s disease risk reduction, while Molly will work on Agentic AI for Dementia Care. Both were previously MSc students at the University of Strathclyde, and Joe also completed his MSc project with Dr Vinod Kumar Chauhan."
 
 - title: "Seminar on A Brief Intro to Causal AI"
   category: "Talks"
   year: 2026
   date_label: "26 September 2026"
   text: "Dr Vinod Kumar Chauhan delivered a seminar talk, “A Brief Intro to Causal AI”, for Signature Understanding, Detection, Handwriting Intelligence & Recognition (SUDHIR) at Panjab University, Chandigarh, India."
+
+- title: "Area Chair at the NeurIPS 2026 AI4Science Workshop"
+  category: "Academic service"
+  year: 2026
+  date_label: "September 2026"
+  text: "Dr Vinod Kumar Chauhan served as an Area Chair for the AI4Science Workshop at NeurIPS 2026."
+  url: "https://ai4sciencecommunity.github.io/neurips26.html"
+  link_label: "Visit the NeurIPS 2026 workshop"
 
 - title: "Commentary accepted in The British Journal of Psychiatry"
   category: "Publications"
