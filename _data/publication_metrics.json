@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-09-28",
+  "refreshed_at": "2026-10-05",
   "publications": {
     "beyond-correlations-2025": {
       "openalex": {
@@ -50,10 +50,10 @@
     "dynamic-inter-treatment-sharing-2024": {
       "openalex": {
         "provider": "OpenAlex",
-        "id": "W4378501301",
-        "count": 2,
-        "url": "https://openalex.org/W4378501301",
-        "fetched_at": "2026-08-08T21:01:24Z",
+        "id": "W7075995894",
+        "count": 3,
+        "url": "https://openalex.org/W7075995894",
+        "fetched_at": "2026-10-05T14:30:09Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -69,9 +69,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4401548252",
-        "count": 112,
+        "count": 113,
         "url": "https://openalex.org/W4401548252",
-        "fetched_at": "2026-09-21T12:42:46Z",
+        "fetched_at": "2026-10-05T14:30:10Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -105,9 +105,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4396624917",
-        "count": 13,
+        "count": 14,
         "url": "https://openalex.org/W4396624917",
-        "fetched_at": "2026-09-06T09:34:54Z",
+        "fetched_at": "2026-10-05T14:30:17Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -141,9 +141,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4399731484",
-        "count": 3,
+        "count": 4,
         "url": "https://openalex.org/W4399731484",
-        "fetched_at": "2026-08-08T21:01:41Z",
+        "fetched_at": "2026-10-05T14:30:24Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -177,9 +177,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W3194013835",
-        "count": 42,
+        "count": 48,
         "url": "https://openalex.org/W3194013835",
-        "fetched_at": "2026-08-17T07:14:47Z",
+        "fetched_at": "2026-10-05T14:30:29Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -231,9 +231,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4307010770",
-        "count": 6,
+        "count": 5,
         "url": "https://openalex.org/W4307010770",
-        "fetched_at": "2026-08-08T21:01:56Z",
+        "fetched_at": "2026-10-05T14:30:36Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -267,9 +267,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4385218727",
-        "count": 10,
+        "count": 11,
         "url": "https://openalex.org/W4385218727",
-        "fetched_at": "2026-08-10T08:03:28Z",
+        "fetched_at": "2026-10-05T14:30:38Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -293,9 +293,9 @@
       "semantic_scholar": {
         "provider": "Semantic Scholar",
         "id": "a0c2c9f8ae3501ead56896a6688b9e3014ec1744",
-        "count": 25,
+        "count": 26,
         "url": "https://www.semanticscholar.org/paper/a0c2c9f8ae3501ead56896a6688b9e3014ec1744",
-        "fetched_at": "2026-08-26T13:56:51Z",
+        "fetched_at": "2026-10-05T14:30:42Z",
         "status": "ok"
       }
     },
@@ -303,9 +303,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4313305217",
-        "count": 15,
+        "count": 14,
         "url": "https://openalex.org/W4313305217",
-        "fetched_at": "2026-08-08T21:02:02Z",
+        "fetched_at": "2026-10-05T14:30:43Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -357,17 +357,17 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4386847093",
-        "count": 14,
+        "count": 13,
         "url": "https://openalex.org/W4386847093",
-        "fetched_at": "2026-08-31T13:43:56Z",
+        "fetched_at": "2026-10-05T14:30:54Z",
         "status": "ok"
       },
       "semantic_scholar": {
         "provider": "Semantic Scholar",
         "id": "f1150ff801c7d968d0cfeb61d779f21b56c7971e",
-        "count": 14,
+        "count": 15,
         "url": "https://www.semanticscholar.org/paper/f1150ff801c7d968d0cfeb61d779f21b56c7971e",
-        "fetched_at": "2026-08-26T13:56:59Z",
+        "fetched_at": "2026-10-05T14:30:54Z",
         "status": "ok"
       }
     },
@@ -375,9 +375,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4296181734",
-        "count": 22,
+        "count": 21,
         "url": "https://openalex.org/W4296181734",
-        "fetched_at": "2026-08-08T21:02:09Z",
+        "fetched_at": "2026-10-05T14:30:54Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -393,9 +393,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4308216329",
-        "count": 8,
+        "count": 7,
         "url": "https://openalex.org/W4308216329",
-        "fetched_at": "2026-08-08T21:02:10Z",
+        "fetched_at": "2026-10-05T14:30:58Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -429,9 +429,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W3157854712",
-        "count": 31,
+        "count": 30,
         "url": "https://openalex.org/W3157854712",
-        "fetched_at": "2026-08-08T21:02:17Z",
+        "fetched_at": "2026-10-05T14:31:05Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -537,9 +537,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W2783380896",
-        "count": 674,
+        "count": 673,
         "url": "https://openalex.org/W2783380896",
-        "fetched_at": "2026-09-28T13:49:08Z",
+        "fetched_at": "2026-10-05T14:31:19Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -617,9 +617,9 @@
       "semantic_scholar": {
         "provider": "Semantic Scholar",
         "id": "cd47a03de15f1a443f5c68eaf8a516742edf1189",
-        "count": 2,
+        "count": 3,
         "url": "https://www.semanticscholar.org/paper/cd47a03de15f1a443f5c68eaf8a516742edf1189",
-        "fetched_at": "2026-08-17T07:16:12Z",
+        "fetched_at": "2026-10-05T14:31:32Z",
         "status": "ok"
       }
     },
