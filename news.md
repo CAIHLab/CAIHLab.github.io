@@ -12,9 +12,10 @@ news_filters: true
 
 <div class="highlight-list">
   {% for item in site.data.highlights %}
-  <article data-news-item data-category="{{ item.category | slugify }}" data-year="{{ item.year }}">
+  <article{% if item.image %} class="highlight-item--with-image"{% endif %} data-news-item data-category="{{ item.category | slugify }}" data-year="{{ item.year }}">
     <p class="highlight-index" data-news-index>{{ forloop.index }}</p>
     <div><p class="eyebrow">{{ item.category }} · {{ item.date_label | default: item.year }}</p><h2>{{ item.title }}</h2><p>{{ item.text }}</p>{% if item.detail %}<p class="small-text">{{ item.detail }}</p>{% endif %}{% if item.url %}<a class="text-link" href="{{ item.url }}">{{ item.link_label }} <span aria-hidden="true">→</span></a>{% endif %}</div>
+    {% if item.image %}<figure class="highlight-media"><img src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.title }}" loading="lazy" width="2680" height="2187"></figure>{% endif %}
   </article>
   {% endfor %}
 </div>

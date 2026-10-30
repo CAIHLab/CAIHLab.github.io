@@ -42,9 +42,10 @@ altmetric_badges: true
   </div>
   <div class="highlight-list">
     {% for item in site.data.highlights limit: 5 %}
-    <article>
+    <article{% if item.image %} class="highlight-item--with-image"{% endif %}>
       <p class="highlight-index">{{ forloop.index }}</p>
       <div><h3>{{ item.title }}</h3><p>{{ item.text }}</p>{% if item.detail %}<p class="small-text">{{ item.detail }}</p>{% endif %}{% if item.url %}<a class="text-link" href="{{ item.url }}">{{ item.link_label }} <span aria-hidden="true">→</span></a>{% endif %}</div>
+      {% if item.image %}<figure class="highlight-media"><img src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.title }}" loading="lazy" width="2680" height="2187"></figure>{% endif %}
     </article>
     {% endfor %}
   </div>

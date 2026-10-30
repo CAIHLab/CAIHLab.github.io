@@ -28,6 +28,34 @@ permalink: /join/
     </div>
   </details>
 
+  <details id="other-funded-routes">
+    <summary>Other Funded Study Routes</summary>
+    <div>
+      <p>These are University or external schemes rather than currently advertised CAIH Lab positions. Eligibility, availability and deadlines can change, so always check the linked official call.</p>
+      <div class="funding-grid">
+        <article class="funding-card--caution">
+          <h3>John Anderson Research Studentship Scheme (JARSS)</h3>
+          <p>JARSS provides tuition fees only at the <strong>Home-fee rate</strong>, together with a UKRI-rate stipend. It does not cover the higher international tuition fee.</p>
+          <p><strong>International applicants:</strong> before contacting the lab, you must already have confirmed funding—or a binding funding commitment—for the full difference between the international and Home tuition fees. CAIH Lab cannot cover this difference, so an international applicant without that additional funding cannot be appointed through this route.</p>
+          <p>Supervisor-led applications are made to annual competitions, with internal departmental deadlines that may be earlier than the published University timetable.</p>
+          <a href="https://www.strath.ac.uk/studywithus/scholarships/johnandersonresearchstudentshipschemejarss/">Check the official JARSS call</a>
+        </article>
+        <article class="funding-card--caution">
+          <h3>Diamond Jubilee Research Scholarships</h3>
+          <p>These scholarships are faculty-specific and are not guaranteed to be offered for Computer &amp; Information Sciences each year. The currently published University example covers <strong>Home-rate tuition fees only</strong>: it provides no stipend or living-cost support and cannot be combined with another award.</p>
+          <p><strong>This is not a current CAIH Lab opportunity.</strong> International applicants would need confirmed funding for the entire international/Home fee difference as well as all living costs. Please do not contact the lab unless a relevant Faculty of Science or Computer &amp; Information Sciences call is open and you can meet every uncovered cost.</p>
+          <a href="https://www.strath.ac.uk/studywithus/scholarships/diamondjubileeresearchscholarshipsforhomestudentsfacultyofhumanitiessocialsciences/">See the published University example</a>
+        </article>
+        <article>
+          <h3>The Future Hospital &amp; Beyond Its Walls MPhil</h3>
+          <p>A periodic, part-time MPhil route for health and social care professionals undertaking an applied workplace project over up to two years. The published 2026 call covered tuition fees and limited research costs, but not a stipend.</p>
+          <p>Applicants must be based in the British Isles, have support from an NHS, social care or third-sector organisation, and receive at least four working days of study leave per month. Calls and deadlines may change each year.</p>
+          <a href="https://www.strath.ac.uk/studywithus/postgraduateresearchphdopportunities/thefuturehospitalandbeyonditswalls/">Check the official MPhil call</a>
+        </article>
+      </div>
+    </div>
+  </details>
+
   <details id="external-funding">
     <summary>External or Self-Funded Opportunities</summary>
     <div>
@@ -38,7 +66,6 @@ permalink: /join/
       <div class="funding-grid">
         <article><h3>Commonwealth Scholarships and Fellowships</h3><p>PhD and research or fellowship opportunities for eligible Commonwealth countries.</p><a href="https://cscuk.fcdo.gov.uk/about-us/scholarships/">Explore scheme</a></article>
         <article><h3>China Scholarship Council</h3><p>PhD, joint PhD and research visits for applicants from China.</p><a href="https://origin-www.csc.edu.cn/chuguo/s/4032">Explore scheme</a></article>
-        <article><h3>National Overseas Scholarship</h3><p>Master's and PhD study abroad for eligible applicants from India.</p><a href="https://www.nosmsje.gov.in/">Explore scheme</a></article>
         <article><h3>Newton International Fellowship</h3><p>Two-year UK postdoctoral fellowships for early-career researchers based outside the UK.</p><a href="https://www.royalsociety.org/grants/newton-international/">Explore scheme</a></article>
       </div>
     </div>
@@ -49,6 +76,11 @@ permalink: /join/
     <div>
       <p>We welcome enquiries from undergraduate and Master's students, PhD researchers, academics and other researchers interested in spending a period in the lab.</p>
       <p>Visits and internships should have a clear research objective and alignment with the lab's research areas. Applicants may be supported through their university, government, scholarship programme, fellowship, employer or personal funding.</p>
+      <h3>Selected mobility and visiting routes</h3>
+      <div class="funding-grid">
+        <article><h3>north2north mobility</h3><p>UArctic mobility for eligible students at participating institutions, including semester exchanges, shorter research activity and some placements. Grants and tuition waivers are limited, do not cover every cost and depend on the home and host countries; applicants should check with their institutional coordinator.</p><a href="https://www.uarctic.org/activities/north2north/what-north2north-is-and-how-it-works/">Explore north2north</a></article>
+        <article><h3>Commonwealth Split-site Scholarships</h3><p>A route listed by Strathclyde for eligible PhD candidates from low- and middle-income Commonwealth countries to undertake a period of research at a UK university. Applicants must follow the current Commonwealth and institutional eligibility requirements.</p><a href="https://cscuk.fcdo.gov.uk/scholarships/commonwealth-split-site-scholarships-for-low-and-middle-income-countries/">Explore the scheme</a></article>
+      </div>
     </div>
   </details>
 </div>
