@@ -130,6 +130,9 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .member-card--phd { grid-template-columns: 7rem minmax(0, 1fr); gap: 1.1rem; padding: 1.25rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
 .member-card--phd .member-photo img { aspect-ratio: 1; box-shadow: none; }
 .member-card--phd h3 { margin: 0 0 0.35rem; font-size: 1.25rem; }
+.member-name-with-contact { display: flex; align-items: center; gap: 0.55rem; }
+.member-name-contact { width: 1.9rem; height: 1.9rem; flex: 0 0 auto; }
+.member-name-contact img { width: 1rem; height: 1rem; }
 .member-research-topic { margin: 0 0 0.65rem; color: var(--brand); font-weight: 750; }
 .member-start-date { margin: 0 0 0.35rem; color: var(--muted); font-size: 0.9rem; }
 .member-supervisors { margin: 0; color: var(--muted); font-size: 0.9rem; }
