@@ -202,6 +202,7 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .funding-grid article { padding: 1rem; border: 1px solid var(--line); border-radius: var(--radius); }
 .funding-grid h3 { margin-top: 0; font-size: 1.05rem; }
 .funding-grid .funding-card--caution { border-left: 0.35rem solid var(--accent); background: #fff9f2; }
+.funding-note { padding: 1rem 1.15rem; border-left: 0.35rem solid var(--brand); background: var(--surface); }
 .join-visible-section { max-width: none !important; margin-top: 3.5rem; padding-top: 2.5rem; border-top: 3px solid var(--accent); }
 .join-contact { max-width: none !important; display: grid; grid-template-columns: 0.75fr 1.25fr; gap: 2rem 4rem; margin-top: 3.5rem; padding: 2rem; border-radius: var(--radius); background: var(--surface); }
 .video-section { margin-top: 5rem; padding-top: 3rem; border-top: 1px solid var(--line); }
