@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-10-26",
+  "refreshed_at": "2026-11-02",
   "publications": {
     "beyond-correlations-2025": {
       "openalex": {
@@ -123,9 +123,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4401209868",
-        "count": 4,
+        "count": 5,
         "url": "https://openalex.org/W4401209868",
-        "fetched_at": "2026-09-28T13:48:01Z",
+        "fetched_at": "2026-11-02T15:42:03Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -141,9 +141,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4399731484",
-        "count": 4,
+        "count": 5,
         "url": "https://openalex.org/W4399731484",
-        "fetched_at": "2026-10-05T14:30:24Z",
+        "fetched_at": "2026-11-02T15:42:07Z",
         "status": "ok"
       },
       "semantic_scholar": {
