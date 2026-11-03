@@ -1,6 +1,7 @@
 # Canonical publication data. See README.md for the schema and editing guidance.
 - id: precision-psychiatry-prediction-models-2026
-  identifier_status: "none"
+  identifier_status: "verified"
+  doi: "10.1192/bjp.2026.10831"
   title: "Precision psychiatry: thinking beyond simple prediction models, without dismissing them"
   authors: ["V. K. Chauhan"]
   year: 2026
@@ -10,7 +11,7 @@
   featured: true
   featured_order: 5
   links:
-    paper: "https://www.researchgate.net/publication/414030630_Precision_psychiatry_thinking_beyond_simple_prediction_models_without_dismissing_them"
+    paper: "https://doi.org/10.1192/bjp.2026.10831"
 
 - id: position-causal-ai-personalised-treatments-2026
   identifier_status: "none"
