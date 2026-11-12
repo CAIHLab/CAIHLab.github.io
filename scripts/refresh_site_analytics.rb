@@ -93,20 +93,15 @@ end
 
 data = JSON.parse(File.read(DATA_PATH))
 tracking_start = Date.iso8601(data.fetch("tracking_start"))
-start_date = data["period_end"] ? Date.iso8601(data["period_end"]) + 1 : tracking_start
-end_date = Time.now.utc.to_date - 1
-
-if start_date > end_date
-  puts "No completed days to add after #{data['period_end'] || tracking_start.iso8601}."
-  exit 0
-end
+start_date = tracking_start
+end_date = Time.now.utc.to_date
 
 account = cloudflare_query(token, account_id, start_date, end_date)
 totals = account["totals"] || []
 period_page_views = totals.empty? ? 0 : totals.first["count"].to_i
 period_visits = totals.empty? ? 0 : totals.first.dig("sum", "visits").to_i
 
-country_totals = (data["country_totals"] || {}).transform_values(&:to_i)
+country_totals = {}
 (account["countries"] || []).each do |row|
   name = row.dig("dimensions", "countryName").to_s.strip
   name = "Unknown" if name.empty?
@@ -114,8 +109,8 @@ country_totals = (data["country_totals"] || {}).transform_values(&:to_i)
   country_totals[name] = country_totals.fetch(name, 0) + visits if visits.positive?
 end
 
-data["visits"] = data["visits"].to_i + period_visits
-data["page_views"] = data["page_views"].to_i + period_page_views
+data["visits"] = period_visits
+data["page_views"] = period_page_views
 data["country_totals"] = country_totals.sort.to_h
 data["countries_reached"] = country_totals.count { |name, visits| name != "Unknown" && visits.positive? }
 data["countries"] = public_country_rows(country_totals)
@@ -123,4 +118,4 @@ data["period_end"] = end_date.iso8601
 data["updated"] = Time.now.utc.strftime("%-d %B %Y")
 
 File.write(DATA_PATH, JSON.pretty_generate(data) + "\n")
-puts "Added Cloudflare analytics for #{start_date.iso8601} through #{end_date.iso8601}."
+puts "Refreshed Cloudflare analytics for #{start_date.iso8601} through #{end_date.iso8601}."
