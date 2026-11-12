@@ -1,11 +1,19 @@
 {
   "tracking_since": "12 November 2026",
   "tracking_start": "2026-11-12",
-  "updated": null,
-  "period_end": null,
-  "visits": null,
-  "page_views": null,
-  "countries_reached": null,
-  "countries": [],
-  "country_totals": {}
+  "updated": "12 November 2026",
+  "period_end": "2026-11-12",
+  "visits": 13,
+  "page_views": 37,
+  "countries_reached": 1,
+  "countries": [
+    {
+      "name": "GB",
+      "visits": 13,
+      "percentage": 100.0
+    }
+  ],
+  "country_totals": {
+    "GB": 13
+  }
 }
