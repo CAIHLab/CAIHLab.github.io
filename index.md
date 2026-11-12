@@ -71,11 +71,15 @@ altmetric_badges: true
       <h2 id="site-reach-heading">CAIH Lab around the world</h2>
       <p>Aggregated, privacy-first website statistics.</p>
     </div>
-    <dl class="site-reach-metrics">
-      <div><dt>Total visits</dt><dd>{{ analytics.visits | default: '—' }}</dd></div>
-      <div><dt>Page views</dt><dd>{{ analytics.page_views | default: '—' }}</dd></div>
-      <div><dt>Countries reached</dt><dd>{{ analytics.countries_reached | default: '—' }}</dd></div>
-    </dl>
+    {% if analytics.updated %}
+      <dl class="site-reach-metrics">
+        <div><dt>Total visits</dt><dd>{{ analytics.visits }}</dd></div>
+        <div><dt>Page views</dt><dd>{{ analytics.page_views }}</dd></div>
+        <div><dt>Countries reached</dt><dd>{{ analytics.countries_reached }}</dd></div>
+      </dl>
+    {% else %}
+      <p class="site-reach-pending">Collecting initial statistics since {{ analytics.tracking_since }}</p>
+    {% endif %}
     <a class="text-link site-reach-link" href="{{ '/statistics/' | relative_url }}">View visitor statistics <span aria-hidden="true">→</span></a>
   </div>
 </section>

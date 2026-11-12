@@ -7,11 +7,15 @@ permalink: /statistics/
 
 <p class="statistics-privacy">These figures are collected using privacy-first Cloudflare Web Analytics. No personally identifiable visitor information is displayed.</p>
 
-<dl class="statistics-overview">
-  <div><dt>Total visits</dt><dd>{{ analytics.visits | default: '—' }}</dd><small>Since {{ analytics.tracking_since }}</small></div>
-  <div><dt>Page views</dt><dd>{{ analytics.page_views | default: '—' }}</dd><small>Since {{ analytics.tracking_since }}</small></div>
-  <div><dt>Countries reached</dt><dd>{{ analytics.countries_reached | default: '—' }}</dd><small>Since {{ analytics.tracking_since }}</small></div>
-</dl>
+{% if analytics.updated %}
+  <dl class="statistics-overview">
+    <div><dt>Total visits</dt><dd>{{ analytics.visits }}</dd><small>Since {{ analytics.tracking_since }}</small></div>
+    <div><dt>Page views</dt><dd>{{ analytics.page_views }}</dd><small>Since {{ analytics.tracking_since }}</small></div>
+    <div><dt>Countries reached</dt><dd>{{ analytics.countries_reached }}</dd><small>Since {{ analytics.tracking_since }}</small></div>
+  </dl>
+{% else %}
+  <p class="statistics-pending statistics-pending--initial"><strong>Initial statistics are being collected.</strong><br>Tracking began on {{ analytics.tracking_since }}. Aggregated figures will appear after the first authenticated update.</p>
+{% endif %}
 
 <section class="statistics-countries" aria-labelledby="countries-heading">
   <div class="statistics-heading-row">
