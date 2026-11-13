@@ -1,13 +1,13 @@
 {
-  "refreshed_at": "2026-11-09",
+  "refreshed_at": "2026-11-13",
   "publications": {
     "beyond-correlations-2025": {
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4416186950",
-        "count": 3,
+        "count": 4,
         "url": "https://openalex.org/W4416186950",
-        "fetched_at": "2026-11-09T16:08:22Z",
+        "fetched_at": "2026-11-13T22:06:08Z",
         "status": "ok"
       }
     },
@@ -33,9 +33,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4413279439",
-        "count": 11,
+        "count": 12,
         "url": "https://openalex.org/W4413279439",
-        "fetched_at": "2026-11-09T16:08:28Z",
+        "fetched_at": "2026-11-13T22:06:16Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -51,9 +51,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W7075995894",
-        "count": 8,
+        "count": 9,
         "url": "https://openalex.org/W7075995894",
-        "fetched_at": "2026-11-09T16:08:35Z",
+        "fetched_at": "2026-11-13T22:06:23Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -69,9 +69,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4401548252",
-        "count": 185,
+        "count": 190,
         "url": "https://openalex.org/W4401548252",
-        "fetched_at": "2026-11-09T16:08:36Z",
+        "fetched_at": "2026-11-13T22:06:27Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -87,17 +87,17 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4399506671",
-        "count": 10,
+        "count": 12,
         "url": "https://openalex.org/W4399506671",
-        "fetched_at": "2026-10-12T15:16:03Z",
+        "fetched_at": "2026-11-13T22:06:31Z",
         "status": "ok"
       },
       "semantic_scholar": {
         "provider": "Semantic Scholar",
         "id": "50c5a2aa2de3f31c730710d772c6b95904b69218",
-        "count": 10,
+        "count": 12,
         "url": "https://www.semanticscholar.org/paper/50c5a2aa2de3f31c730710d772c6b95904b69218",
-        "fetched_at": "2026-08-26T13:56:22Z",
+        "fetched_at": "2026-11-13T22:06:31Z",
         "status": "ok"
       }
     },
@@ -159,9 +159,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4401483640",
-        "count": 1,
+        "count": 2,
         "url": "https://openalex.org/W4401483640",
-        "fetched_at": "2026-11-03T15:08:54Z",
+        "fetched_at": "2026-11-13T22:06:42Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -177,9 +177,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W3194013835",
-        "count": 60,
+        "count": 61,
         "url": "https://openalex.org/W3194013835",
-        "fetched_at": "2026-11-09T16:08:58Z",
+        "fetched_at": "2026-11-13T22:06:46Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -267,9 +267,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4385218727",
-        "count": 15,
+        "count": 16,
         "url": "https://openalex.org/W4385218727",
-        "fetched_at": "2026-11-09T16:09:14Z",
+        "fetched_at": "2026-11-13T22:07:03Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -285,9 +285,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4322760336",
-        "count": 28,
+        "count": 30,
         "url": "https://openalex.org/W4322760336",
-        "fetched_at": "2026-11-09T16:09:18Z",
+        "fetched_at": "2026-11-13T22:07:06Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -483,9 +483,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W3093043495",
-        "count": 53,
+        "count": 56,
         "url": "https://openalex.org/W3093043495",
-        "fetched_at": "2026-11-09T16:09:52Z",
+        "fetched_at": "2026-11-13T22:07:40Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -537,9 +537,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W2783380896",
-        "count": 695,
+        "count": 700,
         "url": "https://openalex.org/W2783380896",
-        "fetched_at": "2026-11-09T16:10:00Z",
+        "fetched_at": "2026-11-13T22:07:51Z",
         "status": "ok"
       },
       "semantic_scholar": {
