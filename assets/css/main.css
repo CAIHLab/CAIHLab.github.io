@@ -205,17 +205,6 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .funding-note { padding: 1rem 1.15rem; border-left: 0.35rem solid var(--brand); background: var(--surface); }
 .join-visible-section { max-width: none !important; margin-top: 3.5rem; padding-top: 2.5rem; border-top: 3px solid var(--accent); }
 .join-contact { max-width: none !important; display: grid; grid-template-columns: 0.75fr 1.25fr; gap: 2rem 4rem; margin-top: 3.5rem; padding: 2rem; border-radius: var(--radius); background: var(--surface); }
-.site-reach { border-top: 1px solid var(--line); background: var(--surface); }
-.site-reach-inner { width: min(calc(100% - 2.5rem), var(--max-width)); min-height: 9rem; margin-inline: auto; display: grid; grid-template-columns: minmax(15rem, 1.1fr) minmax(24rem, 1.5fr) auto; align-items: center; gap: 1.5rem 3rem; padding-block: 1.6rem; }
-.site-reach-intro { padding-right: 2rem; border-right: 1px solid var(--line); }
-.site-reach-intro h2 { margin-bottom: 0.35rem; font-size: 1.2rem; letter-spacing: -0.01em; }
-.site-reach-intro p { margin: 0; color: var(--muted); }
-.site-reach-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; margin: 0; text-align: center; }
-.site-reach-metrics div { display: flex; flex-direction: column-reverse; gap: 0.25rem; }
-.site-reach-metrics dt { color: var(--muted); font-size: 0.88rem; }
-.site-reach-metrics dd { margin: 0; color: var(--accent); font-size: 1.65rem; font-weight: 800; line-height: 1.1; }
-.site-reach-pending { margin: 0; color: var(--brand); font-weight: 750; text-align: center; }
-.site-reach-link { white-space: nowrap; }
 .statistics-privacy { max-width: none !important; padding: 1.2rem 1.35rem; border-left: 0.35rem solid var(--brand); background: var(--surface); }
 .statistics-overview { max-width: none !important; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2.5rem 0 4rem; }
 .statistics-overview div { padding: 1.5rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
@@ -241,6 +230,16 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .footer-main, .footer-connect { width: min(calc(100% - 2.5rem), var(--max-width)); margin-inline: auto; }
 .footer-main { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; padding-bottom: 2.5rem; }
 .footer-identity strong { display: block; max-width: 24rem; font-size: 1.2rem; }
+.footer-identity > p { margin-bottom: 0; }
+.footer-statistics { width: min(100%, 27rem); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) 1.2rem; align-items: center; margin-top: 1.35rem; overflow: hidden; border: 1px solid rgba(255,255,255,0.22); border-radius: 0.65rem; color: inherit !important; text-decoration: none; transition: border-color 150ms ease, background 150ms ease, transform 150ms ease; }
+.footer-statistics:hover, .footer-statistics:focus-visible { border-color: var(--accent); background: rgba(255,255,255,0.045); transform: translateY(-1px); }
+.footer-statistic { min-width: 0; display: grid; grid-template-columns: 1.35rem minmax(0, 1fr); align-items: center; gap: 0.55rem; padding: 0.75rem 0.65rem; }
+.footer-statistic + .footer-statistic { border-left: 1px solid rgba(255,255,255,0.18); }
+.footer-statistic svg { width: 1.35rem; height: 1.35rem; stroke: var(--accent); stroke-width: 1.8; }
+.footer-statistic > span { min-width: 0; display: flex; flex-direction: column; }
+.footer-statistic b { overflow: hidden; color: white; font-size: 1rem; font-variant-numeric: tabular-nums; line-height: 1.1; text-overflow: ellipsis; white-space: nowrap; }
+.footer-statistic small { margin-top: 0.18rem; color: #b7cbc2; font-size: 0.7rem; line-height: 1.15; white-space: nowrap; }
+.footer-statistics-arrow { color: var(--accent); font-size: 1.45rem; line-height: 1; }
 .footer-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
 .footer-column { display: flex; flex-direction: column; align-items: flex-start; gap: 0.55rem; }
 .footer-column h2, .footer-connect h2 { margin: 0 0 0.65rem; color: white; font-size: 1.05rem; letter-spacing: 0; }
@@ -270,9 +269,6 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
   .member-photo { max-width: 22rem; }
   .member-card--compact { grid-template-columns: 4rem minmax(0, 1fr); }
   .member-card--compact .member-photo { max-width: 4rem; }
-  .site-reach-inner { grid-template-columns: 1fr; gap: 1.5rem; }
-  .site-reach-intro { padding-right: 0; border-right: 0; }
-  .site-reach-link { justify-self: start; }
 }
 
 @media (max-width: 38rem) {
@@ -281,9 +277,6 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
   .brand small { display: none; }
   .two-column-copy, .card-grid, .opportunity, .publication-filters { grid-template-columns: 1fr; }
   .join-cards, .funding-grid, .join-contact, .profile-role-list div, .profile-career dl div, .research-scope-list, .statistics-overview { grid-template-columns: 1fr; }
-  .site-reach-inner { width: min(calc(100% - 1.5rem), var(--max-width)); }
-  .site-reach-metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.65rem; }
-  .site-reach-metrics dt { font-size: 0.76rem; }
   .statistics-heading-row { align-items: flex-start; flex-direction: column; gap: 0; }
   .member-card--phd { grid-template-columns: 5rem minmax(0, 1fr); }
   .publication-footer { grid-template-columns: 1fr; }
@@ -295,8 +288,15 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
   .footer-main, .footer-connect { grid-template-columns: 1fr; }
   .footer-columns { gap: 1.25rem; }
   .footer-socials { justify-content: flex-start; }
+  .footer-statistics { width: 100%; }
   .timeline > li { padding-left: 2.5rem; }
   .teaching-stats { flex-direction: column; }
+}
+
+@media (max-width: 27rem) {
+  .footer-statistics { grid-template-columns: repeat(3, minmax(0, 1fr)) 0.9rem; }
+  .footer-statistic { grid-template-columns: 1fr; gap: 0.25rem; padding-inline: 0.5rem; text-align: center; }
+  .footer-statistic svg { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

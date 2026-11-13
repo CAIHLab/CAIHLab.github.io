@@ -64,22 +64,3 @@ altmetric_badges: true
   <div><p>We welcome motivated students, researchers and collaborators interested in advancing causal AI, agentic AI and personalised decision-making, including their application to healthcare.</p><a class="button" href="{{ '/join/' | relative_url }}">Explore opportunities</a></div>
 </section>
 
-{% assign analytics = site.data.site_analytics %}
-<section class="site-reach" aria-labelledby="site-reach-heading">
-  <div class="site-reach-inner">
-    <div class="site-reach-intro">
-      <h2 id="site-reach-heading">CAIH Lab around the world</h2>
-      <p>Aggregated, privacy-first website statistics.</p>
-    </div>
-    {% if analytics.updated %}
-      <dl class="site-reach-metrics">
-        <div><dt>Total visits</dt><dd>{{ analytics.visits }}</dd></div>
-        <div><dt>Page views</dt><dd>{{ analytics.page_views }}</dd></div>
-        <div><dt>Countries reached</dt><dd>{{ analytics.countries_reached }}</dd></div>
-      </dl>
-    {% else %}
-      <p class="site-reach-pending">Collecting initial statistics since {{ analytics.tracking_since }}</p>
-    {% endif %}
-    <a class="text-link site-reach-link" href="{{ '/statistics/' | relative_url }}">View visitor statistics <span aria-hidden="true">→</span></a>
-  </div>
-</section>

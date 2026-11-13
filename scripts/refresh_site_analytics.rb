@@ -84,6 +84,18 @@ def public_country_rows(country_totals)
   end
 end
 
+def compact_number(value)
+  number = value.to_i
+  return number.to_s if number < 1_000
+
+  units = [[1_000_000_000, "B"], [1_000_000, "M"], [1_000, "K"]]
+  divisor, suffix = units.find { |threshold, _unit| number >= threshold }
+  scaled = number.to_f / divisor
+  precision = scaled < 10 ? 2 : (scaled < 100 ? 1 : 0)
+  formatted = format("%.#{precision}f", scaled).sub(/\.0+\z/, "").sub(/(\.\d*[1-9])0+\z/, '\\1')
+  "#{formatted}#{suffix}"
+end
+
 token = ENV.fetch("CLOUDFLARE_API_TOKEN", "").strip
 account_id = ENV.fetch("CLOUDFLARE_ACCOUNT_ID", "").strip
 if token.empty? || account_id.empty?
@@ -111,6 +123,8 @@ end
 
 data["visits"] = period_visits
 data["page_views"] = period_page_views
+data["visits_display"] = compact_number(period_visits)
+data["page_views_display"] = compact_number(period_page_views)
 data["country_totals"] = country_totals.sort.to_h
 data["countries_reached"] = country_totals.count { |name, visits| name != "Unknown" && visits.positive? }
 data["countries"] = public_country_rows(country_totals)

@@ -3,6 +3,24 @@
     <div class="footer-identity">
       <strong>{{ site.title }}</strong>
       <p>University of Strathclyde · Glasgow, UK</p>
+      {% assign analytics = site.data.site_analytics %}
+      {% if analytics.updated %}
+      <a class="footer-statistics" href="{{ '/statistics/' | relative_url }}" aria-label="View visitor statistics: {{ analytics.visits }} total visits, {{ analytics.page_views }} page views, {{ analytics.countries_reached }} countries reached">
+        <span class="footer-statistic">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="7" r="3"></circle><path d="M3.5 19c.5-4 2.3-6 5.5-6s5 2 5.5 6"></path><circle cx="17" cy="9" r="2.25"></circle><path d="M15.5 14c2.9-.5 4.6 1.1 5 4"></path></svg>
+          <span><b>{{ analytics.visits_display | default: analytics.visits }}</b><small>Visits</small></span>
+        </span>
+        <span class="footer-statistic">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><rect x="5" y="3.5" width="14" height="17" rx="2"></rect><path d="M8 8h8M8 12h8M8 16h5"></path></svg>
+          <span><b>{{ analytics.page_views_display | default: analytics.page_views }}</b><small>Page views</small></span>
+        </span>
+        <span class="footer-statistic">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9"></circle><path d="M3.5 12h17M12 3c2.7 2.5 4 5.5 4 9s-1.3 6.5-4 9c-2.7-2.5-4-5.5-4-9s1.3-6.5 4-9Z"></path></svg>
+          <span><b>{{ analytics.countries_reached }}</b><small>Countries</small></span>
+        </span>
+        <span class="footer-statistics-arrow" aria-hidden="true">›</span>
+      </a>
+      {% endif %}
     </div>
     <div class="footer-columns">
       <section class="footer-column" aria-labelledby="footer-explore-heading">
@@ -14,7 +32,6 @@
         <h2 id="footer-information-heading">Information</h2>
         <a class="footer-contact" href="mailto:vinod.chauhan@strath.ac.uk"><img src="{{ '/images/social-icons-transparent-svg/email.svg' | relative_url }}" alt="">Contact</a>
         <a href="https://pureportal.strath.ac.uk/en/persons/vinod-kumar-chauhan/">Institutional profile</a>
-        <a href="{{ '/statistics/' | relative_url }}">Visitor statistics</a>
         <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
       </section>
     </div>
