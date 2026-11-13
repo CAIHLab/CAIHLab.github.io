@@ -231,11 +231,11 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 .footer-main { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; padding-bottom: 2.5rem; }
 .footer-identity strong { display: block; max-width: 24rem; font-size: 1.2rem; }
 .footer-identity > p { margin-bottom: 0; }
-.footer-statistics { width: min(100%, 27rem); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) 1.2rem; align-items: center; margin-top: 1.35rem; overflow: hidden; border: 1px solid rgba(255,255,255,0.22); border-radius: 0.65rem; color: inherit !important; text-decoration: none; transition: border-color 150ms ease, background 150ms ease, transform 150ms ease; }
+.footer-statistics { width: 100%; max-width: 36rem; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)) 1.2rem; align-items: center; margin-top: 1.35rem; overflow: hidden; border: 1px solid rgba(255,255,255,0.22); border-radius: 0.65rem; color: inherit !important; text-decoration: none; transition: border-color 150ms ease, background 150ms ease, transform 150ms ease; }
 .footer-statistics:hover, .footer-statistics:focus-visible { border-color: var(--accent); background: rgba(255,255,255,0.045); transform: translateY(-1px); }
-.footer-statistic { min-width: 0; display: grid; grid-template-columns: 1.35rem minmax(0, 1fr); align-items: center; gap: 0.55rem; padding: 0.75rem 0.65rem; }
+.footer-statistic { min-width: 0; display: grid; grid-template-columns: 1.65rem minmax(0, 1fr); align-items: center; gap: 0.65rem; padding: 0.75rem 0.85rem; }
 .footer-statistic + .footer-statistic { border-left: 1px solid rgba(255,255,255,0.18); }
-.footer-statistic svg { width: 1.35rem; height: 1.35rem; stroke: var(--accent); stroke-width: 1.8; }
+.footer-statistic svg { width: 1.65rem; height: 1.65rem; stroke: var(--accent); stroke-width: 1.8; }
 .footer-statistic > span { min-width: 0; display: flex; flex-direction: column; }
 .footer-statistic b { overflow: hidden; color: white; font-size: 1rem; font-variant-numeric: tabular-nums; line-height: 1.1; text-overflow: ellipsis; white-space: nowrap; }
 .footer-statistic small { margin-top: 0.18rem; color: #b7cbc2; font-size: 0.7rem; line-height: 1.15; white-space: nowrap; }
@@ -294,7 +294,7 @@ select { width: 100%; min-height: 2.8rem; border: 1px solid #82958c; border-radi
 }
 
 @media (max-width: 27rem) {
-  .footer-statistics { grid-template-columns: repeat(3, minmax(0, 1fr)) 0.9rem; }
+  .footer-statistics { grid-template-columns: repeat(2, minmax(0, 1fr)) 0.9rem; }
   .footer-statistic { grid-template-columns: 1fr; gap: 0.25rem; padding-inline: 0.5rem; text-align: center; }
   .footer-statistic svg { display: none; }
 }
