@@ -1,27 +1,27 @@
 {
   "tracking_since": "12 November 2026",
   "tracking_start": "2026-11-12",
-  "updated": "13 November 2026",
-  "period_end": "2026-11-13",
-  "visits": 38,
-  "page_views": 100,
-  "visits_display": "38",
-  "page_views_display": "100",
+  "updated": "14 November 2026",
+  "period_end": "2026-11-14",
+  "visits": 43,
+  "page_views": 114,
+  "visits_display": "43",
+  "page_views_display": "114",
   "countries_reached": 2,
   "countries": [
     {
       "name": "GB",
-      "visits": 36,
+      "visits": 41,
       "percentage": 100.0
     },
     {
       "name": "Other countries",
       "visits": 2,
-      "percentage": 5.6
+      "percentage": 4.9
     }
   ],
   "country_totals": {
-    "GB": 36,
+    "GB": 41,
     "IN": 2
   }
 }
