@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-11-13",
+  "refreshed_at": "2026-11-16",
   "publications": {
     "beyond-correlations-2025": {
       "openalex": {
@@ -285,9 +285,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W4322760336",
-        "count": 30,
+        "count": 31,
         "url": "https://openalex.org/W4322760336",
-        "fetched_at": "2026-11-13T22:07:06Z",
+        "fetched_at": "2026-11-16T15:37:33Z",
         "status": "ok"
       },
       "semantic_scholar": {
@@ -437,9 +437,9 @@
       "semantic_scholar": {
         "provider": "Semantic Scholar",
         "id": "d35be805cc2021d559dd6c4996f06fb6f9f0af56",
-        "count": 27,
+        "count": 28,
         "url": "https://www.semanticscholar.org/paper/d35be805cc2021d559dd6c4996f06fb6f9f0af56",
-        "fetched_at": "2026-08-08T21:02:18Z",
+        "fetched_at": "2026-11-16T15:37:58Z",
         "status": "ok"
       }
     },
@@ -537,9 +537,9 @@
       "openalex": {
         "provider": "OpenAlex",
         "id": "W2783380896",
-        "count": 700,
+        "count": 702,
         "url": "https://openalex.org/W2783380896",
-        "fetched_at": "2026-11-13T22:07:51Z",
+        "fetched_at": "2026-11-16T15:38:13Z",
         "status": "ok"
       },
       "semantic_scholar": {
