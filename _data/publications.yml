@@ -26,6 +26,18 @@
   links:
     paper: "https://openreview.net/forum?id=hKsLbc53T4"
 
+- id: catelib-personalised-causal-effect-estimation-2026
+  identifier_status: "none"
+  title: "CATELib: A Library for Personalised Causal Effect Estimation"
+  authors: ["V. K. Chauhan"]
+  year: 2026
+  venue: "GitHub (under development)"
+  publication_type: "Software library"
+  themes: ["Causal AI", "Personalised treatments"]
+  featured: false
+  links:
+    code: "https://github.com/jmdvinodjmd/CATELib"
+
 - id: beyond-correlations-2025
   identifier_status: "verified"
   openalex_id: "W4416186950"
