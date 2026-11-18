@@ -3,31 +3,31 @@
   "tracking_start": "2026-11-12",
   "updated": "18 November 2026",
   "period_end": "2026-11-18",
-  "visits": 92,
-  "page_views": 205,
-  "visits_display": "92",
-  "page_views_display": "205",
+  "visits": 97,
+  "page_views": 219,
+  "visits_display": "97",
+  "page_views_display": "219",
   "countries_reached": 4,
   "countries": [
     {
       "name": "GB",
-      "visits": 74,
+      "visits": 79,
       "percentage": 100.0
     },
     {
       "name": "CN",
       "visits": 13,
-      "percentage": 17.6
+      "percentage": 16.5
     },
     {
       "name": "Other countries",
       "visits": 5,
-      "percentage": 6.8
+      "percentage": 6.3
     }
   ],
   "country_totals": {
     "CN": 13,
-    "GB": 74,
+    "GB": 79,
     "IN": 4,
     "US": 1
   }
