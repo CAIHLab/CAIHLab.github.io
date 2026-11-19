@@ -105,31 +105,62 @@ end
 
 data = JSON.parse(File.read(DATA_PATH))
 tracking_start = Date.iso8601(data.fetch("tracking_start"))
-start_date = tracking_start
-end_date = Time.now.utc.to_date
+end_date = Time.now.utc.to_date - 1
+daily = data["daily"].is_a?(Hash) ? data["daily"] : {}
+added_dates = []
 
-account = cloudflare_query(token, account_id, start_date, end_date)
-totals = account["totals"] || []
-period_page_views = totals.empty? ? 0 : totals.first["count"].to_i
-period_visits = totals.empty? ? 0 : totals.first.dig("sum", "visits").to_i
+if tracking_start <= end_date
+  (tracking_start..end_date).each do |date|
+    date_key = date.iso8601
+    next if daily.key?(date_key)
 
-country_totals = {}
-(account["countries"] || []).each do |row|
-  name = row.dig("dimensions", "countryName").to_s.strip
-  name = "Unknown" if name.empty?
-  visits = row.dig("sum", "visits").to_i
-  country_totals[name] = country_totals.fetch(name, 0) + visits if visits.positive?
+    account = cloudflare_query(token, account_id, date, date)
+    totals = account["totals"] || []
+    day_page_views = totals.empty? ? 0 : totals.first["count"].to_i
+    day_visits = totals.empty? ? 0 : totals.first.dig("sum", "visits").to_i
+    day_countries = {}
+
+    (account["countries"] || []).each do |row|
+      name = row.dig("dimensions", "countryName").to_s.strip
+      name = "Unknown" if name.empty?
+      visits = row.dig("sum", "visits").to_i
+      day_countries[name] = day_countries.fetch(name, 0) + visits if visits.positive?
+    end
+
+    daily[date_key] = {
+      "visits" => day_visits,
+      "page_views" => day_page_views,
+      "countries" => day_countries.sort.to_h
+    }
+    added_dates << date_key
+  end
 end
 
-data["visits"] = period_visits
-data["page_views"] = period_page_views
-data["visits_display"] = compact_number(period_visits)
-data["page_views_display"] = compact_number(period_page_views)
-data["country_totals"] = country_totals.sort.to_h
+daily = daily.sort.to_h
+total_visits = daily.values.sum { |day| day["visits"].to_i }
+total_page_views = daily.values.sum { |day| day["page_views"].to_i }
+country_totals = Hash.new(0)
+daily.each_value do |day|
+  (day["countries"] || {}).each do |name, visits|
+    country_totals[name] += visits.to_i
+  end
+end
+country_totals = country_totals.sort.to_h
+
+data["daily"] = daily
+data["visits"] = total_visits
+data["page_views"] = total_page_views
+data["visits_display"] = compact_number(total_visits)
+data["page_views_display"] = compact_number(total_page_views)
+data["country_totals"] = country_totals
 data["countries_reached"] = country_totals.count { |name, visits| name != "Unknown" && visits.positive? }
 data["countries"] = public_country_rows(country_totals)
-data["period_end"] = end_date.iso8601
+data["period_end"] = daily.keys.max
 data["updated"] = Time.now.utc.strftime("%-d %B %Y")
 
 File.write(DATA_PATH, JSON.pretty_generate(data) + "\n")
-puts "Refreshed Cloudflare analytics for #{start_date.iso8601} through #{end_date.iso8601}."
+if added_dates.empty?
+  puts "No completed analytics days were missing."
+else
+  puts "Stored completed analytics days: #{added_dates.join(', ')}."
+end
