@@ -117,7 +117,7 @@ if tracking_start <= end_date
     account = cloudflare_query(token, account_id, date, date)
     totals = account["totals"] || []
     day_page_views = totals.empty? ? 0 : totals.first["count"].to_i
-    day_visits = totals.empty? ? 0 : totals.first.dig("sum", "visits").to_i
+    ungrouped_day_visits = totals.empty? ? 0 : totals.first.dig("sum", "visits").to_i
     day_countries = {}
 
     (account["countries"] || []).each do |row|
@@ -126,6 +126,11 @@ if tracking_start <= end_date
       visits = row.dig("sum", "visits").to_i
       day_countries[name] = day_countries.fetch(name, 0) + visits if visits.positive?
     end
+
+    if day_countries.empty? && ungrouped_day_visits.positive?
+      day_countries["Unknown"] = ungrouped_day_visits
+    end
+    day_visits = day_countries.values.sum
 
     daily[date_key] = {
       "visits" => day_visits,
@@ -146,6 +151,9 @@ daily.each_value do |day|
   end
 end
 country_totals = country_totals.sort.to_h
+unless country_totals.values.sum == total_visits
+  raise "Stored country visits do not match the total visit count."
+end
 
 data["daily"] = daily
 data["visits"] = total_visits
