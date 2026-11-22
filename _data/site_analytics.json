@@ -1,12 +1,12 @@
 {
   "tracking_since": "12 November 2026",
   "tracking_start": "2026-11-12",
-  "updated": "21 November 2026",
-  "period_end": "2026-11-20",
-  "visits": 140,
-  "page_views": 313,
-  "visits_display": "140",
-  "page_views_display": "313",
+  "updated": "22 November 2026",
+  "period_end": "2026-11-21",
+  "visits": 146,
+  "page_views": 323,
+  "visits_display": "146",
+  "page_views_display": "323",
   "daily": {
     "2026-11-12": {
       "visits": 20,
@@ -80,41 +80,50 @@
         "SE": 2,
         "US": 1
       }
+    },
+    "2026-11-21": {
+      "visits": 6,
+      "page_views": 10,
+      "countries": {
+        "GB": 3,
+        "IN": 2,
+        "US": 1
+      }
     }
   },
   "countries_reached": 5,
   "countries": [
     {
       "name": "GB",
-      "visits": 107,
+      "visits": 110,
       "percentage": 100.0
     },
     {
       "name": "CN",
       "visits": 13,
-      "percentage": 12.1
+      "percentage": 11.8
     },
     {
       "name": "IN",
-      "visits": 11,
-      "percentage": 10.3
+      "visits": 13,
+      "percentage": 11.8
     },
     {
       "name": "US",
-      "visits": 7,
-      "percentage": 6.5
+      "visits": 8,
+      "percentage": 7.3
     },
     {
       "name": "Other countries",
       "visits": 2,
-      "percentage": 1.9
+      "percentage": 1.8
     }
   ],
   "country_totals": {
     "CN": 13,
-    "GB": 107,
-    "IN": 11,
+    "GB": 110,
+    "IN": 13,
     "SE": 2,
-    "US": 7
+    "US": 8
   }
 }
