@@ -15,16 +15,16 @@
 
 - id: position-causal-ai-personalised-treatments-2026
   identifier_status: "none"
-  title: "Position: Causal AI for Personalised Treatments Needs Holistic Approach"
+  title: "Causal AI for Personalised Treatments Needs a Holistic Approach"
   authors: ["V. K. Chauhan", "K. Banfill", "S. Feuerriegel"]
   year: 2026
-  venue: "ICML Position Track (rejected)"
+  venue: "NeurIPS Position Track Paper (rejected)"
   publication_type: "Position paper"
   themes: ["Causal AI", "Personalised treatments"]
   featured: true
   featured_order: 1
   links:
-    paper: "https://openreview.net/forum?id=hKsLbc53T4"
+    paper: "https://openreview.net/forum?id=KPrzYB2IEj"
 
 - id: catelib-personalised-causal-effect-estimation-2026
   identifier_status: "none"
