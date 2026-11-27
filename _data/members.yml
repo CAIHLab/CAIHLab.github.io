@@ -1,7 +1,8 @@
 # Member categories and recommended order ranges:
 #   Principal Investigator: 1–9
 #   Postdoctoral Researchers: 20–29
-#   PGR / PhD Researchers: 30–39
+#   PGR / PhD Researchers: 30–34
+#   MPhil Students: 35–39
 #   MSc Students: 40–49
 #   Interns: 50–59
 #
@@ -104,6 +105,10 @@
   start_date: "October 2026"
   supervisors: ["Prof. Roma Maguire", "Dr Vinod Kumar Chauhan"]
   order: 31
+
+- name: "Ameena Fatima"
+  category: "MPhil Students"
+  order: 35
 
 - name: "Hansikka Sivaraj"
   category: "MSc Students"

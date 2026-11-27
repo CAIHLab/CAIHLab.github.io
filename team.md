@@ -17,11 +17,11 @@ permalink: /team/
   </div>
 </section>
 {% else %}
-<details class="member-group member-group-disclosure"{% if group.name == 'PhD Students' %} open{% endif %}>
+<details class="member-group member-group-disclosure"{% if group.name == 'PhD Students' or group.name == 'MPhil Students' %} open{% endif %}>
   <summary><span class="member-group-title" id="{{ group.name | slugify }}-heading">{{ group.name }}</span></summary>
-  <div class="member-grid{% if group.name == 'PhD Students' %} member-grid--phd{% else %} member-grid--compact{% endif %}" aria-labelledby="{{ group.name | slugify }}-heading">
+  <div class="member-grid{% if group.name == 'PhD Students' or group.name == 'MPhil Students' %} member-grid--phd{% else %} member-grid--compact{% endif %}" aria-labelledby="{{ group.name | slugify }}-heading">
     {% for member in group.items %}
-      {% if group.name == 'PhD Students' %}
+      {% if group.name == 'PhD Students' or group.name == 'MPhil Students' %}
         {% include member-card.html member=member phd=true %}
       {% else %}
         {% include member-card.html member=member compact=true %}
