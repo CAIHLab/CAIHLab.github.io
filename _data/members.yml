@@ -108,6 +108,11 @@
 
 - name: "Ameena Fatima"
   category: "MPhil Students"
+  photo: "/images/team/avatar-female.svg"
+  photo_alt: "Illustrated placeholder portrait for Ameena Fatima"
+  research_topic: "Evaluation of Ambient AI Summarisation in NHS 24"
+  start_date: "January 2027"
+  supervisors: ["Dr Vinod Kumar Chauhan", "Prof. Roma Maguire"]
   order: 35
 
 - name: "Hansikka Sivaraj"
